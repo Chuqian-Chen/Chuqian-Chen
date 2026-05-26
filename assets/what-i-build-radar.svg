@@ -1,0 +1,65 @@
+<svg width="1200" height="600" viewBox="0 0 1200 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="45%" r="75%">
+      <stop stop-color="#123145"/>
+      <stop offset=".55" stop-color="#081D2B"/>
+      <stop offset="1" stop-color="#050B18"/>
+    </radialGradient>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.13 0 0 0 0 0.83 0 0 0 0 0.93 0 0 0 .75 0"/>
+      <feBlend in2="SourceGraphic" mode="screen"/>
+    </filter>
+    <linearGradient id="radar" x1="370" y1="100" x2="830" y2="500">
+      <stop stop-color="#34D399"/>
+      <stop offset=".55" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="600" rx="28" fill="url(#bg)"/>
+  <text x="70" y="66" fill="#9FFCF0" font-family="Consolas, 'Courier New', monospace" font-size="18" font-weight="700">CAPABILITY RADAR</text>
+  <text x="70" y="110" fill="#F8FFFF" font-family="Georgia, 'Times New Roman', serif" font-size="44" font-weight="700">What I Build</text>
+  <text x="70" y="142" fill="#BFE7E8" font-family="Consolas, 'Courier New', monospace" font-size="17">six engineering surfaces connected by one clinical AI stack</text>
+  <g transform="translate(600 318)">
+    <circle r="188" stroke="#BFE7E8" stroke-opacity=".10"/>
+    <circle r="142" stroke="#BFE7E8" stroke-opacity=".13"/>
+    <circle r="96" stroke="#BFE7E8" stroke-opacity=".16"/>
+    <circle r="50" stroke="#BFE7E8" stroke-opacity=".18"/>
+    <path d="M0 -202L175 101L-175 101Z" stroke="#BFE7E8" stroke-opacity=".08"/>
+    <path d="M0 202L175 -101L-175 -101Z" stroke="#BFE7E8" stroke-opacity=".08"/>
+    <path d="M0 -176L146 -82L146 82L0 176L-146 82L-146 -82Z" fill="url(#radar)" fill-opacity=".18" stroke="url(#radar)" stroke-width="3" filter="url(#glow)"/>
+    <circle r="18" fill="#22D3EE" filter="url(#glow)"/>
+  </g>
+  <g font-family="Consolas, 'Courier New', monospace">
+    <g transform="translate(842 72)">
+      <rect width="256" height="76" rx="18" fill="#061A1A" fill-opacity=".72" stroke="#34D399" stroke-opacity=".5"/>
+      <text x="22" y="32" fill="#F8FFFF" font-size="17" font-weight="700">Clinical Data Infra</text>
+      <text x="22" y="56" fill="#BFE7E8" font-size="13">Spark · Hive · DICOM · QC</text>
+    </g>
+    <g transform="translate(770 188)">
+      <rect width="292" height="76" rx="18" fill="#061A1A" fill-opacity=".72" stroke="#22D3EE" stroke-opacity=".5"/>
+      <text x="22" y="32" fill="#F8FFFF" font-size="17" font-weight="700">LLM and Agent Systems</text>
+      <text x="22" y="56" fill="#BFE7E8" font-size="13">RAG · routing · prompt repair</text>
+    </g>
+    <g transform="translate(770 386)">
+      <rect width="292" height="76" rx="18" fill="#061A1A" fill-opacity=".72" stroke="#A78BFA" stroke-opacity=".5"/>
+      <text x="22" y="32" fill="#F8FFFF" font-size="17" font-weight="700">Medical Knowledge Graphs</text>
+      <text x="22" y="56" fill="#BFE7E8" font-size="13">MinerU · ER extraction · Neo4j</text>
+    </g>
+    <g transform="translate(454 484)">
+      <rect width="292" height="76" rx="18" fill="#061A1A" fill-opacity=".72" stroke="#FBBF24" stroke-opacity=".5"/>
+      <text x="22" y="32" fill="#F8FFFF" font-size="17" font-weight="700">Interpretable Clinical ML</text>
+      <text x="22" y="56" fill="#BFE7E8" font-size="13">XGBoost · SHAP · LoRA</text>
+    </g>
+    <g transform="translate(136 386)">
+      <rect width="292" height="76" rx="18" fill="#061A1A" fill-opacity=".72" stroke="#FB7185" stroke-opacity=".5"/>
+      <text x="22" y="32" fill="#F8FFFF" font-size="17" font-weight="700">Full Stack Products</text>
+      <text x="22" y="56" fill="#BFE7E8" font-size="13">Django · React · Vue · APIs</text>
+    </g>
+    <g transform="translate(136 188)">
+      <rect width="292" height="76" rx="18" fill="#061A1A" fill-opacity=".72" stroke="#60A5FA" stroke-opacity=".5"/>
+      <text x="22" y="32" fill="#F8FFFF" font-size="17" font-weight="700">ML Systems and MLOps</text>
+      <text x="22" y="56" fill="#BFE7E8" font-size="13">MLflow · Kubeflow · Docker · K8s</text>
+    </g>
+  </g>
+</svg>

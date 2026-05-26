@@ -58,6 +58,13 @@ raw clinical data
 
 ## Algorithm and Builder Mode
 
+<p align="center">
+  <img src="./assets/builder-mode-panel.svg" alt="Algorithm and builder mode panel" width="100%" />
+</p>
+
+<details>
+  <summary><b>Open the builder console</b></summary>
+
 <table>
   <tr>
     <td width="50%">
@@ -77,7 +84,16 @@ raw clinical data
   </tr>
 </table>
 
+</details>
+
 ## What I Build
+
+<p align="center">
+  <img src="./assets/what-i-build-radar.svg" alt="What I build capability radar" width="100%" />
+</p>
+
+<details>
+  <summary><b>Open capability details</b></summary>
 
 <table>
   <tr>
@@ -111,6 +127,8 @@ raw clinical data
     </td>
   </tr>
 </table>
+
+</details>
 
 ## Featured Systems
 
