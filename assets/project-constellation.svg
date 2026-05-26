@@ -1,0 +1,83 @@
+<svg width="1200" height="560" viewBox="0 0 1200 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="45%" r="78%">
+      <stop stop-color="#123145"/>
+      <stop offset="0.52" stop-color="#081D2B"/>
+      <stop offset="1" stop-color="#050B18"/>
+    </radialGradient>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.13 0 0 0 0 0.83 0 0 0 0 0.93 0 0 0 0.75 0"/>
+      <feBlend in2="SourceGraphic" mode="screen"/>
+    </filter>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0B2B36"/>
+      <stop offset="1" stop-color="#101936"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="560" rx="28" fill="url(#bg)"/>
+  <g opacity=".45">
+    <circle cx="154" cy="86" r="2" fill="#BFE7E8"/>
+    <circle cx="264" cy="172" r="1.5" fill="#BFE7E8"/>
+    <circle cx="1040" cy="82" r="2" fill="#BFE7E8"/>
+    <circle cx="1110" cy="344" r="1.5" fill="#BFE7E8"/>
+    <circle cx="840" cy="462" r="2" fill="#BFE7E8"/>
+    <circle cx="468" cy="476" r="1.5" fill="#BFE7E8"/>
+    <circle cx="90" cy="420" r="2" fill="#BFE7E8"/>
+    <circle cx="602" cy="96" r="1.8" fill="#BFE7E8"/>
+  </g>
+  <text x="70" y="66" fill="#9FFCF0" font-family="Consolas, 'Courier New', monospace" font-size="18" font-weight="700">PROJECT CONSTELLATION</text>
+  <text x="70" y="110" fill="#F8FFFF" font-family="Georgia, 'Times New Roman', serif" font-size="44" font-weight="700">Research systems orbiting one stack</text>
+  <text x="70" y="142" fill="#BFE7E8" font-family="Consolas, 'Courier New', monospace" font-size="17">data engineering · clinical ML · LLM agents · full-stack products</text>
+
+  <g stroke="#9FFCF0" stroke-opacity=".22" stroke-width="2">
+    <path d="M600 284L254 242"/>
+    <path d="M600 284L363 408"/>
+    <path d="M600 284L607 166"/>
+    <path d="M600 284L842 182"/>
+    <path d="M600 284L945 314"/>
+    <path d="M600 284L732 423"/>
+  </g>
+  <circle cx="600" cy="284" r="70" fill="#061A1A" fill-opacity=".8" stroke="#22D3EE" stroke-opacity=".7" filter="url(#glow)"/>
+  <text x="600" y="274" fill="#F8FFFF" font-family="Consolas, 'Courier New', monospace" font-size="18" font-weight="700" text-anchor="middle">Chuqian</text>
+  <text x="600" y="300" fill="#9FFCF0" font-family="Consolas, 'Courier New', monospace" font-size="14" text-anchor="middle">clinical AI builder</text>
+
+  <g font-family="Consolas, 'Courier New', monospace">
+    <g transform="translate(90 194)">
+      <rect width="280" height="96" rx="18" fill="url(#card)" stroke="#34D399" stroke-opacity=".5"/>
+      <text x="20" y="32" fill="#F8FFFF" font-size="17" font-weight="700">HSCT Agent System</text>
+      <text x="20" y="58" fill="#BFE7E8" font-size="13">907 patients · 200k docs</text>
+      <text x="20" y="78" fill="#9FFCF0" font-size="13">self-evaluation + review loop</text>
+    </g>
+    <g transform="translate(226 372)">
+      <rect width="274" height="96" rx="18" fill="url(#card)" stroke="#22D3EE" stroke-opacity=".5"/>
+      <text x="20" y="32" fill="#F8FFFF" font-size="17" font-weight="700">Eye-AI Platform</text>
+      <text x="20" y="58" fill="#BFE7E8" font-size="13">DICOM · OCT · fundus images</text>
+      <text x="20" y="78" fill="#9FFCF0" font-size="13">92% data completeness</text>
+    </g>
+    <g transform="translate(470 118)">
+      <rect width="274" height="96" rx="18" fill="url(#card)" stroke="#A78BFA" stroke-opacity=".5"/>
+      <text x="20" y="32" fill="#F8FFFF" font-size="17" font-weight="700">Medical NL-to-SQL</text>
+      <text x="20" y="58" fill="#BFE7E8" font-size="13">MIMIC-IV · FAISS · BGE-M3</text>
+      <text x="20" y="78" fill="#9FFCF0" font-size="13">83% complex JOIN accuracy</text>
+    </g>
+    <g transform="translate(760 134)">
+      <rect width="288" height="96" rx="18" fill="url(#card)" stroke="#FBBF24" stroke-opacity=".5"/>
+      <text x="20" y="32" fill="#F8FFFF" font-size="17" font-weight="700">Mayo NIV Prediction</text>
+      <text x="20" y="58" fill="#BFE7E8" font-size="13">XGBoost · SHAP · ICU events</text>
+      <text x="20" y="78" fill="#9FFCF0" font-size="13">AUC 0.81 · recall 71%</text>
+    </g>
+    <g transform="translate(826 270)">
+      <rect width="294" height="96" rx="18" fill="url(#card)" stroke="#FB7185" stroke-opacity=".5"/>
+      <text x="20" y="32" fill="#F8FFFF" font-size="17" font-weight="700">Toxicity Classifier</text>
+      <text x="20" y="58" fill="#BFE7E8" font-size="13">RoBERTa · LoRA · Spark NLP</text>
+      <text x="20" y="78" fill="#9FFCF0" font-size="13">96.2% multi-label accuracy</text>
+    </g>
+    <g transform="translate(610 390)">
+      <rect width="296" height="96" rx="18" fill="url(#card)" stroke="#60A5FA" stroke-opacity=".5"/>
+      <text x="20" y="32" fill="#F8FFFF" font-size="17" font-weight="700">Full-Stack ML Products</text>
+      <text x="20" y="58" fill="#BFE7E8" font-size="13">Django · Vue · PostgreSQL</text>
+      <text x="20" y="78" fill="#9FFCF0" font-size="13">CAS disaster alarming system</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,68 @@
+<svg width="1200" height="520" viewBox="0 0 1200 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="520">
+      <stop stop-color="#061A1A"/>
+      <stop offset="0.52" stop-color="#0B2637"/>
+      <stop offset="1" stop-color="#121B3D"/>
+    </linearGradient>
+    <linearGradient id="line" x1="90" y1="260" x2="1110" y2="260">
+      <stop stop-color="#34D399"/>
+      <stop offset="0.5" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.13 0 0 0 0 0.83 0 0 0 0 0.93 0 0 0 0.8 0"/>
+      <feBlend in2="SourceGraphic" mode="screen"/>
+    </filter>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" stroke="#E8FFFF" stroke-opacity="0.055" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="520" rx="26" fill="url(#bg)"/>
+  <rect width="1200" height="520" rx="26" fill="url(#grid)"/>
+  <text x="70" y="64" fill="#9FFCF0" font-family="Consolas, 'Courier New', monospace" font-size="18" font-weight="700">SYSTEM ARCHITECTURE</text>
+  <text x="70" y="108" fill="#F8FFFF" font-family="Georgia, 'Times New Roman', serif" font-size="44" font-weight="700">Clinical AI Pipeline</text>
+  <text x="70" y="140" fill="#BFE7E8" font-family="Consolas, 'Courier New', monospace" font-size="17">from messy hospital data to validated, reusable intelligence</text>
+  <path d="M134 268H1066" stroke="url(#line)" stroke-width="5" stroke-linecap="round" filter="url(#glow)"/>
+  <g font-family="Consolas, 'Courier New', monospace">
+    <g transform="translate(70 205)">
+      <rect width="190" height="126" rx="20" fill="#061A1A" fill-opacity=".72" stroke="#34D399" stroke-opacity=".55"/>
+      <circle cx="38" cy="42" r="14" fill="#34D399" filter="url(#glow)"/>
+      <text x="62" y="46" fill="#F8FFFF" font-size="18" font-weight="700">Raw Inputs</text>
+      <text x="24" y="79" fill="#BFE7E8" font-size="13">EMR · LIS · PACS</text>
+      <text x="24" y="101" fill="#BFE7E8" font-size="13">DICOM · notes · PDFs</text>
+    </g>
+    <g transform="translate(278 205)">
+      <rect width="190" height="126" rx="20" fill="#061A1A" fill-opacity=".72" stroke="#22D3EE" stroke-opacity=".55"/>
+      <circle cx="38" cy="42" r="14" fill="#22D3EE" filter="url(#glow)"/>
+      <text x="62" y="46" fill="#F8FFFF" font-size="18" font-weight="700">ETL + QC</text>
+      <text x="24" y="79" fill="#BFE7E8" font-size="13">Spark · Hive · SQL</text>
+      <text x="24" y="101" fill="#BFE7E8" font-size="13">rules · masking · D0</text>
+    </g>
+    <g transform="translate(486 205)">
+      <rect width="190" height="126" rx="20" fill="#061A1A" fill-opacity=".72" stroke="#A78BFA" stroke-opacity=".55"/>
+      <circle cx="38" cy="42" r="14" fill="#A78BFA" filter="url(#glow)"/>
+      <text x="62" y="46" fill="#F8FFFF" font-size="18" font-weight="700">RAG Layer</text>
+      <text x="24" y="79" fill="#BFE7E8" font-size="13">BGE-M3 · FAISS</text>
+      <text x="24" y="101" fill="#BFE7E8" font-size="13">schema retrieval</text>
+    </g>
+    <g transform="translate(694 205)">
+      <rect width="190" height="126" rx="20" fill="#061A1A" fill-opacity=".72" stroke="#FBBF24" stroke-opacity=".55"/>
+      <circle cx="38" cy="42" r="14" fill="#FBBF24" filter="url(#glow)"/>
+      <text x="62" y="46" fill="#F8FFFF" font-size="18" font-weight="700">Models</text>
+      <text x="24" y="79" fill="#BFE7E8" font-size="13">XGBoost · LoRA</text>
+      <text x="24" y="101" fill="#BFE7E8" font-size="13">Qwen · DeepSeek</text>
+    </g>
+    <g transform="translate(902 205)">
+      <rect width="228" height="126" rx="20" fill="#061A1A" fill-opacity=".72" stroke="#FB7185" stroke-opacity=".55"/>
+      <circle cx="38" cy="42" r="14" fill="#FB7185" filter="url(#glow)"/>
+      <text x="62" y="46" fill="#F8FFFF" font-size="18" font-weight="700">Agent Review</text>
+      <text x="24" y="79" fill="#BFE7E8" font-size="13">confidence routing</text>
+      <text x="24" y="101" fill="#BFE7E8" font-size="13">human-in-the-loop</text>
+    </g>
+  </g>
+  <path d="M1014 350C899 438 743 428 626 365" stroke="#22D3EE" stroke-opacity=".55" stroke-width="3" stroke-dasharray="8 10"/>
+  <path d="M626 365C507 300 399 380 294 348" stroke="#34D399" stroke-opacity=".45" stroke-width="3" stroke-dasharray="8 10"/>
+  <text x="408" y="438" fill="#9FFCF0" font-family="Consolas, 'Courier New', monospace" font-size="16">validated corrections become reusable rules, prompts, and graph evidence</text>
+</svg>

@@ -35,6 +35,10 @@ raw clinical data
   -> reusable knowledge
 ```
 
+<p align="center">
+  <img src="./assets/clinical-ai-pipeline.svg" alt="Clinical AI pipeline architecture" width="100%" />
+</p>
+
 ## Signal
 
 <table>
@@ -110,41 +114,32 @@ raw clinical data
 
 ## Featured Systems
 
-### HSCT Self-Evolving Data Governance
+<p align="center">
+  <img src="./assets/project-constellation.svg" alt="Project constellation" width="100%" />
+</p>
 
-Clinical data processing system for pediatric hematopoietic stem cell transplant data.
-
-- 907 patients, 120k+ longitudinal records, 200k+ unstructured clinical documents
-- raw data stays read-only; every transformation is versioned, auditable, and rerunnable
-- structured patient timelines, outcome adjudication logic, prompt repair, quality review loops
-- clinical note parsing with extraction-first reasoning and uncertainty-driven human review
-
-### Eye-AI Multimodal Ophthalmology Platform
-
-USC Information Sciences Institute healthcare data platform.
-
-- Spark / Hive data warehouse for OCT, fundus images, DICOM metadata, and structured clinical records
-- PyDICOM metadata extraction and DICOM-to-JPG conversion
-- multimodal sample alignment for LLM + CV modeling
-- PostgreSQL partitioning and indexing for high-throughput access
-
-### Mayo NIV Failure Prediction
-
-Clinical ML project for NIV failure risk.
-
-- patient-time features for ICU respiratory trajectories
-- XGBoost + SMOTE + class weighting
-- AUC improved to 0.81; early failure recall improved from 42% to 71%
-- SHAP reports for clinical interpretability
-
-### Medical NL-to-SQL over MIMIC-IV
-
-LLM evaluation and repair loop for clinical SQL generation.
-
-- zero-shot, few-shot, and schema-constrained prompting
-- DeepSeek, Qwen, Gemma, and Llama comparison
-- BGE-M3 + FAISS dynamic schema retrieval
-- SQL syntax check, execution validation, error parsing, and automatic rewrite
+<table>
+  <tr>
+    <td width="50%">
+      <h3>HSCT Self-Evolving Data Governance</h3>
+      <p>907 patients, 120k+ longitudinal records, 200k+ clinical documents, versioned outputs, outcome logic, prompt repair, and uncertainty-driven human review.</p>
+    </td>
+    <td width="50%">
+      <h3>Eye-AI Multimodal Ophthalmology Platform</h3>
+      <p>Spark / Hive warehouse for OCT, fundus images, DICOM metadata, structured records, PyDICOM conversion, and high-throughput PostgreSQL access.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3>Mayo NIV Failure Prediction</h3>
+      <p>Patient-time ICU respiratory features, XGBoost, SMOTE, class weighting, SHAP reports, AUC 0.81, and early failure recall improved to 71%.</p>
+    </td>
+    <td width="50%">
+      <h3>Medical NL-to-SQL over MIMIC-IV</h3>
+      <p>DeepSeek / Qwen / Gemma / Llama comparison, BGE-M3 + FAISS schema retrieval, SQL verification, error parsing, and rewrite loop.</p>
+    </td>
+  </tr>
+</table>
 
 ## Stack
 
@@ -255,8 +250,8 @@ timeline
 I am open to roles and collaborations in **medical AI**, **data engineering**, **SDE / ML systems**, **LLM applications**, and **agent-system development**.
 
 <p>
-  <a href="mailto:ccq33927@gmail.com"><b>Email</b></a> ·
-  <a href="https://www.linkedin.com/in/chloe-chen-chuqian"><b>LinkedIn</b></a> ·
+  <a href="mailto:ccq33927@gmail.com"><b>Email</b></a> |
+  <a href="https://www.linkedin.com/in/chloe-chen-chuqian"><b>LinkedIn</b></a> |
   <a href="https://github.com/Chuqian-Chen"><b>GitHub</b></a>
 </p>
 
