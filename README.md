@@ -15,16 +15,16 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duration=2600&pause=700&color=22D3EE&center=true&vCenter=true&width=900&lines=Medical+AI+Data+Engineer;LLM+%2F+RAG+%2F+Knowledge+Graph+Builder;Spark+%2F+Hive+%2F+DICOM+%2F+Clinical+ETL;Human-in-the-loop+Agent+Systems" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duration=2600&pause=700&color=22D3EE&center=true&vCenter=true&width=900&lines=Medical+AI+Data+Engineer;Machine+Learning+Engineer+%26+Full+Stack+Developer;LLM+%2F+RAG+%2F+Knowledge+Graph+Builder;Spark+%2F+Hive+%2F+DICOM+%2F+Clinical+ETL;Human-in-the-loop+Agent+Systems" alt="Typing SVG" />
 </p>
 
 ---
 
 ## About Me
 
-I am **Chuqian Chen**, a medical AI data engineer building the bridge from raw clinical data to trustworthy model-ready systems.
+I am **Chuqian Chen**, a medical AI data engineer, machine learning engineer, and full stack developer building the bridge from raw clinical data to trustworthy model-ready systems.
 
-Currently, I work across **multimodal healthcare ETL**, **patient-level timelines**, **LLM extraction**, **RAG**, **knowledge graphs**, and **human-in-the-loop agent workflows**. My favorite systems are the ones that know when to automate, when to validate, and when to ask a human.
+Currently, I work across **multimodal healthcare ETL**, **patient-level timelines**, **LLM extraction**, **RAG**, **knowledge graphs**, **ML systems**, and **human-in-the-loop agent workflows**. My favorite systems are the ones that know when to automate, when to validate, and when to ask a human.
 
 ```txt
 raw clinical data
@@ -52,6 +52,27 @@ raw clinical data
   </tr>
 </table>
 
+## Algorithm and Builder Mode
+
+<table>
+  <tr>
+    <td width="50%">
+      <h3>LeetCode</h3>
+      <p>
+        <a href="https://leetcode.com/u/chuqianc/">Global: <b>chuqianc</b></a><br/>
+        <a href="https://leetcode.cn/u/ccq33927/">China: <b>ccq33927</b></a><br/>
+        400+ problems solved, regular contest participant, contest rating over 1800+, with a focus on dynamic programming and algorithms.
+      </p>
+    </td>
+    <td width="50%">
+      <h3>SDE / DS / ML Systems</h3>
+      <p>
+        I enjoy building end-to-end systems: data pipelines, model training, backend APIs, frontend dashboards, deployment workflows, and the glue code that makes research usable.
+      </p>
+    </td>
+  </tr>
+</table>
+
 ## What I Build
 
 <table>
@@ -73,6 +94,16 @@ raw clinical data
     <td width="50%">
       <h3>Interpretable Clinical ML</h3>
       <p>XGBoost, SHAP, LoRA, RoBERTa, TensorFlow, PyTorch, imbalance handling, and clinically readable model reports.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3>Full Stack Products</h3>
+      <p>Django, Spring Boot, Node.js, Flask, FastAPI, React, Vue.js, dashboards, internal platforms, and WeChat mini programs.</p>
+    </td>
+    <td width="50%">
+      <h3>ML Systems and MLOps</h3>
+      <p>Model training workflows, Kubeflow, MLflow, Docker, Kubernetes, experiment tracking, deployment, and monitoring.</p>
     </td>
   </tr>
 </table>
@@ -117,8 +148,13 @@ LLM evaluation and repair loop for clinical SQL generation.
 
 ## Stack
 
+### Core Technologies
+
 <p>
   <img src="https://img.shields.io/badge/Python-0B2B36?style=flat-square&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Java-0B2B36?style=flat-square&logo=openjdk&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-0B2B36?style=flat-square&logo=javascript&logoColor=F7DF1E" />
+  <img src="https://img.shields.io/badge/TypeScript-0B2B36?style=flat-square&logo=typescript&logoColor=3178C6" />
   <img src="https://img.shields.io/badge/SQL-0B2B36?style=flat-square&logo=postgresql&logoColor=white" />
   <img src="https://img.shields.io/badge/Spark-E25A1C?style=flat-square&logo=apachespark&logoColor=white" />
   <img src="https://img.shields.io/badge/Hive-FDEE21?style=flat-square&logo=apachehive&logoColor=111827" />
@@ -129,11 +165,47 @@ LLM evaluation and repair loop for clinical SQL generation.
   <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" />
   <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
   <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white" />
+  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" />
+  <img src="https://img.shields.io/badge/Flask-111827?style=flat-square&logo=flask&logoColor=white" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
   <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
   <img src="https://img.shields.io/badge/Vue-35495E?style=flat-square&logo=vuedotjs&logoColor=4FC08D" />
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" />
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" />
+  <img src="https://img.shields.io/badge/Neo4j-4581C3?style=flat-square&logo=neo4j&logoColor=white" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" />
+  <img src="https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white" />
+  <img src="https://img.shields.io/badge/Kubeflow-326CE5?style=flat-square&logo=kubeflow&logoColor=white" />
   <img src="https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white" />
   <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" />
+</p>
+
+### Languages and Tools
+
+<p>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="42" height="42"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="42" height="42"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="42" height="42"/>
+  <img src="https://www.chartjs.org/media/logo-title.svg" alt="chartjs" width="42" height="42"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="42" height="42"/>
+  <img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="django" width="42" height="42"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="42" height="42"/>
+  <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" width="42" height="42"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="42" height="42"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="42" height="42"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="42" height="42"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="matlab" width="42" height="42"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="42" height="42"/>
+  <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="42" height="42"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="42" height="42"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="42" height="42"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="42" height="42"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="42" height="42"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="42" height="42"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg" alt="redis" width="42" height="42"/>
+  <img src="https://www.vectorlogo.zone/logos/unity3d/unity3d-icon.svg" alt="unity" width="42" height="42"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg" alt="vuejs" width="42" height="42"/>
 </p>
 
 ## Experience Snapshot
@@ -170,6 +242,8 @@ timeline
 
 ## Certifications
 
+- AWS Certified Cloud Practitioner
+- Salesforce AI Associate Certified
 - Lean Six Sigma White Belt Certification
 - Career Essentials in Generative AI by Microsoft and LinkedIn
 - Create ML Models with BigQuery ML Skill Badge
@@ -178,10 +252,14 @@ timeline
 
 ## Contact
 
-I am open to roles and collaborations in **medical AI**, **data engineering**, **LLM applications**, and **agent-system development**.
+I am open to roles and collaborations in **medical AI**, **data engineering**, **SDE / ML systems**, **LLM applications**, and **agent-system development**.
 
 <p>
   <a href="mailto:ccq33927@gmail.com"><b>Email</b></a> ·
   <a href="https://www.linkedin.com/in/chloe-chen-chuqian"><b>LinkedIn</b></a> ·
   <a href="https://github.com/Chuqian-Chen"><b>GitHub</b></a>
+</p>
+
+<p align="center">
+  <i>Interested in collaborating or have a project idea? Feel free to reach out.</i>
 </p>
