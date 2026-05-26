@@ -1,96 +1,172 @@
-# Hi, I'm Chuqian Chen
+<p align="center">
+  <img src="./assets/clinical-ai-banner.svg" alt="Chuqian Chen medical AI banner" width="100%" />
+</p>
 
-Medical AI data engineer building clinical data pipelines, LLM/RAG systems, knowledge graphs, and agentic workflows.
+<p align="center">
+  <a href="mailto:ccq33927@gmail.com">
+    <img alt="Email" src="https://img.shields.io/badge/email-ccq33927%40gmail.com-0B2B36?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  <a href="https://www.linkedin.com/in/chloe-chen-chuqian">
+    <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Chuqian%20Chen-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://github.com/Chuqian-Chen">
+    <img alt="GitHub" src="https://img.shields.io/badge/GitHub-Chuqian--Chen-111827?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</p>
 
-I work across the full path from raw healthcare data to usable intelligence: multimodal ETL, patient timelines, clinical note parsing, model-ready feature views, interpretable ML, and human-in-the-loop agent systems.
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duration=2600&pause=700&color=22D3EE&center=true&vCenter=true&width=900&lines=Medical+AI+Data+Engineer;LLM+%2F+RAG+%2F+Knowledge+Graph+Builder;Spark+%2F+Hive+%2F+DICOM+%2F+Clinical+ETL;Human-in-the-loop+Agent+Systems" alt="Typing SVG" />
+</p>
 
-## Current Focus
+---
 
-- Data Engineer at USC Information Sciences Institute, building distributed ETL for multimodal healthcare data ingestion.
-- AI Data R&D Engineer experience at Medin AI, building pediatric HSCT data governance and clinical note extraction systems.
-- USC MS Analytics candidate, with work across Eye-AI multimodal medical data infrastructure, Mayo NIV modeling, and clinical LLM systems.
-- Interested in medical AI, data engineering, LLM agents, RAG, clinical knowledge graphs, and trustworthy ML deployment.
+## About Me
 
-## Experience
+I am **Chuqian Chen**, a medical AI data engineer building the bridge from raw clinical data to trustworthy model-ready systems.
 
-**USC Information Sciences Institute · Data Engineer**  
-January 2025 - Present
+Currently, I work across **multimodal healthcare ETL**, **patient-level timelines**, **LLM extraction**, **RAG**, **knowledge graphs**, and **human-in-the-loop agent workflows**. My favorite systems are the ones that know when to automate, when to validate, and when to ask a human.
 
-- Engineered distributed ETL pipelines with Python and Spark UDFs for multimodal healthcare data ingestion.
-- Extracted metadata and converted DICOM images to JPG, reaching about 92% data completeness.
-- Optimized PostgreSQL access with partitioning and indexing.
-- Collaborated with clinicians to model data relationships and build pre-aggregated ML training tables.
+```txt
+raw clinical data
+  -> quality-controlled ETL
+  -> patient timeline / feature view
+  -> retrieval + model reasoning
+  -> clinical review loop
+  -> reusable knowledge
+```
 
-**Mayo Clinic · Data Scientist**  
-May 2025 - August 2025
+## Signal
 
-- Worked on NIV failure prediction with patient-time features, XGBoost modeling, SHAP interpretability, and prospective validation planning.
+<table>
+  <tr>
+    <td><b>907</b><br/>HSCT patients modeled</td>
+    <td><b>200k+</b><br/>clinical documents parsed</td>
+    <td><b>200k+</b><br/>OCT / fundus images processed</td>
+    <td><b>92%</b><br/>healthcare data completeness</td>
+  </tr>
+  <tr>
+    <td><b>0.81</b><br/>Mayo NIV model AUC</td>
+    <td><b>71%</b><br/>early failure recall</td>
+    <td><b>96.2%</b><br/>toxicity label accuracy</td>
+    <td><b>83%</b><br/>medical NL-to-SQL JOIN accuracy</td>
+  </tr>
+</table>
 
-**Chinese Academy of Sciences · Full Stack Engineer**  
-September 2022 - January 2024
+## What I Build
 
-- Built an ML-powered natural disaster alarming system.
-- Developed a Django, Vue.js, and PostgreSQL web platform.
-- Built a WeChat mini program for image data collection, supporting model accuracy around 90%.
+<table>
+  <tr>
+    <td width="50%">
+      <h3>Clinical Data Infrastructure</h3>
+      <p>Spark / Hive / Hadoop pipelines, DICOM parsing, PostgreSQL optimization, data quality rules, and patient-centered feature views.</p>
+    </td>
+    <td width="50%">
+      <h3>LLM and Agent Systems</h3>
+      <p>RAG, NL-to-SQL, model routing, prompt repair, multi-agent testing, and human-in-the-loop clinical review workflows.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3>Medical Knowledge Graphs</h3>
+      <p>MinerU document structuring, schema-based entity-relation extraction, evidence-linked graph construction, and Neo4j pipelines.</p>
+    </td>
+    <td width="50%">
+      <h3>Interpretable Clinical ML</h3>
+      <p>XGBoost, SHAP, LoRA, RoBERTa, TensorFlow, PyTorch, imbalance handling, and clinically readable model reports.</p>
+    </td>
+  </tr>
+</table>
 
-## Selected Work
+## Featured Systems
 
 ### HSCT Self-Evolving Data Governance
 
-Built a clinical data processing system for pediatric hematopoietic stem cell transplant data:
+Clinical data processing system for pediatric hematopoietic stem cell transplant data.
 
-- 907 patients
-- 120k+ longitudinal records
-- 200k+ unstructured clinical documents
-- Structured patient timelines, outcome adjudication logic, prompt repair, and quality review loops
-
-Core idea: raw data stays read-only; every transformation is versioned, auditable, and rerunnable.
+- 907 patients, 120k+ longitudinal records, 200k+ unstructured clinical documents
+- raw data stays read-only; every transformation is versioned, auditable, and rerunnable
+- structured patient timelines, outcome adjudication logic, prompt repair, quality review loops
+- clinical note parsing with extraction-first reasoning and uncertainty-driven human review
 
 ### Eye-AI Multimodal Ophthalmology Platform
 
-At USC ISI, supported a multimodal healthcare AI data platform:
+USC Information Sciences Institute healthcare data platform.
 
-- Spark/Hive data warehouse for OCT, fundus images, DICOM metadata, and clinical records
-- PyDICOM image metadata parsing and preprocessing
-- Multimodal sample alignment for LLM + CV modeling
-- Data quality improved from 89.5% to 97.3%
-- DICOM metadata extraction and JPG conversion reached about 92% data completeness
+- Spark / Hive data warehouse for OCT, fundus images, DICOM metadata, and structured clinical records
+- PyDICOM metadata extraction and DICOM-to-JPG conversion
+- multimodal sample alignment for LLM + CV modeling
+- PostgreSQL partitioning and indexing for high-throughput access
 
 ### Mayo NIV Failure Prediction
 
-Built patient-centered time-series features and an XGBoost prediction model for NIV failure risk:
+Clinical ML project for NIV failure risk.
 
-- AUC improved to 0.81
-- early failure recall improved from 42% to 71%
-- SHAP reports for model interpretability
-- project prepared for IRB review and clinical validation
+- patient-time features for ICU respiratory trajectories
+- XGBoost + SMOTE + class weighting
+- AUC improved to 0.81; early failure recall improved from 42% to 71%
+- SHAP reports for clinical interpretability
 
 ### Medical NL-to-SQL over MIMIC-IV
 
-Designed an LLM evaluation and repair loop for clinical SQL generation:
+LLM evaluation and repair loop for clinical SQL generation.
 
-- compared zero-shot, few-shot, and schema-constrained prompting
-- evaluated DeepSeek, Qwen, Gemma, and Llama
-- built BGE-M3 + FAISS dynamic schema retrieval
-- added SQL syntax, execution, and error-rewrite validation
+- zero-shot, few-shot, and schema-constrained prompting
+- DeepSeek, Qwen, Gemma, and Llama comparison
+- BGE-M3 + FAISS dynamic schema retrieval
+- SQL syntax check, execution validation, error parsing, and automatic rewrite
 
-### Medinfo-extraction
+## Stack
 
-LLM-driven and schema-based pipeline for medical knowledge graph construction:
+<p>
+  <img src="https://img.shields.io/badge/Python-0B2B36?style=flat-square&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQL-0B2B36?style=flat-square&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Spark-E25A1C?style=flat-square&logo=apachespark&logoColor=white" />
+  <img src="https://img.shields.io/badge/Hive-FDEE21?style=flat-square&logo=apachehive&logoColor=111827" />
+  <img src="https://img.shields.io/badge/Hadoop-66CCFF?style=flat-square&logo=apachehadoop&logoColor=111827" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/BigQuery-669DF6?style=flat-square&logo=googlebigquery&logoColor=white" />
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
+  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white" />
+  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Vue-35495E?style=flat-square&logo=vuedotjs&logoColor=4FC08D" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white" />
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" />
+</p>
 
-- PDF / document structuring with MinerU
-- entity-relation extraction
-- heterogeneous entity alignment
-- Neo4j graph construction
-- evidence-linked relationship extraction
+## Experience Snapshot
 
-## Technical Stack
+```mermaid
+timeline
+    title Chuqian Chen
+    2022 : Chinese Academy of Sciences
+         : Full Stack Engineer
+         : ML disaster alarming system
+    2024 : University of Southern California
+         : MS Analytics
+    2025 : USC Information Sciences Institute
+         : Data Engineer
+         : Eye-AI multimodal health data
+    2025 : Mayo Clinic
+         : Data Scientist
+         : NIV failure prediction
+    2026 : Medin AI
+         : AI Data R&D
+         : HSCT clinical agent system
+```
 
-**Data Engineering:** Python, SQL, PostgreSQL, MongoDB, Spark, Hive, Hadoop, Presto, Airflow, DolphinScheduler  
-**Analytics:** Google BigQuery, Data Visualization, R, Tableau, Power BI  
-**AI / ML:** PyTorch, TensorFlow, XGBoost, scikit-learn, Hugging Face Transformers, LoRA, SHAP, BigQuery ML  
-**LLM Systems:** RAG, LangChain, CrewAI, Function Calling, FAISS, BGE-M3, prompt engineering  
-**Applications / Cloud:** FastAPI, Django, React, Vue, WeChat Mini Program, Docker, GCP Vertex AI, AWS, CI/CD  
+## GitHub Activity
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Chuqian-Chen&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="Chuqian Chen GitHub stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Chuqian-Chen&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=Chuqian-Chen&theme=tokyonight&hide_border=true" alt="GitHub streak stats" />
+</p>
 
 ## Certifications
 
@@ -100,15 +176,12 @@ LLM-driven and schema-based pipeline for medical knowledge graph construction:
 - Google Data Analytics
 - Oracle Cloud Data Management 2023 Certified Foundations Associate
 
-## What I Like Building
+## Contact
 
-- reliable medical AI systems that know when to ask humans
-- data pipelines that make model training reproducible
-- agent workflows with validation, routing, and repair loops
-- knowledge graphs that connect literature evidence with real-world patient data
+I am open to roles and collaborations in **medical AI**, **data engineering**, **LLM applications**, and **agent-system development**.
 
-## Links
-
-- GitHub: [github.com/Chuqian-Chen](https://github.com/Chuqian-Chen)
-- LinkedIn: [linkedin.com/in/chloe-chen-chuqian](https://www.linkedin.com/in/chloe-chen-chuqian)
-- Email: [ccq33927@gmail.com](mailto:ccq33927@gmail.com)
+<p>
+  <a href="mailto:ccq33927@gmail.com"><b>Email</b></a> ·
+  <a href="https://www.linkedin.com/in/chloe-chen-chuqian"><b>LinkedIn</b></a> ·
+  <a href="https://github.com/Chuqian-Chen"><b>GitHub</b></a>
+</p>

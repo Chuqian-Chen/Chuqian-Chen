@@ -1,0 +1,54 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#061A1A"/>
+      <stop offset="0.46" stop-color="#0B2B36"/>
+      <stop offset="1" stop-color="#121B3D"/>
+    </linearGradient>
+    <linearGradient id="pulse" x1="153" y1="267" x2="1047" y2="88" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#34D399"/>
+      <stop offset="0.52" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.13 0 0 0 0 0.83 0 0 0 0 0.93 0 0 0 0.75 0"/>
+      <feBlend in2="SourceGraphic" mode="screen"/>
+    </filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#E8FFFF" stroke-opacity="0.06" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="28" fill="url(#grid)"/>
+
+  <g opacity="0.55">
+    <circle cx="1040" cy="76" r="142" fill="#22D3EE" opacity="0.08"/>
+    <circle cx="166" cy="282" r="170" fill="#34D399" opacity="0.08"/>
+    <circle cx="827" cy="299" r="116" fill="#A78BFA" opacity="0.08"/>
+  </g>
+
+  <path d="M68 245C166 149 243 207 322 175C404 141 438 62 525 104C613 146 629 237 726 210C822 183 827 93 923 96C1006 98 1079 163 1132 125" stroke="url(#pulse)" stroke-width="4" stroke-linecap="round" filter="url(#glow)"/>
+  <path d="M68 246C166 150 243 208 322 176C404 142 438 63 525 105C613 147 629 238 726 211C822 184 827 94 923 97C1006 99 1079 164 1132 126" stroke="#E8FFFF" stroke-opacity="0.35" stroke-width="1" stroke-linecap="round"/>
+
+  <g filter="url(#glow)">
+    <circle cx="236" cy="194" r="8" fill="#34D399"/>
+    <circle cx="525" cy="104" r="8" fill="#22D3EE"/>
+    <circle cx="726" cy="210" r="8" fill="#A78BFA"/>
+    <circle cx="923" cy="96" r="8" fill="#22D3EE"/>
+  </g>
+
+  <g transform="translate(72 58)">
+    <text x="0" y="0" fill="#9FFCF0" font-family="Consolas, 'Courier New', monospace" font-size="18" font-weight="700" letter-spacing="1">MEDICAL AI · DATA ENGINEERING · AGENT SYSTEMS</text>
+    <text x="0" y="66" fill="#F8FFFF" font-family="Georgia, 'Times New Roman', serif" font-size="58" font-weight="700">Chuqian Chen</text>
+    <text x="0" y="112" fill="#D4F7F7" font-family="Consolas, 'Courier New', monospace" font-size="24">building traceable clinical AI pipelines</text>
+    <text x="0" y="158" fill="#A9C8CC" font-family="Consolas, 'Courier New', monospace" font-size="18">ETL → RAG → Knowledge Graphs → Human-in-the-loop Agents</text>
+  </g>
+
+  <g transform="translate(748 206)">
+    <rect x="0" y="0" width="360" height="92" rx="18" fill="#061A1A" fill-opacity="0.62" stroke="#9FFCF0" stroke-opacity="0.26"/>
+    <text x="24" y="34" fill="#F8FFFF" font-family="Consolas, 'Courier New', monospace" font-size="17" font-weight="700">907 HSCT patients</text>
+    <text x="24" y="62" fill="#BFE7E8" font-family="Consolas, 'Courier New', monospace" font-size="15">200k+ docs · multimodal health data</text>
+  </g>
+</svg>
