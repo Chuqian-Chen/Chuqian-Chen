@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duration=2600&pause=700&color=22D3EE&center=true&vCenter=true&width=900&lines=Medical+AI+Data+Engineer;Machine+Learning+Engineer+%26+Full+Stack+Developer;LLM+%2F+RAG+%2F+Knowledge+Graph+Builder;Spark+%2F+Hive+%2F+DICOM+%2F+Clinical+ETL;Human-in-the-loop+Agent+Systems" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duration=2600&pause=700&color=22D3EE&center=true&vCenter=true&width=900&lines=Medical+AI+Data+Engineer;Machine+Learning+Engineer+%26+Full+Stack+Developer;LLM+%2F+RAG+%2F+Knowledge+Graph+Builder;Data+Quality+Workbench+Builder;LangGraph+Agent+Loop+Explorer;Human-in-the-loop+Clinical+AI+Systems" alt="Typing SVG" />
 </p>
 
 ---
@@ -24,7 +24,7 @@
 
 I am **Chuqian Chen**, a medical AI data engineer, machine learning engineer, and full stack developer building the bridge from raw clinical data to trustworthy model-ready systems.
 
-Currently, I work across **multimodal healthcare ETL**, **patient-level timelines**, **LLM extraction**, **RAG**, **knowledge graphs**, **ML systems**, and **human-in-the-loop agent workflows**. My favorite systems are the ones that know when to automate, when to validate, and when to ask a human.
+Currently, I work across **multimodal healthcare ETL**, **patient-level timelines**, **LLM extraction**, **RAG**, **knowledge graphs**, **ML systems**, and **human-in-the-loop agent workflows**. Recently I have been publishing compact, runnable systems that turn research workflows into local tools: data quality workbenches, agent-loop demos, and clinical explainability services.
 
 ```txt
 raw clinical data
@@ -43,7 +43,7 @@ raw clinical data
 
 <table>
   <tr>
-    <td><b>907</b><br/>HSCT patients modeled</td>
+    <td><b>900+</b><br/>HSCT patients modeled</td>
     <td><b>200k+</b><br/>clinical documents parsed</td>
     <td><b>200k+</b><br/>OCT / fundus images processed</td>
     <td><b>92%</b><br/>healthcare data completeness</td>
@@ -53,6 +53,12 @@ raw clinical data
     <td><b>71%</b><br/>early failure recall</td>
     <td><b>96.2%</b><br/>toxicity label accuracy</td>
     <td><b>83%</b><br/>medical NL-to-SQL JOIN accuracy</td>
+  </tr>
+  <tr>
+    <td><b>4</b><br/>public repos under Chuqian-Chen</td>
+    <td><b>200k</b><br/>CSV rows sampled per table by default</td>
+    <td><b>3</b><br/>input paths for HSCT explanations</td>
+    <td><b>7</b><br/>clinical outcome families mapped</td>
   </tr>
 </table>
 
@@ -130,6 +136,50 @@ raw clinical data
 
 </details>
 
+## Recently Published Repos
+
+<p align="center">
+  <img src="./assets/github-project-command-center.svg" alt="GitHub project command center" width="100%" />
+</p>
+
+<table>
+  <tr>
+    <td width="50%">
+      <h3><a href="https://github.com/Chuqian-Chen/preprocess-ui">preprocess-ui</a></h3>
+      <p>Standalone local data quality and preprocessing workbench for structured CSV datasets: import folders or CSV/ZIP files, profile raw fields, detect table relationships, review AI-assisted column cleaning, export clean outputs, and compare raw vs processed distributions.</p>
+      <p><b>Stack:</b> FastAPI, static frontend, Chart.js, Mermaid, local workspace storage, OpenAI-compatible AI settings.</p>
+    </td>
+    <td width="50%">
+      <h3><a href="https://github.com/Chuqian-Chen/langgraph-agent-demo">langgraph-agent-demo</a></h3>
+      <p>Minimal LangGraph learning project that turns the official overview into a runnable graph: <code>START -&gt; mock_llm -&gt; END</code>, message state flow, reusable <code>build_agent_graph()</code>, CLI output, and unit tests.</p>
+      <p><b>Stack:</b> Python, LangGraph, MessagesState, unittest, command-line demo tracing.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3><a href="https://github.com/Chuqian-Chen/Learn_git">Learn_git</a></h3>
+      <p>Algorithm and Git practice repository used to keep fundamentals active while publishing larger applied systems.</p>
+      <p><b>Focus:</b> Git workflow fluency, Python practice, algorithmic reading notes.</p>
+    </td>
+    <td width="50%">
+      <h3>Private HSCT KG Explainability System</h3>
+      <p>Research system that keeps ML probabilities fixed, retrieves evidence from EHR and literature knowledge graphs, synthesizes consistency signals, and produces controlled clinician-readable explanations through templates or an OpenAI-compatible LLM.</p>
+      <p><b>Stack:</b> FastAPI, Neo4j-compatible retrieval, local Parquet fallback, evidence scoring, prompt controls, frontend demo, batch and narrative inputs.</p>
+    </td>
+  </tr>
+</table>
+
+<details>
+  <summary><b>Open system notes</b></summary>
+
+| System | What it proves | Guardrail |
+|---|---|---|
+| `preprocess-ui` | I can ship local, offline-capable tools for messy tabular data workflows. | Raw data stays unchanged; AI proposes JSON operations that are reviewed before application. |
+| `langgraph-agent-demo` | I can reduce an agent framework to a testable graph, state contract, and trace. | Mock LLM keeps the demo deterministic and key-free. |
+| Private HSCT explainability | I can connect ML output, evidence retrieval, and clinician-facing explanation. | The LLM explains evidence; it does not invent or recalculate probabilities. |
+
+</details>
+
 ## Featured Systems
 
 <p align="center">
@@ -139,8 +189,18 @@ raw clinical data
 <table>
   <tr>
     <td width="50%">
-      <h3>HSCT Self-Evolving Data Governance</h3>
-      <p>907 patients, 120k+ longitudinal records, 200k+ clinical documents, versioned outputs, outcome logic, prompt repair, and uncertainty-driven human review.</p>
+      <h3>HSCT KG Explainability System</h3>
+      <p>900+ patient evidence cohort, literature knowledge graph, fixed ML probability handoff, evidence consistency scoring, controlled LLM/template explanation, and FastAPI + frontend demo.</p>
+    </td>
+    <td width="50%">
+      <h3>Data QC and Preprocessing Workbench</h3>
+      <p>Local CSV import, field profiling, relationship discovery, human-reviewed AI cleaning operations, raw-to-output lineage, and Chart.js / Mermaid visual analysis.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3>LangGraph Agent Loop Demo</h3>
+      <p>Minimal state graph, deterministic mock LLM node, CLI trace, unit-tested graph contract, and clear explanation of START / node / END state updates.</p>
     </td>
     <td width="50%">
       <h3>Eye-AI Multimodal Ophthalmology Platform</h3>
