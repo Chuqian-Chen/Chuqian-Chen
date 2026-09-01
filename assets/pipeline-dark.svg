@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="268" viewBox="0 0 1200 268" role="img" aria-label="Clinical data pipeline: raw data, QC and ETL, patient timeline, retrieval and model, clinical review, feeding back as reusable knowledge">
+  <line x1="2" y1="22" x2="34" y2="22" stroke="#2DD4BF" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="48" y="27" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace" font-size="12" font-weight="600" letter-spacing="2.8" fill="#9198A1">SYSTEM SHAPE</text>
+
+  <rect x="1" y="70" width="202" height="102" rx="10" fill="none" stroke="#30363D" stroke-width="1.4"/>
+  <text x="19" y="99" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace" font-size="11" font-weight="700" letter-spacing="1.6" fill="#2DD4BF">01</text>
+  <text x="19" y="126" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#E6EDF3">RAW CLINICAL DATA</text>
+  <text x="19" y="149" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace" font-size="10.5" fill="#9198A1">EHR · DICOM · notes</text>
+  <path d="M220.5 114 l7 7 -7 7" fill="none" stroke="#6E7681" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="250" y="70" width="202" height="102" rx="10" fill="none" stroke="#30363D" stroke-width="1.4"/>
+  <text x="268" y="99" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace" font-size="11" font-weight="700" letter-spacing="1.6" fill="#2DD4BF">02</text>
+  <text x="268" y="126" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#E6EDF3">QC + ETL</text>
+  <text x="268" y="149" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace" font-size="10.5" fill="#9198A1">Spark · Hive · rules</text>
+  <path d="M469.5 114 l7 7 -7 7" fill="none" stroke="#6E7681" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="499" y="70" width="202" height="102" rx="10" fill="none" stroke="#30363D" stroke-width="1.4"/>
+  <text x="517" y="99" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace" font-size="11" font-weight="700" letter-spacing="1.6" fill="#2DD4BF">03</text>
+  <text x="517" y="126" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#E6EDF3">PATIENT TIMELINE</text>
+  <text x="517" y="149" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace" font-size="10.5" fill="#9198A1">features · cohorts</text>
+  <path d="M718.5 114 l7 7 -7 7" fill="none" stroke="#6E7681" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="748" y="70" width="202" height="102" rx="10" fill="none" stroke="#30363D" stroke-width="1.4"/>
+  <text x="766" y="99" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace" font-size="11" font-weight="700" letter-spacing="1.6" fill="#2DD4BF">04</text>
+  <text x="766" y="126" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#E6EDF3">RETRIEVAL + MODEL</text>
+  <text x="766" y="149" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace" font-size="10.5" fill="#9198A1">RAG · KG · XGBoost</text>
+  <path d="M967.5 114 l7 7 -7 7" fill="none" stroke="#6E7681" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="997" y="70" width="202" height="102" rx="10" fill="none" stroke="#30363D" stroke-width="1.4"/>
+  <text x="1015" y="99" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace" font-size="11" font-weight="700" letter-spacing="1.6" fill="#2DD4BF">05</text>
+  <text x="1015" y="126" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#E6EDF3">CLINICAL REVIEW</text>
+  <text x="1015" y="149" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace" font-size="10.5" fill="#9198A1">human in the loop</text>
+
+  <path d="M1098 172 L1098 214 L102 214 L102 178" fill="none" stroke="#30363D" stroke-width="1.4" stroke-dasharray="4 5"/>
+  <path d="M96 184 l6 -7 6 7" fill="none" stroke="#6E7681" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="600" y="248" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace" font-size="11" letter-spacing="1.4" fill="#6E7681">every reviewed case becomes reusable knowledge</text>
+</svg>

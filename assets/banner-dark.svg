@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="250" viewBox="0 0 1200 250" role="img" aria-label="Chuqian Chen, medical AI data engineer">
+  <line x1="2" y1="18" x2="62" y2="18" stroke="#2DD4BF" stroke-width="2.5" stroke-linecap="round"/>
+
+  <text x="2" y="54" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace" font-size="13.5" font-weight="600" letter-spacing="3.4">
+    <tspan fill="#E6EDF3">CHUQIAN CHEN</tspan><tspan fill="#6E7681">   /   </tspan><tspan fill="#9198A1">MEDICAL AI DATA ENGINEER</tspan>
+  </text>
+
+  <text x="0" y="120" font-family="Georgia, Cambria, Times New Roman, serif" font-size="46" font-weight="700" fill="#E6EDF3">From messy clinical data</text>
+  <text x="0" y="172" font-family="Georgia, Cambria, Times New Roman, serif" font-size="46" font-weight="700" fill="#9198A1">to AI clinicians can trust.</text>
+
+  <text x="2" y="214" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="16.5" fill="#6E7681">Data &amp; ML engineering  ·  LLM and agent systems  ·  Human-in-the-loop clinical AI</text>
+
+  <g opacity="0.55">
+    <line x1="730" y1="92" x2="730" y2="170" stroke="#30363D" stroke-width="1"/>
+    <line x1="766" y1="92" x2="766" y2="170" stroke="#30363D" stroke-width="1"/>
+    <line x1="802" y1="92" x2="802" y2="170" stroke="#30363D" stroke-width="1"/>
+    <line x1="838" y1="92" x2="838" y2="170" stroke="#30363D" stroke-width="1"/>
+    <line x1="874" y1="92" x2="874" y2="170" stroke="#30363D" stroke-width="1"/>
+    <line x1="910" y1="92" x2="910" y2="170" stroke="#30363D" stroke-width="1"/>
+    <line x1="946" y1="92" x2="946" y2="170" stroke="#30363D" stroke-width="1"/>
+  </g>
+  <polyline points="730,138 744,119 758,150 772,127 786,156 800,112 814,146 828,132 842,158 856,118 870,143 884,109 898,148 912,128 926,152 940,124 946,122" fill="none" stroke="#6E7681" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M946 121 C 962 121, 968 131, 985 131" fill="none" stroke="#6E7681" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="3 4"/>
+  <line x1="994" y1="131" x2="1174" y2="131" stroke="#2DD4BF" stroke-width="1.6"/>
+    <circle cx="990" cy="131" r="4.5" fill="none" stroke="#2DD4BF" stroke-width="1.6"/>
+    <circle cx="1037" cy="131" r="4.5" fill="none" stroke="#2DD4BF" stroke-width="1.6"/>
+    <circle cx="1084" cy="131" r="4.5" fill="none" stroke="#2DD4BF" stroke-width="1.6"/>
+    <circle cx="1131" cy="131" r="4.5" fill="none" stroke="#2DD4BF" stroke-width="1.6"/>
+    <circle cx="1178" cy="131" r="4.5" fill="none" stroke="#2DD4BF" stroke-width="1.6"/>
+  <text x="730" y="196" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace" font-size="10.5" letter-spacing="1.8" fill="#6E7681">RAW SIGNAL</text>
+  <text x="990" y="196" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace" font-size="10.5" letter-spacing="1.8" fill="#2DD4BF">STRUCTURED</text>
+</svg>
