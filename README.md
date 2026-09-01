@@ -1,338 +1,121 @@
-<p align="center">
-  <img src="./assets/clinical-ai-banner.svg" alt="Chuqian Chen medical AI banner" width="100%" />
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/banner-light.svg">
+  <img alt="Chuqian Chen — medical AI data engineer" src="./assets/banner-light.svg" width="100%">
+</picture>
 
-<p align="center">
-  <a href="mailto:ccq33927@gmail.com">
-    <img alt="Email" src="https://img.shields.io/badge/email-ccq33927%40gmail.com-0B2B36?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-  <a href="https://www.linkedin.com/in/chloe-chen-chuqian">
-    <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Chuqian%20Chen-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="https://github.com/Chuqian-Chen">
-    <img alt="GitHub" src="https://img.shields.io/badge/GitHub-Chuqian--Chen-111827?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-</p>
+<a href="mailto:ccq33927@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-1F2937?style=flat-square&logo=gmail&logoColor=white"></a>
+<a href="https://www.linkedin.com/in/chloe-chen-chuqian"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-1F2937?style=flat-square&logo=linkedin&logoColor=white"></a>
+<a href="https://leetcode.com/u/chuqianc/"><img alt="LeetCode" src="https://img.shields.io/badge/LeetCode-1F2937?style=flat-square&logo=leetcode&logoColor=white"></a>
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duration=2600&pause=700&color=22D3EE&center=true&vCenter=true&width=900&lines=Medical+AI+Data+Engineer;Machine+Learning+Engineer+%26+Full+Stack+Developer;LLM+%2F+RAG+%2F+Knowledge+Graph+Builder;Data+Quality+Workbench+Builder;LangGraph+Agent+Loop+Explorer;Human-in-the-loop+Clinical+AI+Systems" alt="Typing SVG" />
-</p>
+I build the layer between raw clinical data and models people are willing to act on —
+multimodal healthcare ETL, patient-level timelines, LLM extraction, RAG, knowledge graphs,
+and human-in-the-loop agent workflows. Most of what I ship starts as a research workflow
+and ends as something you can run locally.
 
----
+**Now** &nbsp;AI Data R&D at **Medin AI**, on an HSCT clinical agent system: knowledge-graph evidence
+retrieval feeding controlled, clinician-readable explanations. On the side, 400+ LeetCode problems
+and a 1800+ contest rating, mostly dynamic programming and graphs.
 
-## About Me
+## What I build
 
-I am **Chuqian Chen**, a medical AI data engineer, machine learning engineer, and full stack developer building the bridge from raw clinical data to trustworthy model-ready systems.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/pipeline-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/pipeline-light.svg">
+  <img alt="Pipeline: raw clinical data, QC and ETL, patient timeline, retrieval and model, clinical review — feeding back as reusable knowledge" src="./assets/pipeline-light.svg" width="100%">
+</picture>
 
-Currently, I work across **multimodal healthcare ETL**, **patient-level timelines**, **LLM extraction**, **RAG**, **knowledge graphs**, **ML systems**, and **human-in-the-loop agent workflows**. Recently I have been publishing compact, runnable systems that turn research workflows into local tools: data quality workbenches, agent-loop demos, and clinical explainability services.
+- **Clinical data infrastructure** — Spark / Hive / Hadoop pipelines, DICOM parsing, PostgreSQL tuning, data quality rules, patient-centered feature views.
+- **LLM and agent systems** — RAG, NL-to-SQL, model routing, prompt repair, multi-agent testing, human-in-the-loop review loops.
+- **Medical knowledge graphs** — MinerU document structuring, schema-based entity-relation extraction, evidence-linked graphs, Neo4j pipelines.
+- **Interpretable clinical ML** — XGBoost, SHAP, LoRA, RoBERTa, imbalance handling, and model reports a clinician can actually read.
 
-```txt
-raw clinical data
-  -> quality-controlled ETL
-  -> patient timeline / feature view
-  -> retrieval + model reasoning
-  -> clinical review loop
-  -> reusable knowledge
-```
+## Selected work
 
-<p align="center">
-  <img src="./assets/clinical-ai-pipeline.svg" alt="Clinical AI pipeline architecture" width="100%" />
-</p>
+**HSCT knowledge-graph explainability system** &nbsp;·&nbsp; *private*<br>
+Holds the ML probability fixed, retrieves evidence from EHR and literature knowledge graphs, scores
+consistency, and produces controlled clinician-readable explanations via template or LLM.<br>
+`FastAPI` `Neo4j` `Parquet fallback` `evidence scoring` `batch + narrative inputs`<br>
+*Guardrail: the LLM explains the evidence — it never invents or recalculates the probability.*
 
-## Signal
+**[preprocess-ui](https://github.com/Chuqian-Chen/preprocess-ui)** &nbsp;·&nbsp; data quality workbench<br>
+Local, offline-capable workbench for messy tabular data: import folders or CSV/ZIP, profile raw
+fields, detect table relationships, review AI-assisted column cleaning, export clean outputs, and
+compare raw vs processed distributions.<br>
+`FastAPI` `Chart.js` `Mermaid` `local workspace storage`<br>
+*Guardrail: raw data is never mutated — the AI proposes JSON operations a human approves first.*
 
-<table>
-  <tr>
-    <td><b>900+</b><br/>HSCT patients modeled</td>
-    <td><b>200k+</b><br/>clinical documents parsed</td>
-    <td><b>200k+</b><br/>OCT / fundus images processed</td>
-    <td><b>92%</b><br/>healthcare data completeness</td>
-  </tr>
-  <tr>
-    <td><b>0.81</b><br/>Mayo NIV model AUC</td>
-    <td><b>71%</b><br/>early failure recall</td>
-    <td><b>96.2%</b><br/>toxicity label accuracy</td>
-    <td><b>83%</b><br/>medical NL-to-SQL JOIN accuracy</td>
-  </tr>
-  <tr>
-    <td><b>4</b><br/>public repos under Chuqian-Chen</td>
-    <td><b>200k</b><br/>CSV rows sampled per table by default</td>
-    <td><b>3</b><br/>input paths for HSCT explanations</td>
-    <td><b>7</b><br/>clinical outcome families mapped</td>
-  </tr>
-</table>
+**[langgraph-agent-demo](https://github.com/Chuqian-Chen/langgraph-agent-demo)** &nbsp;·&nbsp; agent loop, reduced<br>
+The official LangGraph overview turned into a runnable graph: `START -> mock_llm -> END`, message
+state flow, a reusable `build_agent_graph()`, CLI trace, and unit tests.<br>
+`Python` `LangGraph` `MessagesState` `unittest`<br>
+*Guardrail: a mock LLM keeps the demo deterministic and key-free.*
 
-## Algorithm and Builder Mode
-
-<p align="center">
-  <img src="./assets/builder-mode-panel.svg" alt="Algorithm and builder mode panel" width="100%" />
-</p>
+**[Learn_git](https://github.com/Chuqian-Chen/Learn_git)** &nbsp;·&nbsp; fundamentals<br>
+Algorithm and Git practice, kept active alongside the larger applied systems.
 
 <details>
-  <summary><b>Open the builder console</b></summary>
+<summary><b>Earlier research systems</b></summary>
 
-<table>
-  <tr>
-    <td width="50%">
-      <h3>LeetCode</h3>
-      <p>
-        <a href="https://leetcode.com/u/chuqianc/">Global: <b>chuqianc</b></a><br/>
-        <a href="https://leetcode.cn/u/ccq33927/">China: <b>ccq33927</b></a><br/>
-        400+ problems solved, regular contest participant, contest rating over 1800+, with a focus on dynamic programming and algorithms.
-      </p>
-    </td>
-    <td width="50%">
-      <h3>SDE / DS / ML Systems</h3>
-      <p>
-        I enjoy building end-to-end systems: data pipelines, model training, backend APIs, frontend dashboards, deployment workflows, and the glue code that makes research usable.
-      </p>
-    </td>
-  </tr>
-</table>
+<br>
+
+**Eye-AI multimodal ophthalmology platform** — Spark / Hive warehouse over OCT, fundus images, DICOM
+metadata and structured records; PyDICOM conversion and high-throughput PostgreSQL access.
+
+**Mayo NIV failure prediction** — patient-time ICU respiratory features, XGBoost with SMOTE and class
+weighting, SHAP reports. AUC 0.81, early-failure recall lifted to 71%.
+
+**Medical NL-to-SQL over MIMIC-IV** — DeepSeek / Qwen / Gemma / Llama comparison, BGE-M3 + FAISS
+schema retrieval, SQL verification, error parsing, and a rewrite loop.
 
 </details>
 
-## What I Build
+## By the numbers
 
-<p align="center">
-  <img src="./assets/what-i-build-radar.svg" alt="What I build capability radar" width="100%" />
-</p>
-
-<details>
-  <summary><b>Open capability details</b></summary>
-
-<table>
-  <tr>
-    <td width="50%">
-      <h3>Clinical Data Infrastructure</h3>
-      <p>Spark / Hive / Hadoop pipelines, DICOM parsing, PostgreSQL optimization, data quality rules, and patient-centered feature views.</p>
-    </td>
-    <td width="50%">
-      <h3>LLM and Agent Systems</h3>
-      <p>RAG, NL-to-SQL, model routing, prompt repair, multi-agent testing, and human-in-the-loop clinical review workflows.</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <h3>Medical Knowledge Graphs</h3>
-      <p>MinerU document structuring, schema-based entity-relation extraction, evidence-linked graph construction, and Neo4j pipelines.</p>
-    </td>
-    <td width="50%">
-      <h3>Interpretable Clinical ML</h3>
-      <p>XGBoost, SHAP, LoRA, RoBERTa, TensorFlow, PyTorch, imbalance handling, and clinically readable model reports.</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <h3>Full Stack Products</h3>
-      <p>Django, Spring Boot, Node.js, Flask, FastAPI, React, Vue.js, dashboards, internal platforms, and WeChat mini programs.</p>
-    </td>
-    <td width="50%">
-      <h3>ML Systems and MLOps</h3>
-      <p>Model training workflows, Kubeflow, MLflow, Docker, Kubernetes, experiment tracking, deployment, and monitoring.</p>
-    </td>
-  </tr>
-</table>
-
-</details>
-
-## Recently Published Repos
-
-<p align="center">
-  <img src="./assets/github-project-command-center.svg" alt="GitHub project command center" width="100%" />
-</p>
-
-<table>
-  <tr>
-    <td width="50%">
-      <h3><a href="https://github.com/Chuqian-Chen/preprocess-ui">preprocess-ui</a></h3>
-      <p>Standalone local data quality and preprocessing workbench for structured CSV datasets: import folders or CSV/ZIP files, profile raw fields, detect table relationships, review AI-assisted column cleaning, export clean outputs, and compare raw vs processed distributions.</p>
-      <p><b>Stack:</b> FastAPI, static frontend, Chart.js, Mermaid, local workspace storage, OpenAI-compatible AI settings.</p>
-    </td>
-    <td width="50%">
-      <h3><a href="https://github.com/Chuqian-Chen/langgraph-agent-demo">langgraph-agent-demo</a></h3>
-      <p>Minimal LangGraph learning project that turns the official overview into a runnable graph: <code>START -&gt; mock_llm -&gt; END</code>, message state flow, reusable <code>build_agent_graph()</code>, CLI output, and unit tests.</p>
-      <p><b>Stack:</b> Python, LangGraph, MessagesState, unittest, command-line demo tracing.</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <h3><a href="https://github.com/Chuqian-Chen/Learn_git">Learn_git</a></h3>
-      <p>Algorithm and Git practice repository used to keep fundamentals active while publishing larger applied systems.</p>
-      <p><b>Focus:</b> Git workflow fluency, Python practice, algorithmic reading notes.</p>
-    </td>
-    <td width="50%">
-      <h3>Private HSCT KG Explainability System</h3>
-      <p>Research system that keeps ML probabilities fixed, retrieves evidence from EHR and literature knowledge graphs, synthesizes consistency signals, and produces controlled clinician-readable explanations through templates or an OpenAI-compatible LLM.</p>
-      <p><b>Stack:</b> FastAPI, Neo4j-compatible retrieval, local Parquet fallback, evidence scoring, prompt controls, frontend demo, batch and narrative inputs.</p>
-    </td>
-  </tr>
-</table>
-
-<details>
-  <summary><b>Open system notes</b></summary>
-
-| System | What it proves | Guardrail |
-|---|---|---|
-| `preprocess-ui` | I can ship local, offline-capable tools for messy tabular data workflows. | Raw data stays unchanged; AI proposes JSON operations that are reviewed before application. |
-| `langgraph-agent-demo` | I can reduce an agent framework to a testable graph, state contract, and trace. | Mock LLM keeps the demo deterministic and key-free. |
-| Private HSCT explainability | I can connect ML output, evidence retrieval, and clinician-facing explanation. | The LLM explains evidence; it does not invent or recalculate probabilities. |
-
-</details>
-
-## Featured Systems
-
-<p align="center">
-  <img src="./assets/project-constellation.svg" alt="Project constellation" width="100%" />
-</p>
-
-<table>
-  <tr>
-    <td width="50%">
-      <h3>HSCT KG Explainability System</h3>
-      <p>900+ patient evidence cohort, literature knowledge graph, fixed ML probability handoff, evidence consistency scoring, controlled LLM/template explanation, and FastAPI + frontend demo.</p>
-    </td>
-    <td width="50%">
-      <h3>Data QC and Preprocessing Workbench</h3>
-      <p>Local CSV import, field profiling, relationship discovery, human-reviewed AI cleaning operations, raw-to-output lineage, and Chart.js / Mermaid visual analysis.</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <h3>LangGraph Agent Loop Demo</h3>
-      <p>Minimal state graph, deterministic mock LLM node, CLI trace, unit-tested graph contract, and clear explanation of START / node / END state updates.</p>
-    </td>
-    <td width="50%">
-      <h3>Eye-AI Multimodal Ophthalmology Platform</h3>
-      <p>Spark / Hive warehouse for OCT, fundus images, DICOM metadata, structured records, PyDICOM conversion, and high-throughput PostgreSQL access.</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <h3>Mayo NIV Failure Prediction</h3>
-      <p>Patient-time ICU respiratory features, XGBoost, SMOTE, class weighting, SHAP reports, AUC 0.81, and early failure recall improved to 71%.</p>
-    </td>
-    <td width="50%">
-      <h3>Medical NL-to-SQL over MIMIC-IV</h3>
-      <p>DeepSeek / Qwen / Gemma / Llama comparison, BGE-M3 + FAISS schema retrieval, SQL verification, error parsing, and rewrite loop.</p>
-    </td>
-  </tr>
-</table>
+| Clinical modeling | Document & imaging scale | Model quality | Data quality |
+| :-- | :-- | :-- | :-- |
+| **900+** HSCT patients modeled | **200k+** clinical documents parsed | **0.81** AUC, Mayo NIV failure model | **92%** healthcare data completeness |
+| **7** clinical outcome families mapped | **200k+** OCT / fundus images processed | **71%** early-failure recall | **96.2%** toxicity label accuracy |
 
 ## Stack
 
-### Core Technologies
+- **Languages** &nbsp;`Python` `Java` `TypeScript` `JavaScript` `SQL`
+- **Data** &nbsp;`Spark` `Hive` `Hadoop` `PostgreSQL` `BigQuery` `Redis` `MongoDB` `Neo4j`
+- **ML** &nbsp;`PyTorch` `TensorFlow` `XGBoost` `SHAP` `LoRA` `RoBERTa`
+- **LLM** &nbsp;`LangGraph` `RAG` `NL-to-SQL` `FAISS` `BGE-M3` `MinerU`
+- **Services** &nbsp;`FastAPI` `Django` `Spring Boot` `Flask` `Node.js` `React` `Vue`
+- **Infra** &nbsp;`Docker` `Kubernetes` `MLflow` `Kubeflow` `AWS` `GCP`
+
+## Experience
+
+| Year | Where | Role |
+| :-- | :-- | :-- |
+| **2026** | Medin AI | AI Data R&D — HSCT clinical agent system |
+| **2025** | Mayo Clinic | Data Scientist — NIV failure prediction |
+| **2025** | USC Information Sciences Institute | Data Engineer — Eye-AI multimodal health data |
+| **2024** | University of Southern California | MS Analytics |
+| **2022** | Chinese Academy of Sciences | Full Stack Engineer — ML disaster alarming system |
+
+<details>
+<summary><b>Certifications</b></summary>
+
+<br>
+
+AWS Certified Cloud Practitioner &nbsp;·&nbsp; Salesforce AI Associate &nbsp;·&nbsp; Google Data Analytics &nbsp;·&nbsp;
+Create ML Models with BigQuery ML &nbsp;·&nbsp; Oracle Cloud Data Management 2023 Foundations Associate &nbsp;·&nbsp;
+Career Essentials in Generative AI (Microsoft / LinkedIn) &nbsp;·&nbsp; Lean Six Sigma White Belt
+
+</details>
+
+## GitHub
 
 <p>
-  <img src="https://img.shields.io/badge/Python-0B2B36?style=flat-square&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Java-0B2B36?style=flat-square&logo=openjdk&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-0B2B36?style=flat-square&logo=javascript&logoColor=F7DF1E" />
-  <img src="https://img.shields.io/badge/TypeScript-0B2B36?style=flat-square&logo=typescript&logoColor=3178C6" />
-  <img src="https://img.shields.io/badge/SQL-0B2B36?style=flat-square&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Spark-E25A1C?style=flat-square&logo=apachespark&logoColor=white" />
-  <img src="https://img.shields.io/badge/Hive-FDEE21?style=flat-square&logo=apachehive&logoColor=111827" />
-  <img src="https://img.shields.io/badge/Hadoop-66CCFF?style=flat-square&logo=apachehadoop&logoColor=111827" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/BigQuery-669DF6?style=flat-square&logo=googlebigquery&logoColor=white" />
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
-  <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white" />
-  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" />
-  <img src="https://img.shields.io/badge/Flask-111827?style=flat-square&logo=flask&logoColor=white" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
-  <img src="https://img.shields.io/badge/Vue-35495E?style=flat-square&logo=vuedotjs&logoColor=4FC08D" />
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" />
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" />
-  <img src="https://img.shields.io/badge/Neo4j-4581C3?style=flat-square&logo=neo4j&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" />
-  <img src="https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white" />
-  <img src="https://img.shields.io/badge/Kubeflow-326CE5?style=flat-square&logo=kubeflow&logoColor=white" />
-  <img src="https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white" />
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" />
+  <img height="150" alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=Chuqian-Chen&show_icons=true&hide_border=true&rank_icon=github&bg_color=00000000&title_color=14B8A6&icon_color=14B8A6&text_color=768390">
+  <img height="150" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Chuqian-Chen&layout=compact&hide_border=true&bg_color=00000000&title_color=14B8A6&text_color=768390">
 </p>
-
-### Languages and Tools
-
-<p>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="42" height="42"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="42" height="42"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="42" height="42"/>
-  <img src="https://www.chartjs.org/media/logo-title.svg" alt="chartjs" width="42" height="42"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="42" height="42"/>
-  <img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="django" width="42" height="42"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="42" height="42"/>
-  <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" width="42" height="42"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="42" height="42"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="42" height="42"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="42" height="42"/>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="matlab" width="42" height="42"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="42" height="42"/>
-  <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="42" height="42"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="42" height="42"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="42" height="42"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="42" height="42"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="42" height="42"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="42" height="42"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg" alt="redis" width="42" height="42"/>
-  <img src="https://www.vectorlogo.zone/logos/unity3d/unity3d-icon.svg" alt="unity" width="42" height="42"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg" alt="vuejs" width="42" height="42"/>
-</p>
-
-## Experience Snapshot
-
-```mermaid
-timeline
-    title Chuqian Chen
-    2022 : Chinese Academy of Sciences
-         : Full Stack Engineer
-         : ML disaster alarming system
-    2024 : University of Southern California
-         : MS Analytics
-    2025 : USC Information Sciences Institute
-         : Data Engineer
-         : Eye-AI multimodal health data
-    2025 : Mayo Clinic
-         : Data Scientist
-         : NIV failure prediction
-    2026 : Medin AI
-         : AI Data R&D
-         : HSCT clinical agent system
-```
-
-## GitHub Activity
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Chuqian-Chen&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="Chuqian Chen GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Chuqian-Chen&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=Chuqian-Chen&theme=tokyonight&hide_border=true" alt="GitHub streak stats" />
-</p>
-
-## Certifications
-
-- AWS Certified Cloud Practitioner
-- Salesforce AI Associate Certified
-- Lean Six Sigma White Belt Certification
-- Career Essentials in Generative AI by Microsoft and LinkedIn
-- Create ML Models with BigQuery ML Skill Badge
-- Google Data Analytics
-- Oracle Cloud Data Management 2023 Certified Foundations Associate
 
 ## Contact
 
-I am open to roles and collaborations in **medical AI**, **data engineering**, **SDE / ML systems**, **LLM applications**, and **agent-system development**.
+Open to work in medical AI, data engineering, ML systems, and LLM / agent development.
 
-<p>
-  <a href="mailto:ccq33927@gmail.com"><b>Email</b></a> |
-  <a href="https://www.linkedin.com/in/chloe-chen-chuqian"><b>LinkedIn</b></a> |
-  <a href="https://github.com/Chuqian-Chen"><b>GitHub</b></a>
-</p>
-
-<p align="center">
-  <i>Interested in collaborating or have a project idea? Feel free to reach out.</i>
-</p>
+[Email](mailto:ccq33927@gmail.com) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/chloe-chen-chuqian) &nbsp;·&nbsp; [LeetCode](https://leetcode.com/u/chuqianc/) &nbsp;·&nbsp; [LeetCode CN](https://leetcode.cn/u/ccq33927/)
