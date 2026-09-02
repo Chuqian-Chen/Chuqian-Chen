@@ -86,10 +86,6 @@ clinical gate that returns 422 for any order under a risk context, whatever the 
 
 <br>
 
-**HealthClaw** — open-source self-evolving personal health copilot: five-layer memory (global rules → disease
-and tool index → long-term facts → domain flows → episodic cases), Streamlit / Feishu / CLI surfaces,
-wearable and omics analytics, multi-backend LLM with retry and fallback.
-
 **[preprocess-ui](https://github.com/Chuqian-Chen/preprocess-ui)** — local, offline-capable data-quality
 workbench for messy CSV: profile fields, detect table relationships, review AI-proposed cleaning as JSON
 operations before anything is applied, diff raw vs processed distributions.
