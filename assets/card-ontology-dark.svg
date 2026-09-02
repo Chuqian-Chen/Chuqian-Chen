@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="232" viewBox="0 0 1200 232" role="img" aria-label="A Palantir-style ontology over 498,339 people">
+  <rect width="1200" height="232" rx="4" fill="#17150F"/>
+  <rect width="480" height="232" rx="4" fill="#1F1C15"/>
+  <rect x="472" width="8" height="232" fill="#1F1C15"/>
+  <rect x=".5" y=".5" width="1199" height="231" rx="3.5" fill="none" stroke="#33302A"/>
+  <text x="48" y="48" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" letter-spacing="3" fill="#6E665C">02 — ONTOLOGY · ARCHITECTURE</text>
+  <rect x="381.6" y="33" width="58.4" height="21" rx="10.5" fill="#2A2620"/>
+  <text x="410.8" y="47.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" letter-spacing="1.5" fill="#A0968A">PRIVATE</text>
+  <text x="47" y="92" font-family="Georgia, Cambria, 'Liberation Serif', 'Times New Roman', serif" font-size="25" font-weight="700" fill="#F3EDE3">A Palantir-style ontology</text>
+  <text x="47" y="124" font-family="Georgia, Cambria, 'Liberation Serif', 'Times New Roman', serif" font-size="25" font-weight="700" fill="#F3EDE3">over 498,339 people</text>
+  <path d="M48 166 H100" stroke="#D08B5F" stroke-width="3" stroke-linecap="round"/>
+  <text x="48" y="196" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#6E665C">26 object types · 13 interfaces · 38 links · compiles to</text>
+  <text x="48" y="212" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#6E665C">GraphQL SDL + LPG + JSON Schema</text>
+  <text x="520" y="54" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" fill="#8CC7B5">one patient → top-10 similar patients → their action library → exploration suggestions</text>
+  <path d="M520 70 H1152" stroke="#33302A" stroke-width="1"/>
+  <text x="520" y="118" font-family="Georgia, Cambria, 'Liberation Serif', 'Times New Roman', serif" font-size="30" font-weight="700" fill="#F3EDE3">11,318</text>
+  <text x="520" y="139" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="12" fill="#A0968A">fields, 100% dictionary join</text>
+  <text x="732" y="118" font-family="Georgia, Cambria, 'Liberation Serif', 'Times New Roman', serif" font-size="30" font-weight="700" fill="#F3EDE3">85</text>
+  <text x="732" y="139" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="12" fill="#A0968A">CI checks, 100 fault injections</text>
+  <text x="944" y="118" font-family="Georgia, Cambria, 'Liberation Serif', 'Times New Roman', serif" font-size="30" font-weight="700" fill="#F3EDE3">70%</text>
+  <text x="944" y="139" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="12" fill="#A0968A">competency-question coverage</text>
+  <text x="520" y="178" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" letter-spacing="2.5" fill="#D08B5F">GUARDRAIL</text>
+  <text x="520" y="200" font-family="Georgia, Cambria, 'Liberation Serif', 'Times New Roman', serif" font-size="14.5" font-style="italic" fill="#B8AE9F">Runners never hand-copy a number from the schema. Checks re-judge live — a check that can</text>
+  <text x="520" y="219" font-family="Georgia, Cambria, 'Liberation Serif', 'Times New Roman', serif" font-size="14.5" font-style="italic" fill="#B8AE9F">only say “fail” carries no information.</text>
+</svg>
