@@ -32,12 +32,10 @@ UK Biobank. On the side, 400+ LeetCode problems and a 1800+ contest rating.
   <img alt="Self-evolving health agent over UK Biobank" src="./assets/card-ukb-agent-light.svg" width="100%">
 </picture>
 
-Parses lab reports (PDF, photo, xlsx, HEIC — OCR plus vision extraction, low-confidence items routed to a
-human), wearables, CGM, blood-pressure cuffs, handheld ultrasound and EEG / fMRI / fNIRS into an
-ontology-backed personal profile. Compares against ~500k UK Biobank stratified norms, runs published risk
-models (Framingham, FINDRISC), 12-hallmark aging assessment, six-state drug-toxicity monitoring, and a
-15-condition intervention planner that must pass a deterministic safety gate and drug-interaction check.
-Rule engine answers when no key is configured; the LLM only narrates on top.<br>
+Lab reports (PDF, photo, xlsx, HEIC), wearables, CGM, blood pressure, handheld ultrasound and EEG / fMRI / fNIRS,
+parsed into one ontology-backed profile and compared against ~500k UK Biobank norms. Published risk models,
+12-hallmark aging, six-state drug-toxicity monitoring, and an intervention planner gated by a deterministic
+safety check. With no API key configured, the rule engine answers alone.<br>
 `FastAPI` `vanilla ES modules` `SQLite` `Playwright` `ruff → lock → pytest → E2E CI`
 
 <picture>
@@ -46,12 +44,10 @@ Rule engine answers when no key is configured; the LLM only narrates on top.<br>
   <img alt="A Palantir-style ontology over 498,339 people" src="./assets/card-ontology-light.svg" width="100%">
 </picture>
 
-26 object types, 13 interfaces, 38 link types and 15 action types over 11,318 UK Biobank fields, every
-field grouped by the official dictionary rather than by guess (100% bidirectional join, 31 authoritative
-axes). Missing-aware similarity search across eight data layers with 10–100% coverage — it refuses to
-impute a coordinate for the 89% of people without proteomics. Compiles to GraphQL SDL, a labeled-property-graph
-schema and JSON Schema; term reuse audited against FHIR R5 and OMOP CDM. A 1.4 MB self-contained HTML
-explorer draws all of it, and drawing it surfaced four schema bugs the text audits had missed.<br>
+26 object types, 13 interfaces, 38 link types and 15 actions over 11,318 UK Biobank fields, grouped by the
+official dictionary rather than by guess. Missing-aware similarity across eight data layers with 10–100%
+coverage; compiles to GraphQL SDL, property-graph and JSON Schema; term reuse audited against FHIR R5 and
+OMOP CDM. A self-contained HTML explorer draws all of it — and drawing it caught four schema bugs the text audits missed.<br>
 `Parquet` `YAML schema` `Python` `85 CI checks` `100 fault-injection cases` `CQ suite 70%`
 
 <picture>
@@ -60,13 +56,11 @@ explorer draws all of it, and drawing it surfaced four schema bugs the text audi
   <img alt="Transplant risk explained, probability untouched" src="./assets/card-hsct-light.svg" width="100%">
 </picture>
 
-Given an individual probability from an upstream model (GRU-D DeepHit or any external ML), retrieves
-evidence from a literature knowledge graph and a 903-patient EHR cohort graph for seven HSCT outcomes.
-Grades evidence sufficiency (strong / moderate / limited / absent) instead of comparing incompatible
-probabilities; applies per-outcome clinical windows and transplant-specific risk factors (HLA mismatch,
-conditioning intensity, CMV serology, CD34 dose). Narrates by template or LLM; accepts a patient ID, a
-free-text description, or uploaded timelines. Neo4j when reachable, local Parquet when not.<br>
-`FastAPI` `Neo4j` `Parquet` `controlled prompts` `demo predictions hard-flagged`
+Takes an individual probability from any upstream model, retrieves evidence from a literature graph and a
+903-patient EHR cohort graph for seven HSCT outcomes, and grades evidence sufficiency instead of comparing
+incompatible probabilities. Per-outcome clinical windows; transplant-specific risk factors (HLA mismatch,
+conditioning intensity, CMV serology, CD34 dose). Neo4j when reachable, local Parquet when not.<br>
+`FastAPI` `Neo4j` `Parquet` `GRU-D DeepHit adapter` `controlled prompts` `demo predictions hard-flagged`
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/card-women-health-dark.svg">
@@ -74,11 +68,10 @@ free-text description, or uploaded timelines. Neo4j when reachable, local Parque
   <img alt="Supplement advice with a full evidence chain" src="./assets/card-women-health-light.svg" width="100%">
 </picture>
 
-Local-first WeChat mini program plus FastAPI backend. Lifestyle answers alone (diet, sleep, stress, sun,
-menstrual pattern, caffeine, BMI) drive recommendations; every card expands to the exact user facts, the
-SHA256-signed source document, and the NIH / FDA / NCCIH evidence behind it. Batch OCR of delivery-app
-order screenshots rolls into a dietary fact. Three-step checkout with idempotency keys and a server-side
-clinical gate that returns 422 for any order under a risk context, whatever the UI does.<br>
+Local-first WeChat mini program plus FastAPI backend. Lifestyle answers alone drive recommendations; every
+card expands to the user facts, the SHA256-signed source document, and the NIH / FDA / NCCIH evidence behind
+it. Batch OCR of order screenshots; idempotent three-step checkout with a server-side clinical gate that
+returns 422 under any risk context, whatever the UI does.<br>
 `WeChat Mini Program` `FastAPI` `SQLAlchemy 2` `SQLite` `24 API tests`
 
 <details>
