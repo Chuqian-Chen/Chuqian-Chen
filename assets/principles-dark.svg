@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="308" viewBox="0 0 1200 308" role="img" aria-label="Four rules every system I ship obeys">
+  <rect width="1200" height="308" rx="4" fill="#17150F"/>
+  <rect x=".5" y=".5" width="1199" height="307" rx="3.5" fill="none" stroke="#33302A"/>
+  <text x="48" y="48" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" letter-spacing="3.5" fill="#6E665C">HOW I BUILD</text>
+  <text x="47" y="98" font-family="Georgia, Cambria, 'Liberation Serif', 'Times New Roman', serif" font-size="31" font-weight="700" fill="#F3EDE3">Medical honesty is a system property, not a prompt.</text>
+  <path d="M48 124 H1152" stroke="#33302A" stroke-width="1"/>
+  <text x="48" y="164" font-family="Georgia, Cambria, 'Liberation Serif', 'Times New Roman', serif" font-size="22" font-style="italic" fill="#D08B5F">01</text>
+  <text x="48" y="194" font-family="Georgia, Cambria, 'Liberation Serif', 'Times New Roman', serif" font-size="17" font-weight="700" fill="#F3EDE3">Never diagnose.</text>
+  <text x="48" y="220.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="13" fill="#B8AE9F">Every output is a signal and a</text>
+  <text x="48" y="238.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="13" fill="#B8AE9F">direction. Guardrails live in the</text>
+  <text x="48" y="257.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="13" fill="#B8AE9F">data layer, not just the prompt;</text>
+  <text x="48" y="275.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="13" fill="#B8AE9F">prescriptions are blocked at field</text>
+  <text x="48" y="294.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="13" fill="#B8AE9F">level.</text>
+  <text x="330" y="164" font-family="Georgia, Cambria, 'Liberation Serif', 'Times New Roman', serif" font-size="22" font-style="italic" fill="#D08B5F">02</text>
+  <text x="330" y="194" font-family="Georgia, Cambria, 'Liberation Serif', 'Times New Roman', serif" font-size="17" font-weight="700" fill="#F3EDE3">Never invent data.</text>
+  <text x="330" y="220.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="13" fill="#B8AE9F">If a value can&#x27;t be parsed, nothing</text>
+  <text x="330" y="238.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="13" fill="#B8AE9F">is written. Gaps are reported as</text>
+  <text x="330" y="257.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="13" fill="#B8AE9F">gaps, never imputed; population</text>
+  <text x="330" y="275.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="13" fill="#B8AE9F">figures are never divided down to one</text>
+  <text x="330" y="294.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="13" fill="#B8AE9F">person.</text>
+  <text x="612" y="164" font-family="Georgia, Cambria, 'Liberation Serif', 'Times New Roman', serif" font-size="22" font-style="italic" fill="#D08B5F">03</text>
+  <text x="612" y="194" font-family="Georgia, Cambria, 'Liberation Serif', 'Times New Roman', serif" font-size="17" font-weight="700" fill="#F3EDE3">Evidence or nothing.</text>
+  <text x="612" y="220.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="13" fill="#B8AE9F">A recommendation must reference a</text>
+  <text x="612" y="238.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="13" fill="#B8AE9F">source fact and an evidence item,</text>
+  <text x="612" y="257.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="13" fill="#B8AE9F">each anchored to a hash-signed</text>
+  <text x="612" y="275.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="13" fill="#B8AE9F">document. Missing either, no</text>
+  <text x="612" y="294.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="13" fill="#B8AE9F">recommendation.</text>
+  <text x="894" y="164" font-family="Georgia, Cambria, 'Liberation Serif', 'Times New Roman', serif" font-size="22" font-style="italic" fill="#D08B5F">04</text>
+  <text x="894" y="194" font-family="Georgia, Cambria, 'Liberation Serif', 'Times New Roman', serif" font-size="17" font-weight="700" fill="#F3EDE3">Prove the checks work.</text>
+  <text x="894" y="220.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="13" fill="#B8AE9F">Every validator is fault-injected</text>
+  <text x="894" y="238.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="13" fill="#B8AE9F">before it&#x27;s trusted: 14/14</text>
+  <text x="894" y="257.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="13" fill="#B8AE9F">hallucination modes fire, 18/18</text>
+  <text x="894" y="275.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="13" fill="#B8AE9F">broken states are caught, 100</text>
+  <text x="894" y="294.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="13" fill="#B8AE9F">self-test cases.</text>
+</svg>
