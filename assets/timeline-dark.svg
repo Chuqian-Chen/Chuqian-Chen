@@ -23,7 +23,7 @@
   <text x="760" y="195" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="12.5" fill="#B8AE9F">failure, AUC 0.81</text>
   <circle cx="970" cy="118" r="6" fill="#17150F" stroke="#8CC7B5" stroke-width="2.5"/>
   <text x="970" y="88" text-anchor="middle" font-family="Georgia, Cambria, 'Liberation Serif', 'Times New Roman', serif" font-size="26" font-weight="700" fill="#8CC7B5">2026</text>
-  <text x="970" y="156" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="14" font-weight="700" fill="#F3EDE3">Medin AI</text>
-  <text x="970" y="178" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="12.5" fill="#B8AE9F">AI Data R&amp;D · UKB agent,</text>
-  <text x="970" y="195" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="12.5" fill="#B8AE9F">ontology, HSCT</text>
+  <text x="970" y="156" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="14" font-weight="700" fill="#F3EDE3">Fudan University</text>
+  <text x="970" y="178" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="12.5" fill="#B8AE9F">Industry–academia partner ·</text>
+  <text x="970" y="195" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="12.5" fill="#B8AE9F">UKB agent, ontology</text>
 </svg>

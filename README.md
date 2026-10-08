@@ -15,8 +15,8 @@ ontologies over population biobanks, knowledge-graph evidence retrieval, and hea
 back to deterministic rules when the LLM is off. Most of what I ship runs with zero API keys, carries
 a disclaimer on every response, and declines to answer when the evidence isn't there.
 
-**Now** &nbsp;AI Data R&D at **Medin AI** — a self-evolving health agent and a Palantir-style ontology over
-UK Biobank. On the side, 400+ LeetCode problems and a 1800+ contest rating.
+**Now** &nbsp;AI Data R&D at **Fudan University**, through its industry–academia partner company — a self-evolving
+health agent and a Palantir-style ontology over UK Biobank. On the side, 400+ LeetCode problems and a 1800+ contest rating.
 
 <br>
 
