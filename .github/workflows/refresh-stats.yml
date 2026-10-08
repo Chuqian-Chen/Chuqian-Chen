@@ -1,0 +1,26 @@
+name: Refresh profile numbers
+on:
+  schedule: [{cron: "17 3 * * 1"}]   # Mondays 03:17 UTC
+  workflow_dispatch:
+permissions: {contents: write}
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Clone source repositories (read-only token)
+        env: {TOKEN: "${{ secrets.PROFILE_READ_TOKEN }}"}
+        run: |
+          set -e
+          for pair in ukb:UKB-Self-evolving-health-agent ontology:Ontology_Management hsct:llm_with_neo4j women:women-health-miniapp; do
+            d=${pair%%:*}; r=${pair##*:}
+            git clone --depth 1 "https://x-access-token:${TOKEN}@github.com/Chuqian-Chen/${r}.git" "src/$d" || echo "skip $r"
+          done
+      - run: python3 scripts/collect_stats.py
+      - run: python3 scripts/render.py
+      - name: Commit if anything changed
+        run: |
+          rm -rf src
+          git config user.name "profile-bot" && git config user.email "actions@users.noreply.github.com"
+          git add scripts/stats.json assets/verification-*.svg assets/retrieval-*.svg
+          git diff --cached --quiet || (git commit -m "Refresh profile numbers from source repositories" && git push)
