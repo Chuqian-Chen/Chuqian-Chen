@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1152" height="430" viewBox="0 0 1152 430" role="img" aria-label="Machine learning methods">
+  <rect width="1152" height="430" rx="4" fill="#17150F"/><rect x=".5" y=".5" width="1151" height="429" rx="3.5" fill="none" stroke="#33302A"/>
+  <text x="24" y="38" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" letter-spacing="3.5" fill="#6E665C">METHODS</text>
+  <text x="23" y="66" font-family="Georgia, Cambria, 'Liberation Serif', 'Times New Roman', serif" font-size="22" font-weight="700" fill="#F3EDE3">The models underneath — and the number each one has to defend.</text>
+  <rect x="24" y="84" width="356" height="152" rx="6" fill="#1F1C15" stroke="#33302A"/>
+  <text x="42" y="112" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" letter-spacing="2.2" fill="#8CC7B5">SURVIVAL</text>
+  <text x="42" y="136" font-family="Georgia, Cambria, 'Liberation Serif', 'Times New Roman', serif" font-size="16.5" font-weight="700" fill="#F3EDE3">GRU-D DeepHit</text>
+  <text x="42" y="158" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="11.8" fill="#B8AE9F">Competing risks over post-transplant timelines with</text>
+  <text x="42" y="174" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="11.8" fill="#B8AE9F">irregular sampling; 7 outcome families, per-outcome</text>
+  <text x="42" y="190" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="11.8" fill="#B8AE9F">horizons.</text>
+  <text x="42" y="221" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#8CC7B5">903 patients · 7 outcomes</text>
+  <rect x="396" y="84" width="356" height="152" rx="6" fill="#1F1C15" stroke="#33302A"/>
+  <text x="414" y="112" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" letter-spacing="2.2" fill="#8CC7B5">IMBALANCED CLASSIFICATION</text>
+  <text x="414" y="136" font-family="Georgia, Cambria, 'Liberation Serif', 'Times New Roman', serif" font-size="16.5" font-weight="700" fill="#F3EDE3">XGBoost + SMOTE + class weights</text>
+  <text x="414" y="158" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="11.8" fill="#B8AE9F">ICU non-invasive ventilation failure from</text>
+  <text x="414" y="174" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="11.8" fill="#B8AE9F">patient-time respiratory features.</text>
+  <text x="414" y="221" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#8CC7B5">AUC 0.81 · recall 71%</text>
+  <rect x="768" y="84" width="356" height="152" rx="6" fill="#1F1C15" stroke="#33302A"/>
+  <text x="786" y="112" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" letter-spacing="2.2" fill="#8CC7B5">MISSING-AWARE RETRIEVAL</text>
+  <text x="786" y="136" font-family="Georgia, Cambria, 'Liberation Serif', 'Times New Roman', serif" font-size="16.5" font-weight="700" fill="#F3EDE3">Axis-wise distance, bootstrap CI</text>
+  <text x="786" y="158" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="11.8" fill="#B8AE9F">Reliability-weighted similarity that refuses to</text>
+  <text x="786" y="174" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="11.8" fill="#B8AE9F">impute; evaluated against age-sex and single-axis</text>
+  <text x="786" y="190" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="11.8" fill="#B8AE9F">baselines.</text>
+  <text x="786" y="221" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#8CC7B5">paired bootstrap 95% CI</text>
+  <rect x="24" y="252" width="356" height="152" rx="6" fill="#1F1C15" stroke="#33302A"/>
+  <text x="42" y="280" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" letter-spacing="2.2" fill="#8CC7B5">INTERPRETABILITY</text>
+  <text x="42" y="304" font-family="Georgia, Cambria, 'Liberation Serif', 'Times New Roman', serif" font-size="16.5" font-weight="700" fill="#F3EDE3">SHAP + evidence grading</text>
+  <text x="42" y="326" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="11.8" fill="#B8AE9F">Driver attribution for clinicians; evidence</text>
+  <text x="42" y="342" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="11.8" fill="#B8AE9F">sufficiency replaces incomparable probability</text>
+  <text x="42" y="358" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="11.8" fill="#B8AE9F">contrasts.</text>
+  <text x="42" y="389" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#8CC7B5">strong / moderate / limited / absent</text>
+  <rect x="396" y="252" width="356" height="152" rx="6" fill="#1F1C15" stroke="#33302A"/>
+  <text x="414" y="280" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" letter-spacing="2.2" fill="#8CC7B5">DENSE RETRIEVAL</text>
+  <text x="414" y="304" font-family="Georgia, Cambria, 'Liberation Serif', 'Times New Roman', serif" font-size="16.5" font-weight="700" fill="#F3EDE3">BGE-M3 + FAISS</text>
+  <text x="414" y="326" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="11.8" fill="#B8AE9F">Schema retrieval for medical NL-to-SQL over MIMIC-IV</text>
+  <text x="414" y="342" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="11.8" fill="#B8AE9F">with SQL verification and rewrite loop.</text>
+  <text x="414" y="389" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#8CC7B5">83% JOIN accuracy</text>
+  <rect x="768" y="252" width="356" height="152" rx="6" fill="#1F1C15" stroke="#33302A"/>
+  <text x="786" y="280" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" letter-spacing="2.2" fill="#D08B5F">CAUSAL INFERENCE</text>
+  <text x="786" y="304" font-family="Georgia, Cambria, 'Liberation Serif', 'Times New Roman', serif" font-size="16.5" font-weight="700" fill="#F3EDE3">Drug-target Mendelian randomization</text>
+  <text x="786" y="326" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="11.8" fill="#B8AE9F">Genotype instruments from 5,692 SNPs for effects</text>
+  <text x="786" y="342" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="11.8" fill="#B8AE9F">observational ATC flags cannot estimate; E-values</text>
+  <text x="786" y="358" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="11.8" fill="#B8AE9F">and negative controls.</text>
+  <text x="786" y="389" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#D08B5F">planned · P3 roadmap</text>
+</svg>

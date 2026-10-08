@@ -63,6 +63,12 @@ OMOP CDM. A self-contained HTML explorer draws all of it — and drawing it caug
 </picture>
 
 <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/retrieval-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/retrieval-light.svg">
+  <img alt="Similar-patient retrieval algorithm over 498,339 people" src="./assets/retrieval-light.svg" width="100%">
+</picture>
+
+<picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/card-hsct-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/card-hsct-light.svg">
   <img alt="Transplant risk explained, probability untouched" src="./assets/card-hsct-light.svg" width="100%">
@@ -145,6 +151,14 @@ Create ML Models with BigQuery ML &nbsp;·&nbsp; Oracle Cloud Data Management 20
 Career Essentials in Generative AI (Microsoft / LinkedIn) &nbsp;·&nbsp; Lean Six Sigma White Belt
 
 </details>
+
+## Machine learning
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/methods-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/methods-light.svg">
+  <img alt="Machine learning methods and the number each one defends" src="./assets/methods-light.svg" width="100%">
+</picture>
 
 ## Verification
 
