@@ -22,7 +22,7 @@
   "halluc_modes": {
     "value": 14,
     "label": "14 / 14",
-    "source": "manual: check_hallucination.py --selftest"
+    "source": "auto: hallucination_selftest.json n_fired / n_cases"
   },
   "hsct_suites": {
     "value": 2,
@@ -194,5 +194,200 @@
       ]
     ],
     "source": "digitized from NIV2IMV-predictor/src/app/artifacts/shap/20250921T224923Z_Gradient-Boosting_bar.png (mean |SHAP|, gradient boosting, HACOR + vitals, grouped split, snapshot 6)"
+  },
+  "rigor": {
+    "value": {
+      "modes": [
+        [
+          "H1_fabricated_fact",
+          4,
+          "VALUE_BOUND",
+          0,
+          true
+        ],
+        [
+          "H2_fabricated_reference",
+          3,
+          "VALUE_BOUND",
+          0,
+          true
+        ],
+        [
+          "H3_fact_misread",
+          4,
+          "VALUE_BOUND",
+          0,
+          true
+        ],
+        [
+          "H4_threshold_misuse",
+          5,
+          "VALUE_BOUND",
+          0,
+          true
+        ],
+        [
+          "H5_causal_overclaim",
+          3,
+          "LEXICAL",
+          0,
+          true
+        ],
+        [
+          "H6_risk_as_diagnosis",
+          4,
+          "LEXICAL",
+          0,
+          true
+        ],
+        [
+          "H7_unsupported_evidence_answer",
+          3,
+          "LEXICAL",
+          0,
+          true
+        ],
+        [
+          "H8_duplicate",
+          1,
+          "STRUCTURAL",
+          0,
+          true
+        ],
+        [
+          "H9_record_consistency",
+          3,
+          "STRUCTURAL",
+          0,
+          true
+        ],
+        [
+          "H10_single_time_change",
+          3,
+          "LEXICAL",
+          0,
+          true
+        ],
+        [
+          "H11_inapplicable_subject",
+          2,
+          "STRUCTURAL",
+          0,
+          true
+        ],
+        [
+          "H12_false_certainty",
+          4,
+          "STRUCTURAL",
+          0,
+          true
+        ],
+        [
+          "H13_baseline_swap",
+          3,
+          "STRUCTURAL",
+          0,
+          true
+        ],
+        [
+          "H14_enum_drift",
+          2,
+          "STRUCTURAL",
+          0,
+          true
+        ]
+      ],
+      "risk_weighted_coverage": 70.5,
+      "scope": {
+        "n_actions": 120,
+        "n_subjects": 20,
+        "n_pattern_verdicts": 1000,
+        "n_edges": 247
+      },
+      "cq": [
+        [
+          "Q1",
+          "PASS"
+        ],
+        [
+          "Q2",
+          "PASS"
+        ],
+        [
+          "Q3",
+          "PARTIAL"
+        ],
+        [
+          "Q4",
+          "PARTIAL"
+        ],
+        [
+          "Q5",
+          "PARTIAL"
+        ],
+        [
+          "Q6",
+          "UNANSWERABLE"
+        ],
+        [
+          "Q7",
+          "PASS"
+        ],
+        [
+          "Q8",
+          "UNANSWERABLE"
+        ],
+        [
+          "Q9",
+          "PASS"
+        ],
+        [
+          "Q10",
+          "PASS"
+        ],
+        [
+          "Q11",
+          "PASS"
+        ],
+        [
+          "Q12",
+          "PASS"
+        ],
+        [
+          "Q13",
+          "PASS"
+        ],
+        [
+          "Q14",
+          "PASS"
+        ],
+        [
+          "Q15",
+          "PASS"
+        ],
+        [
+          "Q16",
+          "PASS"
+        ],
+        [
+          "Q17",
+          "PARTIAL"
+        ],
+        [
+          "Q18",
+          "PASS"
+        ],
+        [
+          "Q19",
+          "PASS"
+        ],
+        [
+          "Q20",
+          "PASS"
+        ]
+      ],
+      "cq_coverage": 0.7
+    },
+    "source": "auto: hallucination_report.json + hallucination_selftest.json + cq_results.json"
   }
 }

@@ -63,6 +63,14 @@ The ontology's indicator network, drawn from its own `knowledge_graph.json`: Spe
 
 Gradient-boosted NIV-failure model from the Mayo Clinic work: SHAP importances read from the repository's own export, and the model card as implemented — timepoint-anchored labels, grouped cross-validation by ICU stay, isotonic calibration, an operating point chosen for PPV ≥ 0.30 at recall ≥ 0.80.
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/rigor-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/rigor-light.svg">
+  <img alt="Evaluator rigor: hallucination modes with fault-injection results and competency-question coverage" src="./assets/rigor-light.svg" width="100%">
+</picture>
+
+Every hallucination validator is fault-injected before it is trusted, and the ontology's business questions run as a test suite with an honest coverage number.
+
 ## Selected systems
 
 <picture>
@@ -92,6 +100,8 @@ official dictionary rather than by guess. Missing-aware similarity across eight 
 coverage; compiles to GraphQL SDL, property-graph and JSON Schema; term reuse audited against FHIR R5 and
 OMOP CDM. A self-contained HTML explorer draws all of it — and drawing it caught four schema bugs the text audits missed.<br>
 `Parquet` `YAML schema` `Python` `85 CI checks` `100 fault-injection cases` `CQ suite 70%`
+
+**[Open the ontology explorer →](https://chuqian-chen.github.io/Chuqian-Chen/ontology-explorer.html)** &nbsp;·&nbsp; self-contained page, no external requests: 26 object types, the 457-node graph, 179 hover definitions, every number read live from the schema.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/ontology-tiers-dark.svg">

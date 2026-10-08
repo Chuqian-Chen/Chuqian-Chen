@@ -61,6 +61,14 @@
 
 Mayo 的 NIV 失败梯度提升模型：SHAP 重要性直接读自仓库导出的图，模型卡按实际实现写——以时间点锚定的标签、按 ICU 住院分组的交叉验证、isotonic 校准、按 PPV ≥ 0.30 且召回 ≥ 0.80 选的工作点。
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/rigor-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/rigor-light.svg">
+  <img alt="Evaluator rigor: hallucination modes with fault-injection results and competency-question coverage" src="./assets/rigor-light.svg" width="100%">
+</picture>
+
+每个幻觉验证器在被信任之前先做故障注入；本体的业务问句作为测试套件跑，覆盖率如实报。
+
 ## 精选系统
 
 <picture>
@@ -88,6 +96,8 @@ Mayo 的 NIV 失败梯度提升模型：SHAP 重要性直接读自仓库导出�
 八个覆盖率 10–100% 的数据层上做缺失感知相似检索；编译成 GraphQL SDL、属性图 schema 和 JSON Schema；术语复用对照 FHIR R5 / OMOP CDM。
 一个自包含 HTML 把整套本体画出来——画的过程本身查出了四个纯文本审计漏掉的 schema 问题。<br>
 `Parquet` `YAML schema` `Python` `85 CI checks` `100 fault-injection cases` `CQ suite 70%`
+
+**[打开本体浏览器 →](https://chuqian-chen.github.io/Chuqian-Chen/ontology-explorer.html)** &nbsp;·&nbsp; 自包含页面，无外部请求：26 个 Object Type、457 节点图谱、179 条悬停释义，所有数字实时读自 schema。
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/ontology-tiers-dark.svg">
