@@ -35,6 +35,8 @@
   <img alt="Self-evolving health agent over UK Biobank" src="./assets/card-ukb-agent-light.svg" width="100%">
 </picture>
 
+**复旦大学** · 校企产业合作公司 · 2026<br>
+
 体检报告（PDF / 拍照 / xlsx / HEIC）、可穿戴、CGM、血压计、手持超声和 EEG / fMRI / fNIRS，解析进同一个本体化画像，
 与约 50 万 UKB 分层常模对照。已发表风险模型、12 hallmarks 衰老评估、用药毒性六态监测、必过确定性安全闸的干预规划。
 不配 key 时规则引擎独立作答。<br>
@@ -45,6 +47,8 @@
   <source media="(prefers-color-scheme: light)" srcset="./assets/card-ontology-light.svg">
   <img alt="A Palantir-style ontology over 498,339 people" src="./assets/card-ontology-light.svg" width="100%">
 </picture>
+
+**复旦大学** · 校企产业合作公司 · 2026<br>
 
 11,318 个 UKB 字段上的 26 个 Object Type、13 个 Interface、38 条 Link、15 个 Action，按官方字典分组而不是靠猜。
 八个覆盖率 10–100% 的数据层上做缺失感知相似检索；编译成 GraphQL SDL、属性图 schema 和 JSON Schema；术语复用对照 FHIR R5 / OMOP CDM。
@@ -69,6 +73,8 @@
   <img alt="Transplant risk explained, probability untouched" src="./assets/card-hsct-light.svg" width="100%">
 </picture>
 
+**Medin AI** · AI 数据研发 · 2026<br>
+
 接任意上游模型给出的个体化概率，从文献图谱和 903 例 EHR 队列图谱检索七类 HSCT 结局的证据，用证据充分度分级代替口径不同的概率比大小。
 每类结局有自己的临床观察窗；移植学风险因子（HLA 错配、预处理强度、CMV 血清学、CD34 剂量）。Neo4j 可达走 Neo4j，否则本地 Parquet。<br>
 `FastAPI` `Neo4j` `Parquet` `GRU-D DeepHit adapter` `controlled prompts` `demo predictions hard-flagged`
@@ -78,6 +84,8 @@
   <source media="(prefers-color-scheme: light)" srcset="./assets/card-women-health-light.svg">
   <img alt="Supplement advice with a full evidence chain" src="./assets/card-women-health-light.svg" width="100%">
 </picture>
+
+**独立开发** · 2026<br>
 
 本地优先的微信小程序 + FastAPI 后端。仅凭生活方式问答就能出推荐；每张卡展开都是用户事实、SHA256 签名的来源文档和背后的 NIH / FDA / NCCIH 证据。
 外卖订单截图批量 OCR；幂等三步下单，服务端临床闸门在任何风险情境下返回 422，不管前端怎么说。<br>

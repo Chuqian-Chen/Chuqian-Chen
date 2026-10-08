@@ -4,8 +4,8 @@
   <rect x="472" width="8" height="232" fill="#F3EFE7"/>
   <rect x=".5" y=".5" width="1199" height="231" rx="3.5" fill="none" stroke="#DED6C9"/>
   <text x="48" y="48" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" letter-spacing="3" fill="#9A8F80">03 — CLINICAL ML · KG</text>
-  <rect x="381.6" y="33" width="58.4" height="21" rx="10.5" fill="#E9E3D8"/>
-  <text x="410.8" y="47.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" letter-spacing="1.5" fill="#6B6257">PRIVATE</text>
+  <rect x="302.4" y="33" width="137.6" height="21" rx="10.5" fill="#E9E3D8"/>
+  <text x="371.2" y="47.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" letter-spacing="1.5" fill="#6B6257">MEDIN AI · PRIVATE</text>
   <text x="47" y="92" font-family="Georgia, Cambria, 'Liberation Serif', 'Times New Roman', serif" font-size="25" font-weight="700" fill="#1A1712">Transplant risk explained,</text>
   <text x="47" y="124" font-family="Georgia, Cambria, 'Liberation Serif', 'Times New Roman', serif" font-size="25" font-weight="700" fill="#1A1712">probability untouched</text>
   <path d="M48 166 H100" stroke="#B8724A" stroke-width="3" stroke-linecap="round"/>

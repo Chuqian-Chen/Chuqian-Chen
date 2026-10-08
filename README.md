@@ -37,6 +37,8 @@ health agent and a Palantir-style ontology over UK Biobank. On the side, 400+ Le
   <img alt="Self-evolving health agent over UK Biobank" src="./assets/card-ukb-agent-light.svg" width="100%">
 </picture>
 
+**Fudan University** · industry–academia partner company · 2026<br>
+
 Lab reports (PDF, photo, xlsx, HEIC), wearables, CGM, blood pressure, handheld ultrasound and EEG / fMRI / fNIRS,
 parsed into one ontology-backed profile and compared against ~500k UK Biobank norms. Published risk models,
 12-hallmark aging, six-state drug-toxicity monitoring, and an intervention planner gated by a deterministic
@@ -48,6 +50,8 @@ safety check. With no API key configured, the rule engine answers alone.<br>
   <source media="(prefers-color-scheme: light)" srcset="./assets/card-ontology-light.svg">
   <img alt="A Palantir-style ontology over 498,339 people" src="./assets/card-ontology-light.svg" width="100%">
 </picture>
+
+**Fudan University** · industry–academia partner company · 2026<br>
 
 26 object types, 13 interfaces, 38 link types and 15 actions over 11,318 UK Biobank fields, grouped by the
 official dictionary rather than by guess. Missing-aware similarity across eight data layers with 10–100%
@@ -73,6 +77,8 @@ OMOP CDM. A self-contained HTML explorer draws all of it — and drawing it caug
   <img alt="Transplant risk explained, probability untouched" src="./assets/card-hsct-light.svg" width="100%">
 </picture>
 
+**Medin AI** · AI Data R&D · 2026<br>
+
 Takes an individual probability from any upstream model, retrieves evidence from a literature graph and a
 903-patient EHR cohort graph for seven HSCT outcomes, and grades evidence sufficiency instead of comparing
 incompatible probabilities. Per-outcome clinical windows; transplant-specific risk factors (HLA mismatch,
@@ -84,6 +90,8 @@ conditioning intensity, CMV serology, CD34 dose). Neo4j when reachable, local Pa
   <source media="(prefers-color-scheme: light)" srcset="./assets/card-women-health-light.svg">
   <img alt="Supplement advice with a full evidence chain" src="./assets/card-women-health-light.svg" width="100%">
 </picture>
+
+**Independent project** · solo-built · 2026<br>
 
 Local-first WeChat mini program plus FastAPI backend. Lifestyle answers alone drive recommendations; every
 card expands to the user facts, the SHA256-signed source document, and the NIH / FDA / NCCIH evidence behind
