@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="372" viewBox="0 0 1080 372" role="img" aria-label="Verification wall">
+  <rect width="1080" height="372" rx="4" fill="#17150F"/><rect x=".5" y=".5" width="1079" height="371" rx="3.5" fill="none" stroke="#33302A"/>
+  <text x="24" y="38" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" letter-spacing="3.5" fill="#6E665C">PROOF, NOT PROMISES</text>
+  <text x="23" y="66" font-family="Georgia, Cambria, 'Liberation Serif', 'Times New Roman', serif" font-size="22" font-weight="700" fill="#F3EDE3">What runs green before anything ships</text>
+  <text x="1056" y="66" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" fill="#6E665C">log scale</text>
+  <text x="24" y="107" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#F3EDE3">UKB health agent</text>
+  <text x="212" y="107" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="12.5" fill="#B8AE9F">deterministic tests</text>
+  <rect x="440" y="92" width="520" height="20" rx="3" fill="#3A352C" opacity=".35"/>
+  <rect x="440" y="92" width="520" height="20" rx="3" fill="#8CC7B5"/>
+  <text x="970" y="107" font-family="Georgia, Cambria, 'Liberation Serif', 'Times New Roman', serif" font-size="15" font-weight="700" fill="#F3EDE3">2,300+</text>
+  <text x="24" y="145" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#F3EDE3">UKB health agent</text>
+  <text x="212" y="145" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="12.5" fill="#B8AE9F">real-browser E2E</text>
+  <rect x="440" y="130" width="520" height="20" rx="3" fill="#3A352C" opacity=".35"/>
+  <rect x="440" y="130" width="275" height="20" rx="3" fill="#D08B5F"/>
+  <text x="725" y="145" font-family="Georgia, Cambria, 'Liberation Serif', 'Times New Roman', serif" font-size="15" font-weight="700" fill="#F3EDE3">60+</text>
+  <text x="24" y="183" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#F3EDE3">Ontology</text>
+  <text x="212" y="183" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="12.5" fill="#B8AE9F">CI checks</text>
+  <rect x="440" y="168" width="520" height="20" rx="3" fill="#3A352C" opacity=".35"/>
+  <rect x="440" y="168" width="298" height="20" rx="3" fill="#8CC7B5"/>
+  <text x="748" y="183" font-family="Georgia, Cambria, 'Liberation Serif', 'Times New Roman', serif" font-size="15" font-weight="700" fill="#F3EDE3">85</text>
+  <text x="24" y="221" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#F3EDE3">Ontology</text>
+  <text x="212" y="221" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="12.5" fill="#B8AE9F">fault-injection cases</text>
+  <rect x="440" y="206" width="520" height="20" rx="3" fill="#3A352C" opacity=".35"/>
+  <rect x="440" y="206" width="309" height="20" rx="3" fill="#D08B5F"/>
+  <text x="759" y="221" font-family="Georgia, Cambria, 'Liberation Serif', 'Times New Roman', serif" font-size="15" font-weight="700" fill="#F3EDE3">100</text>
+  <text x="24" y="259" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#F3EDE3">Ontology</text>
+  <text x="212" y="259" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="12.5" fill="#B8AE9F">hallucination modes caught</text>
+  <rect x="440" y="244" width="520" height="20" rx="3" fill="#3A352C" opacity=".35"/>
+  <rect x="440" y="244" width="177" height="20" rx="3" fill="#8CC7B5"/>
+  <text x="627" y="259" font-family="Georgia, Cambria, 'Liberation Serif', 'Times New Roman', serif" font-size="15" font-weight="700" fill="#F3EDE3">14 / 14</text>
+  <text x="24" y="297" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#F3EDE3">HSCT explainability</text>
+  <text x="212" y="297" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="12.5" fill="#B8AE9F">smoke + clinical tests</text>
+  <rect x="440" y="282" width="520" height="20" rx="3" fill="#3A352C" opacity=".35"/>
+  <rect x="440" y="282" width="47" height="20" rx="3" fill="#D08B5F"/>
+  <text x="497" y="297" font-family="Georgia, Cambria, 'Liberation Serif', 'Times New Roman', serif" font-size="15" font-weight="700" fill="#F3EDE3">2 suites</text>
+  <text x="24" y="335" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#F3EDE3">Women&#x27;s health</text>
+  <text x="212" y="335" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="12.5" fill="#B8AE9F">API test cases</text>
+  <rect x="440" y="320" width="520" height="20" rx="3" fill="#3A352C" opacity=".35"/>
+  <rect x="440" y="320" width="213" height="20" rx="3" fill="#8CC7B5"/>
+  <text x="663" y="335" font-family="Georgia, Cambria, 'Liberation Serif', 'Times New Roman', serif" font-size="15" font-weight="700" fill="#F3EDE3">24</text>
+</svg>

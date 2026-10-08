@@ -57,6 +57,12 @@ OMOP CDM. A self-contained HTML explorer draws all of it — and drawing it caug
 `Parquet` `YAML schema` `Python` `85 CI checks` `100 fault-injection cases` `CQ suite 70%`
 
 <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/ontology-tiers-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/ontology-tiers-light.svg">
+  <img alt="Ontology tiers: master data, process events, derived results" src="./assets/ontology-tiers-light.svg" width="100%">
+</picture>
+
+<picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/card-hsct-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/card-hsct-light.svg">
   <img alt="Transplant risk explained, probability untouched" src="./assets/card-hsct-light.svg" width="100%">
@@ -140,12 +146,13 @@ Career Essentials in Generative AI (Microsoft / LinkedIn) &nbsp;·&nbsp; Lean Si
 
 </details>
 
-## GitHub
+## Verification
 
-<p>
-  <img height="150" alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=Chuqian-Chen&show_icons=true&hide_border=true&rank_icon=github&bg_color=00000000&title_color=4F9A87&icon_color=B8724A&text_color=8A8378">
-  <img height="150" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Chuqian-Chen&layout=compact&hide_border=true&bg_color=00000000&title_color=4F9A87&text_color=8A8378">
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/verification-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/verification-light.svg">
+  <img alt="What runs green before anything ships" src="./assets/verification-light.svg" width="100%">
+</picture>
 
 ## Contact
 
