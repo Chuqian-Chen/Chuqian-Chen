@@ -1,0 +1,82 @@
+{
+  "ukb_agent_tests": {
+    "value": 2300,
+    "label": "2,300+",
+    "source": "auto: def test_ count in UKB-Self-evolving-health-agent/tests"
+  },
+  "ukb_agent_e2e": {
+    "value": 60,
+    "label": "60+",
+    "source": "auto: test( count in UKB-Self-evolving-health-agent/e2e"
+  },
+  "ontology_ci": {
+    "value": 85,
+    "label": "85",
+    "source": "auto: CI- ids in Ontology_Management/schema/dictionary/verify_docs.py"
+  },
+  "ontology_faults": {
+    "value": 100,
+    "label": "100",
+    "source": "auto: cases in verify_selftest.py"
+  },
+  "halluc_modes": {
+    "value": 14,
+    "label": "14 / 14",
+    "source": "manual: check_hallucination.py --selftest"
+  },
+  "hsct_suites": {
+    "value": 2,
+    "label": "2 suites",
+    "source": "auto: test_*.py files in llm_with_neo4j/tests"
+  },
+  "women_tests": {
+    "value": 24,
+    "label": "24",
+    "source": "auto: def test_ count in women-health-miniapp/backend/tests"
+  },
+  "axis_weights": {
+    "value": [
+      [
+        "ICD-10",
+        0.16
+      ],
+      [
+        "ClinicalLab",
+        0.15
+      ],
+      [
+        "NMR metab.",
+        0.13
+      ],
+      [
+        "Anthropometry",
+        0.11
+      ],
+      [
+        "OPCS-4",
+        0.1
+      ],
+      [
+        "Blood pressure",
+        0.09
+      ],
+      [
+        "Diet",
+        0.08
+      ],
+      [
+        "Sleep",
+        0.07
+      ],
+      [
+        "Hand grip",
+        0.06
+      ],
+      [
+        "Sun exposure",
+        0.05
+      ]
+    ],
+    "source": "auto: Ontology_Management/schema/dictionary/axis_measurements.json (top-10 by weight); illustrative until first run"
+  }
+}

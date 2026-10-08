@@ -4,24 +4,22 @@
   <img alt="Chuqian Chen — clinical AI that refuses to guess" src="./assets/hero-light.svg" width="100%">
 </picture>
 
-**English** · [中文](README.zh-CN.md)
+[English](README.md) · **中文**
 
 <a href="mailto:ccq33927@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-0E3B34?style=flat-square&logo=gmail&logoColor=white"></a>
 <a href="https://www.linkedin.com/in/chloe-chen-chuqian"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0E3B34?style=flat-square&logo=linkedin&logoColor=white"></a>
 <a href="https://leetcode.com/u/chuqianc/"><img alt="LeetCode" src="https://img.shields.io/badge/LeetCode-0E3B34?style=flat-square&logo=leetcode&logoColor=white"></a>
 
-I work on the layer between messy clinical data and decisions people are willing to act on:
-ontologies over population biobanks, knowledge-graph evidence retrieval, and health agents that fall
-back to deterministic rules when the LLM is off. Most of what I ship runs with zero API keys, carries
-a disclaimer on every response, and declines to answer when the evidence isn't there.
+我做的是"杂乱临床数据"和"人愿意据此行动的决策"之间的那一层：人群生物样本库上的本体、知识图谱证据检索、
+以及 LLM 关掉时能退回确定性规则的健康智能体。我交付的大多数系统不配任何 API key 也能跑，每个响应带免责声明，
+证据不够就拒答。
 
-**Now** &nbsp;AI Data R&D at **Medin AI** — a self-evolving health agent and a Palantir-style ontology over
-UK Biobank. On the side, 400+ LeetCode problems and a 1800+ contest rating.
+**现在** &nbsp;在 **Medin AI** 做 AI 数据研发：UK Biobank 上的自进化健康智能体和 Palantir 风格本体。业余 LeetCode 400+ 题，竞赛分 1800+。
 
 <br>
 
 
-**How I build** &nbsp;Never diagnose · never invent data · evidence or nothing · prove the checks work.
+**我怎么做** &nbsp;不下诊断 · 不臆造数据 · 没证据就不输出 · 先证明检查器本身能响。
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/system-map-dark.svg">
@@ -29,7 +27,7 @@ UK Biobank. On the side, 400+ LeetCode problems and a 1800+ contest rating.
   <img alt="From raw signal to a reviewed decision, and back" src="./assets/system-map-light.svg" width="100%">
 </picture>
 
-## Selected systems
+## 精选系统
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/card-ukb-agent-dark.svg">
@@ -37,10 +35,9 @@ UK Biobank. On the side, 400+ LeetCode problems and a 1800+ contest rating.
   <img alt="Self-evolving health agent over UK Biobank" src="./assets/card-ukb-agent-light.svg" width="100%">
 </picture>
 
-Lab reports (PDF, photo, xlsx, HEIC), wearables, CGM, blood pressure, handheld ultrasound and EEG / fMRI / fNIRS,
-parsed into one ontology-backed profile and compared against ~500k UK Biobank norms. Published risk models,
-12-hallmark aging, six-state drug-toxicity monitoring, and an intervention planner gated by a deterministic
-safety check. With no API key configured, the rule engine answers alone.<br>
+体检报告（PDF / 拍照 / xlsx / HEIC）、可穿戴、CGM、血压计、手持超声和 EEG / fMRI / fNIRS，解析进同一个本体化画像，
+与约 50 万 UKB 分层常模对照。已发表风险模型、12 hallmarks 衰老评估、用药毒性六态监测、必过确定性安全闸的干预规划。
+不配 key 时规则引擎独立作答。<br>
 `FastAPI` `vanilla ES modules` `SQLite` `Playwright` `ruff → lock → pytest → E2E CI`
 
 <picture>
@@ -49,10 +46,9 @@ safety check. With no API key configured, the rule engine answers alone.<br>
   <img alt="A Palantir-style ontology over 498,339 people" src="./assets/card-ontology-light.svg" width="100%">
 </picture>
 
-26 object types, 13 interfaces, 38 link types and 15 actions over 11,318 UK Biobank fields, grouped by the
-official dictionary rather than by guess. Missing-aware similarity across eight data layers with 10–100%
-coverage; compiles to GraphQL SDL, property-graph and JSON Schema; term reuse audited against FHIR R5 and
-OMOP CDM. A self-contained HTML explorer draws all of it — and drawing it caught four schema bugs the text audits missed.<br>
+11,318 个 UKB 字段上的 26 个 Object Type、13 个 Interface、38 条 Link、15 个 Action，按官方字典分组而不是靠猜。
+八个覆盖率 10–100% 的数据层上做缺失感知相似检索；编译成 GraphQL SDL、属性图 schema 和 JSON Schema；术语复用对照 FHIR R5 / OMOP CDM。
+一个自包含 HTML 把整套本体画出来——画的过程本身查出了四个纯文本审计漏掉的 schema 问题。<br>
 `Parquet` `YAML schema` `Python` `85 CI checks` `100 fault-injection cases` `CQ suite 70%`
 
 <picture>
@@ -73,10 +69,8 @@ OMOP CDM. A self-contained HTML explorer draws all of it — and drawing it caug
   <img alt="Transplant risk explained, probability untouched" src="./assets/card-hsct-light.svg" width="100%">
 </picture>
 
-Takes an individual probability from any upstream model, retrieves evidence from a literature graph and a
-903-patient EHR cohort graph for seven HSCT outcomes, and grades evidence sufficiency instead of comparing
-incompatible probabilities. Per-outcome clinical windows; transplant-specific risk factors (HLA mismatch,
-conditioning intensity, CMV serology, CD34 dose). Neo4j when reachable, local Parquet when not.<br>
+接任意上游模型给出的个体化概率，从文献图谱和 903 例 EHR 队列图谱检索七类 HSCT 结局的证据，用证据充分度分级代替口径不同的概率比大小。
+每类结局有自己的临床观察窗；移植学风险因子（HLA 错配、预处理强度、CMV 血清学、CD34 剂量）。Neo4j 可达走 Neo4j，否则本地 Parquet。<br>
 `FastAPI` `Neo4j` `Parquet` `GRU-D DeepHit adapter` `controlled prompts` `demo predictions hard-flagged`
 
 <picture>
@@ -85,14 +79,12 @@ conditioning intensity, CMV serology, CD34 dose). Neo4j when reachable, local Pa
   <img alt="Supplement advice with a full evidence chain" src="./assets/card-women-health-light.svg" width="100%">
 </picture>
 
-Local-first WeChat mini program plus FastAPI backend. Lifestyle answers alone drive recommendations; every
-card expands to the user facts, the SHA256-signed source document, and the NIH / FDA / NCCIH evidence behind
-it. Batch OCR of order screenshots; idempotent three-step checkout with a server-side clinical gate that
-returns 422 under any risk context, whatever the UI does.<br>
+本地优先的微信小程序 + FastAPI 后端。仅凭生活方式问答就能出推荐；每张卡展开都是用户事实、SHA256 签名的来源文档和背后的 NIH / FDA / NCCIH 证据。
+外卖订单截图批量 OCR；幂等三步下单，服务端临床闸门在任何风险情境下返回 422，不管前端怎么说。<br>
 `WeChat Mini Program` `FastAPI` `SQLAlchemy 2` `SQLite` `24 API tests`
 
 <details>
-<summary><b>Also on the shelf</b></summary>
+<summary><b>其他公开仓库</b></summary>
 
 <br>
 
@@ -106,7 +98,7 @@ reduced to a runnable, unit-tested graph with a deterministic mock LLM.
 </details>
 
 <details>
-<summary><b>Earlier research</b></summary>
+<summary><b>早期研究</b></summary>
 
 <br>
 
@@ -124,7 +116,7 @@ retrieval, SQL verification and rewrite loop. 83% JOIN accuracy.
 
 </details>
 
-## Stack
+## 技术栈
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/stack-dark.svg">
@@ -132,7 +124,7 @@ retrieval, SQL verification and rewrite loop. 83% JOIN accuracy.
   <img alt="Stack" src="./assets/stack-light.svg" width="100%">
 </picture>
 
-## Experience
+## 经历
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/timeline-dark.svg">
@@ -141,7 +133,7 @@ retrieval, SQL verification and rewrite loop. 83% JOIN accuracy.
 </picture>
 
 <details>
-<summary><b>Certifications</b></summary>
+<summary><b>证书</b></summary>
 
 <br>
 
@@ -151,7 +143,7 @@ Career Essentials in Generative AI (Microsoft / LinkedIn) &nbsp;·&nbsp; Lean Si
 
 </details>
 
-## Machine learning
+## 机器学习
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/methods-dark.svg">
@@ -159,7 +151,7 @@ Career Essentials in Generative AI (Microsoft / LinkedIn) &nbsp;·&nbsp; Lean Si
   <img alt="Machine learning methods and the number each one defends" src="./assets/methods-light.svg" width="100%">
 </picture>
 
-## Verification
+## 验证
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/verification-dark.svg">
@@ -167,8 +159,8 @@ Career Essentials in Generative AI (Microsoft / LinkedIn) &nbsp;·&nbsp; Lean Si
   <img alt="What runs green before anything ships" src="./assets/verification-light.svg" width="100%">
 </picture>
 
-## Contact
+## 联系
 
-Open to work in medical AI, data engineering, ML systems, and LLM / agent development.
+欢迎医学 AI、数据工程、ML 系统、LLM / 智能体方向的工作与合作。
 
 [Email](mailto:ccq33927@gmail.com) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/chloe-chen-chuqian) &nbsp;·&nbsp; [LeetCode](https://leetcode.com/u/chuqianc/) &nbsp;·&nbsp; [LeetCode CN](https://leetcode.cn/u/ccq33927/)
