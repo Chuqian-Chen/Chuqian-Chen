@@ -29,15 +29,15 @@ ci = count(r"\bCI-\d+\b", [src("ontology", "schema", "dictionary", "verify_docs.
 put("hsct_suites", len(glob.glob(src("hsct", "tests", "test_*.py"))), f"{len(glob.glob(src('hsct','tests','test_*.py')))} suites")
 put("women_tests", count(r"^\s*def test_", [src("women", "backend", "tests", "**", "*.py")]), str(count(r"^\s*def test_", [src("women", "backend", "tests", "**", "*.py")])))
 
-am = src("ontology", "schema", "dictionary", "axis_measurements.json")
-if os.path.exists(am):
-    data = json.load(open(am))
-    axes = data.get("axes", data) if isinstance(data, dict) else data
-    rows = []
-    for k, v in (axes.items() if isinstance(axes, dict) else ((a.get("name") or a.get("id"), a) for a in axes)):
-        w = v.get("weight") if isinstance(v, dict) else None
-        if isinstance(w, (int, float)): rows.append([k, round(float(w), 2)])
-    rows.sort(key=lambda r: -r[1])
-    if rows: st["axis_weights"]["value"] = rows[:10]; st["axis_weights"]["source"] = "auto: axis_measurements.json"; print("axis_weights:", rows[:10])
-else: print("axis_measurements.json not found, keeping current weights")
+oy = src("ontology", "schema", "ontology.yaml"); lo = src("ontology", "schema", "dictionary", "loo_stability.json"); rv = src("ontology", "schema", "dictionary", "retrieval_eval.json")
+NAME = {"clinical_lab":"ClinicalLab","anthropometry":"Anthropometry","nmr_metabolomics":"NMR metab.","blood_pressure":"Blood pressure","diet":"Diet","hand_grip_strength":"Hand grip","sleep":"Sleep","icd10_burden":"ICD-10","sun_exposure":"Sun exposure","opcs4_burden":"OPCS-4"}
+if os.path.exists(oy) and os.path.exists(lo):
+    y = open(oy, encoding="utf-8").read(); blk = y[y.index("axis_weight_policy:"):]; blk = blk[:blk.index("note:")]
+    w = {k: float(v) for k, v in re.findall(r"^\s{4}([a-z0-9_]+):\s+([0-9.]+)\s*$", blk, re.M)}
+    loo = {k: v for k, v in json.load(open(lo)).items() if not k.startswith("_")}
+    rows = [[NAME.get(k, k), round(v, 4), round(1 - loo[k]["after"], 3) if k in loo else 0] for k, v in sorted(w.items(), key=lambda kv: -kv[1])]
+    if rows: st["axis_weights"]["value"] = rows; print("axis_weights:", rows)
+else: print("ontology.yaml / loo_stability.json not found, keeping current weights")
+if os.path.exists(rv):
+    ev = json.load(open(rv)); st["retrieval_eval"]["value"] = {k: {"prevalence": ev[k]["prevalence"], "point": ev[k]["bootstrap"]["point_on_paired_subset"], "ci95": ev[k]["bootstrap"]["ci95"], "lift": ev[k]["concordance_separation"]["lift_vs_prevalence"]} for k in ("t2dm", "circulatory") if k in ev}; print("retrieval_eval refreshed")
 json.dump(st, open(SP, "w"), indent=2, ensure_ascii=False)

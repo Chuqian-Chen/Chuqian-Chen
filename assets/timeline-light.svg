@@ -1,29 +1,35 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1112" height="230" viewBox="0 0 1112 230" role="img" aria-label="Experience timeline 2022 to 2026">
   <rect width="1112" height="230" rx="4" fill="#FBF8F3"/><rect x=".5" y=".5" width="1111" height="229" rx="3.5" fill="none" stroke="#DED6C9"/>
   <text x="24" y="38" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" letter-spacing="3.5" fill="#9A8F80">EXPERIENCE</text>
-  <path d="M130 118 H970" stroke="#DED6C9" stroke-width="2"/>
-  <circle cx="130" cy="118" r="6" fill="#FBF8F3" stroke="#0E3B34" stroke-width="2.5"/>
-  <text x="130" y="88" text-anchor="middle" font-family="Georgia, Cambria, 'Liberation Serif', 'Times New Roman', serif" font-size="26" font-weight="700" fill="#0E3B34">2022</text>
-  <text x="130" y="156" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="14" font-weight="700" fill="#1A1712">Chinese Acad. of Sciences</text>
-  <text x="130" y="178" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="12.5" fill="#5A5248">Full Stack Engineer · ML</text>
-  <text x="130" y="195" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="12.5" fill="#5A5248">disaster alarming</text>
-  <circle cx="340" cy="118" r="6" fill="#FBF8F3" stroke="#0E3B34" stroke-width="2.5"/>
-  <text x="340" y="88" text-anchor="middle" font-family="Georgia, Cambria, 'Liberation Serif', 'Times New Roman', serif" font-size="26" font-weight="700" fill="#0E3B34">2024</text>
-  <text x="340" y="156" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="14" font-weight="700" fill="#1A1712">USC</text>
-  <text x="340" y="178" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="12.5" fill="#5A5248">MS Analytics</text>
-  <circle cx="550" cy="118" r="6" fill="#FBF8F3" stroke="#0E3B34" stroke-width="2.5"/>
-  <text x="550" y="88" text-anchor="middle" font-family="Georgia, Cambria, 'Liberation Serif', 'Times New Roman', serif" font-size="26" font-weight="700" fill="#0E3B34">2025</text>
-  <text x="550" y="156" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="14" font-weight="700" fill="#1A1712">USC ISI</text>
-  <text x="550" y="178" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="12.5" fill="#5A5248">Data Engineer · Eye-AI,</text>
-  <text x="550" y="195" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="12.5" fill="#5A5248">200k+ OCT / fundus</text>
-  <circle cx="760" cy="118" r="6" fill="#FBF8F3" stroke="#0E3B34" stroke-width="2.5"/>
-  <text x="760" y="88" text-anchor="middle" font-family="Georgia, Cambria, 'Liberation Serif', 'Times New Roman', serif" font-size="26" font-weight="700" fill="#0E3B34">2025</text>
-  <text x="760" y="156" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="14" font-weight="700" fill="#1A1712">Mayo Clinic</text>
-  <text x="760" y="178" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="12.5" fill="#5A5248">Data Scientist · NIV</text>
-  <text x="760" y="195" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="12.5" fill="#5A5248">failure, AUC 0.81</text>
-  <circle cx="970" cy="118" r="6" fill="#FBF8F3" stroke="#0E3B34" stroke-width="2.5"/>
-  <text x="970" y="88" text-anchor="middle" font-family="Georgia, Cambria, 'Liberation Serif', 'Times New Roman', serif" font-size="26" font-weight="700" fill="#0E3B34">2026</text>
-  <text x="970" y="156" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="14" font-weight="700" fill="#1A1712">Medin AI</text>
-  <text x="970" y="178" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="12.5" fill="#5A5248">AI Data R&amp;D · UKB agent,</text>
-  <text x="970" y="195" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="12.5" fill="#5A5248">ontology, HSCT</text>
+  <path d="M96 118 H1016" stroke="#DED6C9" stroke-width="2"/>
+  <circle cx="96" cy="118" r="6" fill="#FBF8F3" stroke="#0E3B34" stroke-width="2.5"/>
+  <text x="96" y="88" text-anchor="middle" font-family="Georgia, Cambria, 'Liberation Serif', 'Times New Roman', serif" font-size="26" font-weight="700" fill="#0E3B34">2022</text>
+  <text x="96" y="156" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="14" font-weight="700" fill="#1A1712">Chinese Acad. of Sciences</text>
+  <text x="96" y="178" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="12.5" fill="#5A5248">Full Stack Engineer · ML</text>
+  <text x="96" y="195" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="12.5" fill="#5A5248">disaster alarming</text>
+  <circle cx="280" cy="118" r="6" fill="#FBF8F3" stroke="#0E3B34" stroke-width="2.5"/>
+  <text x="280" y="88" text-anchor="middle" font-family="Georgia, Cambria, 'Liberation Serif', 'Times New Roman', serif" font-size="26" font-weight="700" fill="#0E3B34">2024</text>
+  <text x="280" y="156" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="14" font-weight="700" fill="#1A1712">USC</text>
+  <text x="280" y="178" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="12.5" fill="#5A5248">MS Analytics</text>
+  <circle cx="464" cy="118" r="6" fill="#FBF8F3" stroke="#0E3B34" stroke-width="2.5"/>
+  <text x="464" y="88" text-anchor="middle" font-family="Georgia, Cambria, 'Liberation Serif', 'Times New Roman', serif" font-size="26" font-weight="700" fill="#0E3B34">2025</text>
+  <text x="464" y="156" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="14" font-weight="700" fill="#1A1712">USC ISI</text>
+  <text x="464" y="178" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="12.5" fill="#5A5248">Data Engineer · Eye-AI,</text>
+  <text x="464" y="195" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="12.5" fill="#5A5248">200k+ OCT / fundus</text>
+  <circle cx="648" cy="118" r="6" fill="#FBF8F3" stroke="#0E3B34" stroke-width="2.5"/>
+  <text x="648" y="88" text-anchor="middle" font-family="Georgia, Cambria, 'Liberation Serif', 'Times New Roman', serif" font-size="26" font-weight="700" fill="#0E3B34">2025</text>
+  <text x="648" y="156" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="14" font-weight="700" fill="#1A1712">Mayo Clinic</text>
+  <text x="648" y="178" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="12.5" fill="#5A5248">Data Scientist · NIV</text>
+  <text x="648" y="195" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="12.5" fill="#5A5248">failure predictor</text>
+  <circle cx="832" cy="118" r="6" fill="#FBF8F3" stroke="#0E3B34" stroke-width="2.5"/>
+  <text x="832" y="88" text-anchor="middle" font-family="Georgia, Cambria, 'Liberation Serif', 'Times New Roman', serif" font-size="26" font-weight="700" fill="#0E3B34">2026</text>
+  <text x="832" y="156" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="14" font-weight="700" fill="#1A1712">Medin AI</text>
+  <text x="832" y="178" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="12.5" fill="#5A5248">AI Data R&amp;D · HSCT KG</text>
+  <text x="832" y="195" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="12.5" fill="#5A5248">explainability</text>
+  <circle cx="1016" cy="118" r="8" fill="#B8724A" stroke="#B8724A" stroke-width="2.5"/>
+  <text x="1016" y="88" text-anchor="middle" font-family="Georgia, Cambria, 'Liberation Serif', 'Times New Roman', serif" font-size="26" font-weight="700" fill="#0E3B34">2026</text>
+  <text x="1016" y="156" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="14" font-weight="700" fill="#1A1712">Fudan University</text>
+  <text x="1016" y="178" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="12.5" fill="#5A5248">Industry–academia</text>
+  <text x="1016" y="195" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="12.5" fill="#5A5248">partner · UKB agent,</text>
+  <text x="1016" y="212" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="12.5" fill="#5A5248">ontology</text>
 </svg>
