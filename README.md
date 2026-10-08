@@ -24,6 +24,12 @@ UK Biobank. On the side, 400+ LeetCode problems and a 1800+ contest rating.
   <img alt="Four rules every system I ship obeys: never diagnose, never invent data, evidence or nothing, prove the checks work" src="./assets/principles-light.svg" width="100%">
 </picture>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/system-map-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/system-map-light.svg">
+  <img alt="From raw signal to a reviewed decision, and back" src="./assets/system-map-light.svg" width="100%">
+</picture>
+
 ## Selected systems
 
 <picture>
@@ -49,6 +55,18 @@ official dictionary rather than by guess. Missing-aware similarity across eight 
 coverage; compiles to GraphQL SDL, property-graph and JSON Schema; term reuse audited against FHIR R5 and
 OMOP CDM. A self-contained HTML explorer draws all of it — and drawing it caught four schema bugs the text audits missed.<br>
 `Parquet` `YAML schema` `Python` `85 CI checks` `100 fault-injection cases` `CQ suite 70%`
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/ontology-tiers-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/ontology-tiers-light.svg">
+  <img alt="Ontology tiers: master data, process events, derived results" src="./assets/ontology-tiers-light.svg" width="100%">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/retrieval-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/retrieval-light.svg">
+  <img alt="Similar-patient retrieval algorithm over 498,339 people" src="./assets/retrieval-light.svg" width="100%">
+</picture>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/card-hsct-dark.svg">
@@ -109,23 +127,19 @@ retrieval, SQL verification and rewrite loop. 83% JOIN accuracy.
 
 ## Stack
 
-- **Languages** &nbsp;`Python` `Java` `TypeScript` `JavaScript` `SQL`
-- **Data** &nbsp;`Spark` `Hive` `Hadoop` `Parquet` `PostgreSQL` `BigQuery` `Neo4j` `Redis` `MongoDB`
-- **ML** &nbsp;`PyTorch` `TensorFlow` `XGBoost` `SHAP` `LoRA` `RoBERTa` `GRU-D`
-- **LLM & agents** &nbsp;`LangGraph` `RAG` `NL-to-SQL` `FAISS` `BGE-M3` `MinerU` `constrained decoding`
-- **Ontology** &nbsp;`Palantir-style object model` `FHIR R5` `OMOP CDM` `GraphQL SDL` `JSON Schema`
-- **Services** &nbsp;`FastAPI` `Django` `Spring Boot` `Flask` `Node.js` `React` `Vue` `WeChat Mini Program`
-- **Infra** &nbsp;`Docker` `Kubernetes` `MLflow` `Kubeflow` `Playwright` `AWS` `GCP`
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/stack-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/stack-light.svg">
+  <img alt="Stack" src="./assets/stack-light.svg" width="100%">
+</picture>
 
 ## Experience
 
-| Year | Where | Role |
-| :-- | :-- | :-- |
-| **2026** | Medin AI | AI Data R&D — UK Biobank health agent, medical ontology, HSCT explainability |
-| **2025** | Mayo Clinic | Data Scientist — NIV failure prediction |
-| **2025** | USC Information Sciences Institute | Data Engineer — Eye-AI multimodal health data |
-| **2024** | University of Southern California | MS Analytics |
-| **2022** | Chinese Academy of Sciences | Full Stack Engineer — ML disaster alarming system |
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/timeline-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/timeline-light.svg">
+  <img alt="Experience timeline 2022 to 2026" src="./assets/timeline-light.svg" width="100%">
+</picture>
 
 <details>
 <summary><b>Certifications</b></summary>
@@ -138,12 +152,21 @@ Career Essentials in Generative AI (Microsoft / LinkedIn) &nbsp;·&nbsp; Lean Si
 
 </details>
 
-## GitHub
+## Machine learning
 
-<p>
-  <img height="150" alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=Chuqian-Chen&show_icons=true&hide_border=true&rank_icon=github&bg_color=00000000&title_color=4F9A87&icon_color=B8724A&text_color=8A8378">
-  <img height="150" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Chuqian-Chen&layout=compact&hide_border=true&bg_color=00000000&title_color=4F9A87&text_color=8A8378">
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/methods-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/methods-light.svg">
+  <img alt="Machine learning methods and the number each one defends" src="./assets/methods-light.svg" width="100%">
+</picture>
+
+## Verification
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/verification-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/verification-light.svg">
+  <img alt="What runs green before anything ships" src="./assets/verification-light.svg" width="100%">
+</picture>
 
 ## Contact
 

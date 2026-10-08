@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1256" height="330" viewBox="0 0 1256 330" role="img" aria-label="How the systems chain together">
+  <rect width="1256" height="330" rx="4" fill="#17150F"/><rect x=".5" y=".5" width="1255" height="329" rx="3.5" fill="none" stroke="#33302A"/>
+  <text x="24" y="40" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" letter-spacing="3.5" fill="#6E665C">ONE SYSTEM, FOUR REPOS</text>
+  <text x="23" y="72" font-family="Georgia, Cambria, 'Liberation Serif', 'Times New Roman', serif" font-size="24" font-weight="700" fill="#F3EDE3">From raw signal to a reviewed decision — and back.</text>
+  <rect x="24" y="96" width="216" height="150" rx="6" fill="#1F1C15" stroke="#33302A"/>
+  <rect x="24" y="96" width="216" height="4" fill="#8CC7B5"/>
+  <text x="42" y="130" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" letter-spacing="2.5" fill="#6E665C">01 · SOURCES</text>
+  <text x="42" y="158" font-family="Georgia, Cambria, 'Liberation Serif', 'Times New Roman', serif" font-size="18" font-weight="700" fill="#F3EDE3">Raw signal</text>
+  <text x="42" y="184" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="12.5" fill="#B8AE9F">EHR · DICOM · labs · wearables</text>
+  <text x="42" y="201" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="12.5" fill="#B8AE9F">· 498k biobank rows</text>
+  <path d="M249 165 l10 6 -10 6" fill="none" stroke="#6E665C" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="270" y="96" width="216" height="150" rx="6" fill="#1F1C15" stroke="#33302A"/>
+  <rect x="270" y="96" width="216" height="4" fill="#D08B5F"/>
+  <text x="288" y="130" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" letter-spacing="2.5" fill="#6E665C">02 · ONTOLOGY</text>
+  <text x="288" y="158" font-family="Georgia, Cambria, 'Liberation Serif', 'Times New Roman', serif" font-size="18" font-weight="700" fill="#F3EDE3">Shared vocabulary</text>
+  <text x="288" y="184" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="12.5" fill="#B8AE9F">26 object types ·</text>
+  <text x="288" y="201" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="12.5" fill="#B8AE9F">dictionary-grouped axes ·</text>
+  <text x="288" y="218" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="12.5" fill="#B8AE9F">hash-signed facts</text>
+  <path d="M495 165 l10 6 -10 6" fill="none" stroke="#6E665C" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="516" y="96" width="216" height="150" rx="6" fill="#1F1C15" stroke="#33302A"/>
+  <rect x="516" y="96" width="216" height="4" fill="#8CC7B5"/>
+  <text x="534" y="130" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" letter-spacing="2.5" fill="#6E665C">03 · RETRIEVAL</text>
+  <text x="534" y="158" font-family="Georgia, Cambria, 'Liberation Serif', 'Times New Roman', serif" font-size="18" font-weight="700" fill="#F3EDE3">Who is like you</text>
+  <text x="534" y="184" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="12.5" fill="#B8AE9F">missing-aware top-10 · two</text>
+  <text x="534" y="201" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="12.5" fill="#B8AE9F">knowledge graphs · evidence</text>
+  <text x="534" y="218" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="12.5" fill="#B8AE9F">grades</text>
+  <path d="M741 165 l10 6 -10 6" fill="none" stroke="#6E665C" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="762" y="96" width="216" height="150" rx="6" fill="#1F1C15" stroke="#33302A"/>
+  <rect x="762" y="96" width="216" height="4" fill="#D08B5F"/>
+  <text x="780" y="130" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" letter-spacing="2.5" fill="#6E665C">04 · REASONING</text>
+  <text x="780" y="158" font-family="Georgia, Cambria, 'Liberation Serif', 'Times New Roman', serif" font-size="18" font-weight="700" fill="#F3EDE3">Rules decide, LLM narrates</text>
+  <text x="780" y="184" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="12.5" fill="#B8AE9F">deterministic engine first ·</text>
+  <text x="780" y="201" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="12.5" fill="#B8AE9F">controlled prompts on top</text>
+  <path d="M987 165 l10 6 -10 6" fill="none" stroke="#6E665C" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="1008" y="96" width="216" height="150" rx="6" fill="#1F1C15" stroke="#33302A"/>
+  <rect x="1008" y="96" width="216" height="4" fill="#8CC7B5"/>
+  <text x="1026" y="130" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" letter-spacing="2.5" fill="#6E665C">05 · REVIEW</text>
+  <text x="1026" y="158" font-family="Georgia, Cambria, 'Liberation Serif', 'Times New Roman', serif" font-size="18" font-weight="700" fill="#F3EDE3">Human in the loop</text>
+  <text x="1026" y="184" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="12.5" fill="#B8AE9F">low-confidence → person ·</text>
+  <text x="1026" y="201" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="12.5" fill="#B8AE9F">consult_doctor gate ·</text>
+  <text x="1026" y="218" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="12.5" fill="#B8AE9F">disclaimers</text>
+  <path d="M1140 246 V282 H132 V252" fill="none" stroke="#D08B5F" stroke-width="1.4" stroke-dasharray="4 5"/>
+  <path d="M126 258 l6 -7 6 7" fill="none" stroke="#D08B5F" stroke-width="1.6" stroke-linecap="round"/>
+  <text x="636" y="305" text-anchor="middle" font-family="Georgia, Cambria, 'Liberation Serif', 'Times New Roman', serif" font-size="14" font-style="italic" fill="#A0968A">every reviewed case feeds the next retrieval — the self-evolving loop</text>
+</svg>
