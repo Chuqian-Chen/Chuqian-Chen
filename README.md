@@ -72,20 +72,6 @@ OMOP CDM. A self-contained HTML explorer draws all of it — and drawing it caug
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/card-hsct-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/card-hsct-light.svg">
-  <img alt="Transplant risk explained, probability untouched" src="./assets/card-hsct-light.svg" width="100%">
-</picture>
-
-**Medin AI** · AI Data R&D · 2026<br>
-
-Takes an individual probability from any upstream model, retrieves evidence from a literature graph and a
-903-patient EHR cohort graph for seven HSCT outcomes, and grades evidence sufficiency instead of comparing
-incompatible probabilities. Per-outcome clinical windows; transplant-specific risk factors (HLA mismatch,
-conditioning intensity, CMV serology, CD34 dose). Neo4j when reachable, local Parquet when not.<br>
-`FastAPI` `Neo4j` `Parquet` `GRU-D DeepHit adapter` `controlled prompts` `demo predictions hard-flagged`
-
-<picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/card-women-health-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/card-women-health-light.svg">
   <img alt="Supplement advice with a full evidence chain" src="./assets/card-women-health-light.svg" width="100%">
@@ -98,6 +84,20 @@ card expands to the user facts, the SHA256-signed source document, and the NIH /
 it. Batch OCR of order screenshots; idempotent three-step checkout with a server-side clinical gate that
 returns 422 under any risk context, whatever the UI does.<br>
 `WeChat Mini Program` `FastAPI` `SQLAlchemy 2` `SQLite` `24 API tests`
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/card-hsct-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/card-hsct-light.svg">
+  <img alt="Transplant risk explained, probability untouched" src="./assets/card-hsct-light.svg" width="100%">
+</picture>
+
+**Medin AI** · AI Data R&D · 2026<br>
+
+Takes an individual probability from any upstream model, retrieves evidence from a literature graph and a
+903-patient EHR cohort graph for seven HSCT outcomes, and grades evidence sufficiency instead of comparing
+incompatible probabilities. Per-outcome clinical windows; transplant-specific risk factors (HLA mismatch,
+conditioning intensity, CMV serology, CD34 dose). Neo4j when reachable, local Parquet when not.<br>
+`FastAPI` `Neo4j` `Parquet` `GRU-D DeepHit adapter` `controlled prompts` `demo predictions hard-flagged`
 
 <details>
 <summary><b>Also on the shelf</b></summary>
