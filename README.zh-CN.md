@@ -183,16 +183,15 @@ retrieval, SQL verification and rewrite loop. 83% JOIN accuracy.
   <img alt="Experience timeline 2022 to 2026" src="./assets/timeline-light.svg" width="100%">
 </picture>
 
-<details>
-<summary><b>证书</b></summary>
+## 证书
 
-<br>
-
-AWS Certified Cloud Practitioner &nbsp;·&nbsp; Salesforce AI Associate &nbsp;·&nbsp; Google Data Analytics &nbsp;·&nbsp;
-Create ML Models with BigQuery ML &nbsp;·&nbsp; Oracle Cloud Data Management 2023 Foundations Associate &nbsp;·&nbsp;
-Career Essentials in Generative AI (Microsoft / LinkedIn) &nbsp;·&nbsp; Lean Six Sigma White Belt
-
-</details>
+<img alt="AWS Certified Cloud Practitioner" src="https://img.shields.io/badge/AWS%20Certified%20Cloud%20Practitioner-0E3B34?style=flat-square&logo=amazonwebservices&logoColor=white">
+<img alt="Salesforce AI Associate" src="https://img.shields.io/badge/Salesforce%20AI%20Associate-0E3B34?style=flat-square&logo=salesforce&logoColor=white">
+<img alt="Google Data Analytics" src="https://img.shields.io/badge/Google%20Data%20Analytics-0E3B34?style=flat-square&logo=google&logoColor=white">
+<img alt="BigQuery ML Skill Badge" src="https://img.shields.io/badge/BigQuery%20ML%20Skill%20Badge-0E3B34?style=flat-square&logo=googlebigquery&logoColor=white">
+<img alt="Oracle Cloud Data Management 2023" src="https://img.shields.io/badge/Oracle%20Cloud%20Data%20Management%202023-0E3B34?style=flat-square&logo=oracle&logoColor=white">
+<img alt="Career Essentials in Generative AI-Microsoft / LinkedIn" src="https://img.shields.io/badge/Career%20Essentials%20in%20Generative%20AI-Microsoft%20%2F%20LinkedIn-0E3B34?style=flat-square&logo=microsoft&logoColor=white">
+<img alt="Lean Six Sigma White Belt" src="https://img.shields.io/badge/Lean%20Six%20Sigma%20White%20Belt-0E3B34?style=flat-square&logo=sixsigma&logoColor=white">
 
 ## 验证
 
@@ -204,6 +203,13 @@ Career Essentials in Generative AI (Microsoft / LinkedIn) &nbsp;·&nbsp; Lean Si
 
 ## 联系
 
-欢迎医学 AI、数据工程、ML 系统、LLM / 智能体方向的工作与合作。
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/contact-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/contact-light.svg">
+  <img alt="Contact" src="./assets/contact-light.svg" width="100%">
+</picture>
 
-[Email](mailto:ccq33927@gmail.com) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/chloe-chen-chuqian) &nbsp;·&nbsp; [LeetCode](https://leetcode.com/u/chuqianc/) &nbsp;·&nbsp; [LeetCode CN](https://leetcode.cn/u/ccq33927/)
+<a href="mailto:ccq33927@gmail.com"><img alt="邮箱" src="https://img.shields.io/badge/邮箱-0E3B34?style=flat-square&logo=gmail&logoColor=white"></a>
+<a href="https://www.linkedin.com/in/chloe-chen-chuqian"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0E3B34?style=flat-square&logo=linkedin&logoColor=white"></a>
+<a href="https://leetcode.com/u/chuqianc/"><img alt="LeetCode" src="https://img.shields.io/badge/LeetCode-0E3B34?style=flat-square&logo=leetcode&logoColor=white"></a>
+<a href="https://leetcode.cn/u/ccq33927/"><img alt="LeetCode%20CN" src="https://img.shields.io/badge/LeetCode%20CN-0E3B34?style=flat-square&logo=leetcode&logoColor=white"></a>
