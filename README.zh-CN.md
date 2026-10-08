@@ -148,7 +148,7 @@ reduced to a runnable, unit-tested graph with a deterministic mock LLM.
 images, DICOM metadata and structured records; PyDICOM conversion, high-throughput PostgreSQL access,
 92% data completeness after quality rules.
 
-**NIV → IMV 升级预测**（Mayo Clinic）— eICU-CRD / MIMIC-IV 上 1 / 6 / 12 / 24 h 的 HACOR 评分加生命体征；XGBoost 类权重、按 ICU 住院 GroupKFold、isotonic 校准、SHAP；Streamlit 应用含队列筛选、表型与病例浏览。AUC 0.81，早期失败召回提升到 71%。
+**NIV → IMV 升级预测**（Mayo Clinic）— eICU-CRD / MIMIC-IV 上 1 / 6 / 12 / 24 h 的 HACOR 评分加生命体征；XGBoost 类权重、按 ICU 住院 GroupKFold、isotonic 校准、SHAP；Streamlit 应用含队列筛选、表型与病例浏览。目前只有内部验证，尚无独立测试集，因此不报 AUC。
 
 **Medical NL-to-SQL over MIMIC-IV** — DeepSeek / Qwen / Gemma / Llama comparison, BGE-M3 + FAISS schema
 retrieval, SQL verification and rewrite loop. 83% JOIN accuracy.

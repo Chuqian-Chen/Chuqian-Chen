@@ -20,7 +20,7 @@
   <text x="648" y="88" text-anchor="middle" font-family="Georgia, Cambria, 'Liberation Serif', 'Times New Roman', serif" font-size="26" font-weight="700" fill="#0E3B34">2025</text>
   <text x="648" y="156" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="14" font-weight="700" fill="#1A1712">Mayo Clinic</text>
   <text x="648" y="178" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="12.5" fill="#5A5248">Data Scientist · NIV</text>
-  <text x="648" y="195" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="12.5" fill="#5A5248">failure, AUC 0.81</text>
+  <text x="648" y="195" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="12.5" fill="#5A5248">failure predictor</text>
   <circle cx="832" cy="118" r="6" fill="#FBF8F3" stroke="#0E3B34" stroke-width="2.5"/>
   <text x="832" y="88" text-anchor="middle" font-family="Georgia, Cambria, 'Liberation Serif', 'Times New Roman', serif" font-size="26" font-weight="700" fill="#0E3B34">2026</text>
   <text x="832" y="156" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="14" font-weight="700" fill="#1A1712">Medin AI</text>

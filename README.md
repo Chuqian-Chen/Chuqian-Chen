@@ -158,7 +158,7 @@ images, DICOM metadata and structured records; PyDICOM conversion, high-throughp
 
 **NIV → IMV escalation predictor** (Mayo Clinic) — HACOR score at 1 / 6 / 12 / 24 h plus vitals from eICU-CRD and
 MIMIC-IV; XGBoost with class weighting, GroupKFold by ICU stay, isotonic calibration, SHAP; Streamlit app with
-cohort filters, phenotypes and a case explorer. AUC 0.81; early-failure recall lifted to 71%.
+cohort filters, phenotypes and a case explorer. Internal validation only — no held-out test set yet, so no headline AUC is claimed.
 
 **Medical NL-to-SQL over MIMIC-IV** — DeepSeek / Qwen / Gemma / Llama comparison, BGE-M3 + FAISS schema
 retrieval, SQL verification and rewrite loop. 83% JOIN accuracy.
