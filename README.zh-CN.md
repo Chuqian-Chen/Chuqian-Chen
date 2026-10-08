@@ -19,6 +19,8 @@
 <br>
 
 
+`算法` &nbsp;LeetCode 400+ 题 · 竞赛分 1800+ · 动态规划、图论、树形 DP &nbsp;·&nbsp; [global](https://leetcode.com/u/chuqianc/) / [cn](https://leetcode.cn/u/ccq33927/)
+
 **我怎么做** &nbsp;不下诊断 · 不臆造数据 · 没证据就不输出 · 先证明检查器本身能响。
 
 <picture>
@@ -26,6 +28,30 @@
   <source media="(prefers-color-scheme: light)" srcset="./assets/system-map-light.svg">
   <img alt="From raw signal to a reviewed decision, and back" src="./assets/system-map-light.svg" width="100%">
 </picture>
+
+## 机器学习
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/methods-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/methods-light.svg">
+  <img alt="Machine learning methods and the number each one defends" src="./assets/methods-light.svg" width="100%">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/eval-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/eval-light.svg">
+  <img alt="Retrieval evaluation against baselines with bootstrap CIs, and leave-one-axis-out stability" src="./assets/eval-light.svg" width="100%">
+</picture>
+
+检索效果对照年龄-性别基线和单轴基线，配对 bootstrap 区间；留一轴敏感性校准前后对比。直接读自 `retrieval_eval.json` 和 `loo_stability.json`。
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/kg-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/kg-light.svg">
+  <img alt="Indicator association network drawn from the ontology's knowledge graph" src="./assets/kg-light.svg" width="100%">
+</picture>
+
+本体自己的指标关联网络，画自 `knowledge_graph.json`：轴间 Spearman ρ，疾病章节与表型间 Cohen's d。每条边带证据等级，性别严重偏斜的病例组已剔除。
 
 ## 精选系统
 
@@ -150,14 +176,6 @@ Create ML Models with BigQuery ML &nbsp;·&nbsp; Oracle Cloud Data Management 20
 Career Essentials in Generative AI (Microsoft / LinkedIn) &nbsp;·&nbsp; Lean Six Sigma White Belt
 
 </details>
-
-## 机器学习
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/methods-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/methods-light.svg">
-  <img alt="Machine learning methods and the number each one defends" src="./assets/methods-light.svg" width="100%">
-</picture>
 
 ## 验证
 

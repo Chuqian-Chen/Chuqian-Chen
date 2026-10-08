@@ -40,11 +40,12 @@ def wrap(t,n):
         else: c=(c+" "+w).strip()
     return o+[c] if c else o
 
-AXES=[tuple(a) for a in V("axis_weights")]
+AXES=[tuple(a[:2]) for a in V("axis_weights")]
+INFL={a[0]:a[2] for a in V("axis_weights") if len(a)>2}
 STEPS=[("GATE","Baseline characteristics","sex · age band · hard filter, not a distance"),
        ("AXIS VECTORS","10 P0 axes · 1,982 field families","one vector per dictionary Sublevel"),
        ("MISSING-AWARE DISTANCE","reliability = 0 drops the axis","pairwise usable ≈ coverage² · <25% → own tier"),
-       ("CALIBRATE + FUSE","weights from measured influence","leave-one-out stability · opcs4 flagged inert"),
+       ("CALIBRATE + FUSE","expert weights, measured influence","leave-one-axis-out stability · opcs4 flagged inert"),
        ("TOP-10 → ACTION LIBRARY","explain, don't estimate","effect sizes come from the full matched layer")]
 def retrieval(p):
     parts=[]
@@ -55,19 +56,20 @@ def retrieval(p):
   <text x="70" y="{y+24}" font-family="{G}" font-size="15.5" font-weight="700" fill="{p["ink"]}">{t}</text>
   <text x="70" y="{y+40}" font-family="{S}" font-size="11.5" fill="{p["body"]}">{html.escape(d)}</text>''')
         if i<4: parts.append(f'  <path d="M44 {y+26} V{y+53}" stroke="{p["rule"]}" stroke-width="2"/>')
-    bars=[f'  <text x="620" y="88" font-family="{M}" font-size="10" letter-spacing="2.2" fill="{p["faint"]}">P0 AXIS WEIGHTS · MEASURED, NOT ASSIGNED</text>']
+    bars=[f'  <text x="620" y="88" font-family="{M}" font-size="10" letter-spacing="2.2" fill="{p["faint"]}">NOMINAL WEIGHT (AW-P0-v1)  ·  ◆ MEASURED LEAVE-ONE-OUT INFLUENCE</text>']
     for i,(a,w) in enumerate(AXES):
         y=100+i*24
         bars.append(f'''  <text x="730" y="{y+13}" text-anchor="end" font-family="{S}" font-size="11.5" fill="{p["body"]}">{a}</text>
   <rect x="742" y="{y}" width="340" height="16" rx="2" fill="{p["bar"]}" opacity=".35"/><rect x="742" y="{y}" width="{w*340/AXES[0][1]:.0f}" height="16" rx="2" fill="{p["green"] if i<9 else p["ochre"]}"/>
-  <text x="{750+w*340/AXES[0][1]:.0f}" y="{y+12.5}" font-family="{M}" font-size="10.5" fill="{p["muted"]}">{w:.2f}</text>''')
+  <text x="{750+w*340/AXES[0][1]:.0f}" y="{y+12.5}" font-family="{M}" font-size="10.5" fill="{p["muted"]}">{w:.2f}</text>
+  <path d="M{742+INFL.get(a,0)*340/max(INFL.values() or [1]):.0f} {y+2} l6 6 -6 6 -6 -6z" fill="{p["ochre"]}"/>''')
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="1152" height="386" viewBox="0 0 1152 386" role="img" aria-label="Similar-patient retrieval algorithm">
   <rect width="1152" height="372" rx="4" fill="{p["paper"]}"/><rect x=".5" y=".5" width="1151" height="385" rx="3.5" fill="none" stroke="{p["rule"]}"/>
   <text x="24" y="38" font-family="{M}" font-size="11.5" letter-spacing="3.5" fill="{p["faint"]}">THE ALGORITHM · SIMILAR-PATIENT RETRIEVAL OVER 498,339 PEOPLE</text>
   <text x="23" y="66" font-family="{G}" font-size="22" font-weight="700" fill="{p["ink"]}">Not one 11,318-dim kNN. Ten axes, each allowed to say “I don’t know.”</text>
 {chr(10).join(parts)}
 {chr(10).join(bars)}
-  <text x="620" y="352" font-family="{G}" font-size="12.5" font-style="italic" fill="{p["muted"]}">weights are read from axis_measurements.json by a scheduled workflow;</text>
+  <text x="620" y="352" font-family="{G}" font-size="12.5" font-style="italic" fill="{p["muted"]}">weights and influence are read from ontology.yaml and loo_stability.json by a scheduled workflow;</text>
   <text x="620" y="368" font-family="{G}" font-size="12.5" font-style="italic" fill="{p["muted"]}">no number on this chart is typed by hand.</text>
 </svg>
 '''

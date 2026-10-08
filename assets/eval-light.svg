@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1152" height="372" viewBox="0 0 1152 372" role="img" aria-label="Retrieval evaluation against baselines with bootstrap confidence intervals, and leave-one-axis-out stability">
+<rect width="1152" height="372" rx="4" fill="#FBF8F3"/><rect x=".5" y=".5" width="1151" height="371" rx="3.5" fill="none" stroke="#DED6C9"/>
+<text x="24" y="38" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" letter-spacing="3.5" fill="#9A8F80">EVALUATION · MEASURED ON 50,000 UK BIOBANK PARTICIPANTS, k = 10</text>
+<text x="23" y="64" font-family="Georgia, Cambria, 'Liberation Serif', 'Times New Roman', serif" font-size="21" font-weight="700" fill="#1A1712">Does “similar” mean anything? Against two baselines, with intervals.</text>
+<text x="24" y="86" font-family="Georgia, Cambria, 'Liberation Serif', 'Times New Roman', serif" font-size="14.5" font-weight="700" fill="#1A1712">Type 2 diabetes · prevalence 2.2%</text><text x="560" y="86" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" fill="#B8724A">lift vs prevalence ×3.02</text>
+<text x="180" y="114" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="11.5" fill="#5A5248">Full 10-axis distance</text>
+<rect x="190" y="100" width="370" height="20" rx="2" fill="#D9CDB9" opacity=".3"/><rect x="190" y="100" width="100" height="20" rx="2" fill="#0E3B34"/>
+<path d="M259 110 H322 M259 105 V115 M322 105 V115" stroke="#1A1712" stroke-width="1.4"/>
+<text x="330" y="114" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" fill="#6B6257">0.059</text>
+<text x="180" y="144" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="11.5" fill="#5A5248">Clinical lab only</text>
+<rect x="190" y="130" width="370" height="20" rx="2" fill="#D9CDB9" opacity=".3"/><rect x="190" y="130" width="82" height="20" rx="2" fill="#5B8C7E"/>
+<path d="M241 140 H305 M241 135 V145 M305 135 V145" stroke="#1A1712" stroke-width="1.4"/>
+<text x="313" y="144" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" fill="#6B6257">0.049</text>
+<text x="180" y="174" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="11.5" fill="#5A5248">Age–sex gate only</text>
+<rect x="190" y="160" width="370" height="20" rx="2" fill="#D9CDB9" opacity=".3"/><rect x="190" y="160" width="19" height="20" rx="2" fill="#9A8F80"/>
+<path d="M186 170 H232 M186 165 V175 M232 165 V175" stroke="#1A1712" stroke-width="1.4"/>
+<text x="240" y="174" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" fill="#6B6257">0.011</text>
+<text x="24" y="204" font-family="Georgia, Cambria, 'Liberation Serif', 'Times New Roman', serif" font-size="14.5" font-weight="700" fill="#1A1712">Circulatory disease · prevalence 16.2%</text><text x="560" y="204" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" fill="#B8724A">lift vs prevalence ×1.56</text>
+<text x="180" y="232" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="11.5" fill="#5A5248">Full 10-axis distance</text>
+<rect x="190" y="218" width="370" height="20" rx="2" fill="#D9CDB9" opacity=".3"/><rect x="190" y="218" width="276" height="20" rx="2" fill="#0E3B34"/>
+<path d="M388 228 H545 M388 223 V233 M545 223 V233" stroke="#1A1712" stroke-width="1.4"/>
+<text x="553" y="232" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" fill="#6B6257">0.164</text>
+<text x="180" y="262" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="11.5" fill="#5A5248">Clinical lab only</text>
+<rect x="190" y="248" width="370" height="20" rx="2" fill="#D9CDB9" opacity=".3"/><rect x="190" y="248" width="63" height="20" rx="2" fill="#5B8C7E"/>
+<path d="M186 258 H322 M186 253 V263 M322 253 V263" stroke="#1A1712" stroke-width="1.4"/>
+<text x="330" y="262" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" fill="#6B6257">0.037</text>
+<text x="180" y="292" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="11.5" fill="#5A5248">Age–sex gate only</text>
+<rect x="190" y="278" width="370" height="20" rx="2" fill="#D9CDB9" opacity=".3"/><rect x="190" y="278" width="163" height="20" rx="2" fill="#9A8F80"/>
+<path d="M288 288 H423 M288 283 V293 M423 283 V293" stroke="#1A1712" stroke-width="1.4"/>
+<text x="431" y="292" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" fill="#6B6257">0.097</text>
+<text x="24" y="334" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" fill="#9A8F80">x = concordance separation: neighbor positive rate, positive − negative anchors</text>
+<text x="24" y="348" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" fill="#9A8F80">whiskers = 95% CI from 2,000 paired bootstrap resamples · 100 anchors per arm</text>
+<text x="640" y="86" font-family="Georgia, Cambria, 'Liberation Serif', 'Times New Roman', serif" font-size="14.5" font-weight="700" fill="#1A1712">Leave-one-axis-out: top-10 overlap before → after calibration</text>
+<text x="790" y="108" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="11.5" fill="#5A5248">ClinicalLab</text>
+<path d="M918 104 H912" stroke="#DED6C9" stroke-width="3"/><circle cx="918" cy="104" r="4" fill="#9A8F80"/><circle cx="912" cy="104" r="4.5" fill="#0E3B34"/>
+<text x="790" y="131" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="11.5" fill="#5A5248">Blood pressure</text>
+<path d="M899 127 H930" stroke="#DED6C9" stroke-width="3"/><circle cx="899" cy="127" r="4" fill="#9A8F80"/><circle cx="930" cy="127" r="4.5" fill="#0E3B34"/>
+<text x="790" y="154" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="11.5" fill="#5A5248">Anthropometry</text>
+<path d="M896 150 H943" stroke="#DED6C9" stroke-width="3"/><circle cx="896" cy="150" r="4" fill="#9A8F80"/><circle cx="943" cy="150" r="4.5" fill="#0E3B34"/>
+<text x="790" y="177" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="11.5" fill="#5A5248">NMR metab.</text>
+<path d="M927 173 H951" stroke="#DED6C9" stroke-width="3"/><circle cx="927" cy="173" r="4" fill="#9A8F80"/><circle cx="951" cy="173" r="4.5" fill="#0E3B34"/>
+<text x="790" y="200" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="11.5" fill="#5A5248">Diet</text>
+<path d="M1068 196 H981" stroke="#DED6C9" stroke-width="3"/><circle cx="1068" cy="196" r="4" fill="#9A8F80"/><circle cx="981" cy="196" r="4.5" fill="#0E3B34"/>
+<text x="790" y="223" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="11.5" fill="#5A5248">ICD-10</text>
+<path d="M1070 219 H994" stroke="#DED6C9" stroke-width="3"/><circle cx="1070" cy="219" r="4" fill="#9A8F80"/><circle cx="994" cy="219" r="4.5" fill="#0E3B34"/>
+<text x="790" y="246" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="11.5" fill="#5A5248">Sleep</text>
+<path d="M1077 242 H1020" stroke="#DED6C9" stroke-width="3"/><circle cx="1077" cy="242" r="4" fill="#9A8F80"/><circle cx="1020" cy="242" r="4.5" fill="#0E3B34"/>
+<text x="790" y="269" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="11.5" fill="#5A5248">Hand grip</text>
+<path d="M1032 265 H1039" stroke="#DED6C9" stroke-width="3"/><circle cx="1032" cy="265" r="4" fill="#9A8F80"/><circle cx="1039" cy="265" r="4.5" fill="#0E3B34"/>
+<text x="790" y="292" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="11.5" fill="#5A5248">Sun exposure</text>
+<path d="M1086 288 H1058" stroke="#DED6C9" stroke-width="3"/><circle cx="1086" cy="288" r="4" fill="#9A8F80"/><circle cx="1058" cy="288" r="4.5" fill="#0E3B34"/>
+<text x="790" y="315" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="11.5" fill="#5A5248">OPCS-4</text>
+<path d="M1090 311 H1063" stroke="#DED6C9" stroke-width="3"/><circle cx="1090" cy="311" r="4" fill="#9A8F80"/><circle cx="1063" cy="311" r="4.5" fill="#B8724A"/>
+<text x="800" y="348" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" fill="#9A8F80">0.3</text><text x="1100" y="348" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" fill="#9A8F80">1.0 = removing the axis changes nothing</text><circle cx="640" cy="344" r="4" fill="#9A8F80"/><text x="650" y="348" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="10.5" fill="#6B6257">before</text><circle cx="700" cy="344" r="4.5" fill="#0E3B34"/><text x="710" y="348" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Liberation Sans', Arial, sans-serif" font-size="10.5" fill="#6B6257">after</text>
+</svg>

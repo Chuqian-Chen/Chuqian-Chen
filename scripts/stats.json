@@ -37,46 +37,125 @@
   "axis_weights": {
     "value": [
       [
-        "ICD-10",
-        0.16
-      ],
-      [
         "ClinicalLab",
-        0.15
-      ],
-      [
-        "NMR metab.",
-        0.13
+        0.2608,
+        0.628
       ],
       [
         "Anthropometry",
-        0.11
+        0.1957,
+        0.524
       ],
       [
-        "OPCS-4",
-        0.1
+        "NMR metab.",
+        0.1739,
+        0.496
       ],
       [
         "Blood pressure",
-        0.09
+        0.1304,
+        0.566
       ],
       [
         "Diet",
-        0.08
-      ],
-      [
-        "Sleep",
-        0.07
+        0.087,
+        0.398
       ],
       [
         "Hand grip",
-        0.06
+        0.0435,
+        0.203
+      ],
+      [
+        "Sleep",
+        0.0435,
+        0.265
+      ],
+      [
+        "ICD-10",
+        0.0326,
+        0.352
       ],
       [
         "Sun exposure",
-        0.05
+        0.0217,
+        0.141
+      ],
+      [
+        "OPCS-4",
+        0.0109,
+        0.123
       ]
     ],
-    "source": "auto: Ontology_Management/schema/dictionary/axis_measurements.json (top-10 by weight); illustrative until first run"
+    "source": "auto: ontology.yaml axis_weight_policy (expert-fixed AW-P0-v1) + loo_stability.json influence = 1 − top-10 overlap after calibration"
+  },
+  "retrieval_eval": {
+    "value": {
+      "t2dm": {
+        "prevalence": 0.02172,
+        "point": {
+          "full": 0.0592,
+          "base": 0.0115,
+          "lab": 0.0487,
+          "lab_share_of_full": 0.8231
+        },
+        "ci95": {
+          "full": [
+            0.041,
+            0.0783
+          ],
+          "base": [
+            -0.0021,
+            0.0251
+          ],
+          "lab": [
+            0.0304,
+            0.0686
+          ],
+          "gain": [
+            0.0238,
+            0.0712
+          ],
+          "lab_share_of_full": [
+            0.4908,
+            1.3197
+          ]
+        },
+        "lift": 3.02
+      },
+      "circulatory": {
+        "prevalence": 0.16158,
+        "point": {
+          "full": 0.1641,
+          "base": 0.0967,
+          "lab": 0.0374,
+          "lab_share_of_full": 0.2279
+        },
+        "ci95": {
+          "full": [
+            0.118,
+            0.2111
+          ],
+          "base": [
+            0.0583,
+            0.1385
+          ],
+          "lab": [
+            -0.0022,
+            0.0786
+          ],
+          "gain": [
+            0.0151,
+            0.1196
+          ],
+          "lab_share_of_full": [
+            -0.0164,
+            0.4617
+          ]
+        },
+        "lift": 1.56
+      }
+    },
+    "source": "auto: retrieval_eval.json, 2000 paired bootstrap resamples, k=10, 50k sample"
   }
 }

@@ -21,6 +21,8 @@ health agent and a Palantir-style ontology over UK Biobank. On the side, 400+ Le
 <br>
 
 
+`algorithms` &nbsp;400+ LeetCode · 1800+ contest rating · dynamic programming, graphs, DP on trees &nbsp;·&nbsp; [global](https://leetcode.com/u/chuqianc/) / [cn](https://leetcode.cn/u/ccq33927/)
+
 **How I build** &nbsp;Never diagnose · never invent data · evidence or nothing · prove the checks work.
 
 <picture>
@@ -28,6 +30,30 @@ health agent and a Palantir-style ontology over UK Biobank. On the side, 400+ Le
   <source media="(prefers-color-scheme: light)" srcset="./assets/system-map-light.svg">
   <img alt="From raw signal to a reviewed decision, and back" src="./assets/system-map-light.svg" width="100%">
 </picture>
+
+## Machine learning
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/methods-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/methods-light.svg">
+  <img alt="Machine learning methods and the number each one defends" src="./assets/methods-light.svg" width="100%">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/eval-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/eval-light.svg">
+  <img alt="Retrieval evaluation against baselines with bootstrap CIs, and leave-one-axis-out stability" src="./assets/eval-light.svg" width="100%">
+</picture>
+
+Retrieval evaluated against an age–sex baseline and a single-axis baseline with paired-bootstrap intervals; leave-one-axis-out stability before and after calibration. Read straight from `retrieval_eval.json` and `loo_stability.json`.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/kg-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/kg-light.svg">
+  <img alt="Indicator association network drawn from the ontology's knowledge graph" src="./assets/kg-light.svg" width="100%">
+</picture>
+
+The ontology's indicator network, drawn from its own `knowledge_graph.json`: Spearman ρ between axes, Cohen's d between disease chapters and phenotypes. Every edge carries an evidence grade; sex-skewed case groups are excluded.
 
 ## Selected systems
 
@@ -158,14 +184,6 @@ Create ML Models with BigQuery ML &nbsp;·&nbsp; Oracle Cloud Data Management 20
 Career Essentials in Generative AI (Microsoft / LinkedIn) &nbsp;·&nbsp; Lean Six Sigma White Belt
 
 </details>
-
-## Machine learning
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/methods-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/methods-light.svg">
-  <img alt="Machine learning methods and the number each one defends" src="./assets/methods-light.svg" width="100%">
-</picture>
 
 ## Verification
 
