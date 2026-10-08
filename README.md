@@ -24,6 +24,12 @@ UK Biobank. On the side, 400+ LeetCode problems and a 1800+ contest rating.
   <img alt="Four rules every system I ship obeys: never diagnose, never invent data, evidence or nothing, prove the checks work" src="./assets/principles-light.svg" width="100%">
 </picture>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/system-map-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/system-map-light.svg">
+  <img alt="From raw signal to a reviewed decision, and back" src="./assets/system-map-light.svg" width="100%">
+</picture>
+
 ## Selected systems
 
 <picture>
@@ -109,23 +115,19 @@ retrieval, SQL verification and rewrite loop. 83% JOIN accuracy.
 
 ## Stack
 
-- **Languages** &nbsp;`Python` `Java` `TypeScript` `JavaScript` `SQL`
-- **Data** &nbsp;`Spark` `Hive` `Hadoop` `Parquet` `PostgreSQL` `BigQuery` `Neo4j` `Redis` `MongoDB`
-- **ML** &nbsp;`PyTorch` `TensorFlow` `XGBoost` `SHAP` `LoRA` `RoBERTa` `GRU-D`
-- **LLM & agents** &nbsp;`LangGraph` `RAG` `NL-to-SQL` `FAISS` `BGE-M3` `MinerU` `constrained decoding`
-- **Ontology** &nbsp;`Palantir-style object model` `FHIR R5` `OMOP CDM` `GraphQL SDL` `JSON Schema`
-- **Services** &nbsp;`FastAPI` `Django` `Spring Boot` `Flask` `Node.js` `React` `Vue` `WeChat Mini Program`
-- **Infra** &nbsp;`Docker` `Kubernetes` `MLflow` `Kubeflow` `Playwright` `AWS` `GCP`
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/stack-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/stack-light.svg">
+  <img alt="Stack" src="./assets/stack-light.svg" width="100%">
+</picture>
 
 ## Experience
 
-| Year | Where | Role |
-| :-- | :-- | :-- |
-| **2026** | Medin AI | AI Data R&D — UK Biobank health agent, medical ontology, HSCT explainability |
-| **2025** | Mayo Clinic | Data Scientist — NIV failure prediction |
-| **2025** | USC Information Sciences Institute | Data Engineer — Eye-AI multimodal health data |
-| **2024** | University of Southern California | MS Analytics |
-| **2022** | Chinese Academy of Sciences | Full Stack Engineer — ML disaster alarming system |
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/timeline-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/timeline-light.svg">
+  <img alt="Experience timeline 2022 to 2026" src="./assets/timeline-light.svg" width="100%">
+</picture>
 
 <details>
 <summary><b>Certifications</b></summary>
