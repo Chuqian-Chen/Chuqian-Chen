@@ -53,6 +53,14 @@
 
 本体自己的指标关联网络，画自 `knowledge_graph.json`：轴间 Spearman ρ，疾病章节与表型间 Cohen's d。每条边带证据等级，性别严重偏斜的病例组已剔除。
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/niv-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/niv-light.svg">
+  <img alt="NIV failure model: SHAP feature importance and model card" src="./assets/niv-light.svg" width="100%">
+</picture>
+
+Mayo 的 NIV 失败梯度提升模型：SHAP 重要性直接读自仓库导出的图，模型卡按实际实现写——以时间点锚定的标签、按 ICU 住院分组的交叉验证、isotonic 校准、按 PPV ≥ 0.30 且召回 ≥ 0.80 选的工作点。
+
 ## 精选系统
 
 <picture>
@@ -140,8 +148,7 @@ reduced to a runnable, unit-tested graph with a deterministic mock LLM.
 images, DICOM metadata and structured records; PyDICOM conversion, high-throughput PostgreSQL access,
 92% data completeness after quality rules.
 
-**NIV failure prediction** (Mayo Clinic) — patient-time ICU respiratory features, XGBoost with SMOTE and
-class weighting, SHAP reports. AUC 0.81; early-failure recall lifted to 71%.
+**NIV → IMV 升级预测**（Mayo Clinic）— eICU-CRD / MIMIC-IV 上 1 / 6 / 12 / 24 h 的 HACOR 评分加生命体征；XGBoost 类权重、按 ICU 住院 GroupKFold、isotonic 校准、SHAP；Streamlit 应用含队列筛选、表型与病例浏览。AUC 0.81，早期失败召回提升到 71%。
 
 **Medical NL-to-SQL over MIMIC-IV** — DeepSeek / Qwen / Gemma / Llama comparison, BGE-M3 + FAISS schema
 retrieval, SQL verification and rewrite loop. 83% JOIN accuracy.

@@ -157,5 +157,42 @@
       }
     },
     "source": "auto: retrieval_eval.json, 2000 paired bootstrap resamples, k=10, 50k sample"
+  },
+  "niv_shap": {
+    "value": [
+      [
+        "SpO₂",
+        0.309
+      ],
+      [
+        "HACOR score",
+        0.259
+      ],
+      [
+        "ROX index",
+        0.229
+      ],
+      [
+        "Respiratory rate",
+        0.183
+      ],
+      [
+        "GCS",
+        0.148
+      ],
+      [
+        "P/F ratio",
+        0.113
+      ],
+      [
+        "pH",
+        0.089
+      ],
+      [
+        "Age",
+        0.042
+      ]
+    ],
+    "source": "digitized from NIV2IMV-predictor/src/app/artifacts/shap/20250921T224923Z_Gradient-Boosting_bar.png (mean |SHAP|, gradient boosting, HACOR + vitals, grouped split, snapshot 6)"
   }
 }

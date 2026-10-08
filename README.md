@@ -55,6 +55,14 @@ Retrieval evaluated against an age–sex baseline and a single-axis baseline wit
 
 The ontology's indicator network, drawn from its own `knowledge_graph.json`: Spearman ρ between axes, Cohen's d between disease chapters and phenotypes. Every edge carries an evidence grade; sex-skewed case groups are excluded.
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/niv-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/niv-light.svg">
+  <img alt="NIV failure model: SHAP feature importance and model card" src="./assets/niv-light.svg" width="100%">
+</picture>
+
+Gradient-boosted NIV-failure model from the Mayo Clinic work: SHAP importances read from the repository's own export, and the model card as implemented — timepoint-anchored labels, grouped cross-validation by ICU stay, isotonic calibration, an operating point chosen for PPV ≥ 0.30 at recall ≥ 0.80.
+
 ## Selected systems
 
 <picture>
@@ -148,8 +156,9 @@ reduced to a runnable, unit-tested graph with a deterministic mock LLM.
 images, DICOM metadata and structured records; PyDICOM conversion, high-throughput PostgreSQL access,
 92% data completeness after quality rules.
 
-**NIV failure prediction** (Mayo Clinic) — patient-time ICU respiratory features, XGBoost with SMOTE and
-class weighting, SHAP reports. AUC 0.81; early-failure recall lifted to 71%.
+**NIV → IMV escalation predictor** (Mayo Clinic) — HACOR score at 1 / 6 / 12 / 24 h plus vitals from eICU-CRD and
+MIMIC-IV; XGBoost with class weighting, GroupKFold by ICU stay, isotonic calibration, SHAP; Streamlit app with
+cohort filters, phenotypes and a case explorer. AUC 0.81; early-failure recall lifted to 71%.
 
 **Medical NL-to-SQL over MIMIC-IV** — DeepSeek / Qwen / Gemma / Llama comparison, BGE-M3 + FAISS schema
 retrieval, SQL verification and rewrite loop. 83% JOIN accuracy.
