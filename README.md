@@ -170,6 +170,13 @@ research repositories are private; the public stack — [`eye-ai-ml`](https://gi
 workbench for messy CSV: profile fields, detect table relationships, review AI-proposed cleaning as JSON
 operations before anything is applied, diff raw vs processed distributions.
 
+**[toxic-comment-classifier](https://github.com/Chloe8827/toxic-comment-classifier)** — multi-label toxicity detection: XLM-RoBERTa
+fine-tuned with one LoRA adapter per label (toxic, severe, obscene, threat, insult, identity hate), served through Django REST
+with a React front end. No published metrics; the value is the adapter-per-label design and the end-to-end serving path.
+
+**[medical-ai-agent](https://github.com/Chloe8827/medical-ai-agent)** — PubMedBERT symptom classifier plus rule-matched drug
+suggestions behind a FastAPI service. Runs on 144 simulated symptom records and 423 drug records, and says so on every response.
+
 **[langgraph-agent-demo](https://github.com/Chuqian-Chen/langgraph-agent-demo)** — the LangGraph overview
 reduced to a runnable, unit-tested graph with a deterministic mock LLM.
 

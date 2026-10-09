@@ -160,6 +160,12 @@ Deriva-ML 追踪每个实验；AI-ready 导出供 RETFound、DINOv2、VGG-19 研
 workbench for messy CSV: profile fields, detect table relationships, review AI-proposed cleaning as JSON
 operations before anything is applied, diff raw vs processed distributions.
 
+**[toxic-comment-classifier](https://github.com/Chloe8827/toxic-comment-classifier)** — 多标签毒性检测：XLM-RoBERTa 按标签各配一个 LoRA
+适配器（toxic / severe / obscene / threat / insult / identity hate），Django REST 提供服务，React 前端。没有公开指标；价值在"每标签一个适配器"的设计和端到端服务链路。
+
+**[medical-ai-agent](https://github.com/Chloe8827/medical-ai-agent)** — PubMedBERT 症状分类 + 规则匹配的用药建议，FastAPI 服务。
+跑在 144 条模拟症状、423 条模拟药品记录上，每个响应都标明是模拟数据。
+
 **[langgraph-agent-demo](https://github.com/Chuqian-Chen/langgraph-agent-demo)** — the LangGraph overview
 reduced to a runnable, unit-tested graph with a deterministic mock LLM.
 
