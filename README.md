@@ -145,6 +145,22 @@ incompatible probabilities. Per-outcome clinical windows; transplant-specific ri
 conditioning intensity, CMV serology, CD34 dose). Neo4j when reachable, local Parquet when not.<br>
 `FastAPI` `Neo4j` `Parquet` `GRU-D DeepHit adapter` `controlled prompts` `demo predictions hard-flagged`
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/card-eye-ai-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/card-eye-ai-light.svg">
+  <img alt="One catalog for a glaucoma-referral ML program" src="./assets/card-eye-ai-light.svg" width="100%">
+</picture>
+
+**USC Information Sciences Institute** · [eye-ai-usc](https://github.com/eye-ai-usc) · Jan–Dec 2025<br>
+
+Data engineering for USC's automated glaucoma-detection program. Ophthalmic imaging (fundus, OCT, DICOM metadata) and
+structured records flow through the `eye-ai-ml` domain library into a shared Deriva catalog, where Deriva-ML traces every
+experiment; AI-ready exports feed RETFound, DINOv2 and VGG-19 studies. A Spark / Hive warehouse over 200k+ images,
+PyDICOM conversion, high-throughput PostgreSQL access, and quality rules that lifted completeness to 92%. The org's ~20
+research repositories are private; the public stack — [`eye-ai-ml`](https://github.com/eye-ai-usc/eye-ai-ml) (262 commits, v1.5.3),
+[`eye-ai-exec`](https://github.com/eye-ai-usc/eye-ai-exec) (372 commits), [`eye-ai-compute-platform`](https://github.com/eye-ai-usc/eye-ai-compute-platform) — shows the shape of it.<br>
+`Deriva` `Deriva-ML` `eye-ai-ml` `Spark` `Hive` `PostgreSQL` `PyDICOM` `JupyterHub`
+
 <details>
 <summary><b>Also on the shelf</b></summary>
 
@@ -163,12 +179,6 @@ reduced to a runnable, unit-tested graph with a deterministic mock LLM.
 <summary><b>Earlier research</b></summary>
 
 <br>
-
-**Eye-AI glaucoma referral platform** (USC ISI · [eye-ai-usc](https://github.com/eye-ai-usc), Jan–Dec 2025) — data engineering on
-the shared Deriva catalog behind USC's automated glaucoma-detection effort: ETL and AI-ready export through the
-`eye-ai-ml` domain library, Deriva-ML experiment tracing, a Spark / Hive warehouse over 200k+ OCT and fundus images,
-DICOM metadata and structured records; PyDICOM conversion, high-throughput PostgreSQL access, 92% data completeness
-after quality rules. Research repos are private to the org. Some USC-era side projects live on a secondary account, [Chloe8827](https://github.com/Chloe8827).
 
 **NIV → IMV escalation predictor** (Mayo Clinic) — HACOR score at 1 / 6 / 12 / 24 h plus vitals from eICU-CRD and
 MIMIC-IV; XGBoost with class weighting, GroupKFold by ICU stay, isotonic calibration, SHAP; Streamlit app with

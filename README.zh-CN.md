@@ -137,6 +137,20 @@ Mayo 的 NIV 失败梯度提升模型：SHAP 重要性直接读自仓库导出�
 每类结局有自己的临床观察窗；移植学风险因子（HLA 错配、预处理强度、CMV 血清学、CD34 剂量）。Neo4j 可达走 Neo4j，否则本地 Parquet。<br>
 `FastAPI` `Neo4j` `Parquet` `GRU-D DeepHit adapter` `controlled prompts` `demo predictions hard-flagged`
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/card-eye-ai-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/card-eye-ai-light.svg">
+  <img alt="One catalog for a glaucoma-referral ML program" src="./assets/card-eye-ai-light.svg" width="100%">
+</picture>
+
+**USC 信息科学研究所** · [eye-ai-usc](https://github.com/eye-ai-usc) · 2025 年 1–12 月<br>
+
+为 USC 自动青光眼检测项目做数据工程。眼科影像（眼底、OCT、DICOM 元数据）和结构化记录经 `eye-ai-ml` 领域库进入共享 Deriva 目录，
+Deriva-ML 追踪每个实验；AI-ready 导出供 RETFound、DINOv2、VGG-19 研究使用。Spark / Hive 仓库承载 200k+ 影像，PyDICOM 转换，高吞吐 PostgreSQL 访问，
+质控规则把完整率提到 92%。组织内约 20 个研究仓库私有；公开的技术栈——[`eye-ai-ml`](https://github.com/eye-ai-usc/eye-ai-ml)（262 次提交，v1.5.3）、
+[`eye-ai-exec`](https://github.com/eye-ai-usc/eye-ai-exec)（372 次提交）、[`eye-ai-compute-platform`](https://github.com/eye-ai-usc/eye-ai-compute-platform)——能看出它的形状。<br>
+`Deriva` `Deriva-ML` `eye-ai-ml` `Spark` `Hive` `PostgreSQL` `PyDICOM` `JupyterHub`
+
 <details>
 <summary><b>其他公开仓库</b></summary>
 
@@ -155,10 +169,6 @@ reduced to a runnable, unit-tested graph with a deterministic mock LLM.
 <summary><b>早期研究</b></summary>
 
 <br>
-
-**Eye-AI 青光眼转诊平台**（USC ISI · [eye-ai-usc](https://github.com/eye-ai-usc)，2025 年 1–12 月）— 为 USC 自动青光眼检测项目的共享 Deriva
-目录做数据工程：通过 `eye-ai-ml` 领域库做 ETL 与 AI-ready 导出、Deriva-ML 实验追踪、Spark / Hive 仓库承载 200k+ OCT 与眼底图像、
-DICOM 元数据与结构化记录；PyDICOM 转换、高吞吐 PostgreSQL 访问，质控规则后数据完整率 92%。研究仓库在组织内私有。USC 期间的一些补充项目在副账号 [Chloe8827](https://github.com/Chloe8827)。
 
 **NIV → IMV 升级预测**（Mayo Clinic）— eICU-CRD / MIMIC-IV 上 1 / 6 / 12 / 24 h 的 HACOR 评分加生命体征；XGBoost 类权重、按 ICU 住院 GroupKFold、isotonic 校准、SHAP；Streamlit 应用含队列筛选、表型与病例浏览。目前只有内部验证，尚无独立测试集，因此不报 AUC。
 
