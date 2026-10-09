@@ -9,6 +9,8 @@
 <a href="mailto:ccq33927@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-0E3B34?style=flat-square&logo=gmail&logoColor=white"></a>
 <a href="https://www.linkedin.com/in/chloe-chen-chuqian"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0E3B34?style=flat-square&logo=linkedin&logoColor=white"></a>
 <a href="https://leetcode.com/u/chuqianc/"><img alt="LeetCode" src="https://img.shields.io/badge/LeetCode-0E3B34?style=flat-square&logo=leetcode&logoColor=white"></a>
+<a href="https://github.com/Chloe8827"><img alt="GitHub %C2%B7 Chloe8827" src="https://img.shields.io/badge/GitHub%20%C2%B7%20Chloe8827-0E3B34?style=flat-square&logo=github&logoColor=white"></a>
+<a href="https://github.com/eye-ai-usc"><img alt="Eye--AI %C2%B7 USC" src="https://img.shields.io/badge/Eye--AI%20%C2%B7%20USC-0E3B34?style=flat-square&logo=github&logoColor=white"></a>
 
 I work on the layer between messy clinical data and decisions people are willing to act on:
 ontologies over population biobanks, knowledge-graph evidence retrieval, and health agents that fall
@@ -162,9 +164,11 @@ reduced to a runnable, unit-tested graph with a deterministic mock LLM.
 
 <br>
 
-**Eye-AI multimodal ophthalmology platform** (USC ISI) — Spark / Hive warehouse over 200k+ OCT and fundus
-images, DICOM metadata and structured records; PyDICOM conversion, high-throughput PostgreSQL access,
-92% data completeness after quality rules.
+**Eye-AI glaucoma referral platform** (USC ISI · [eye-ai-usc](https://github.com/eye-ai-usc), Jan–Dec 2025) — data engineering on
+the shared Deriva catalog behind USC's automated glaucoma-detection effort: ETL and AI-ready export through the
+`eye-ai-ml` domain library, Deriva-ML experiment tracing, a Spark / Hive warehouse over 200k+ OCT and fundus images,
+DICOM metadata and structured records; PyDICOM conversion, high-throughput PostgreSQL access, 92% data completeness
+after quality rules. Research repos are private to the org. Some USC-era side projects live on a secondary account, [Chloe8827](https://github.com/Chloe8827).
 
 **NIV → IMV escalation predictor** (Mayo Clinic) — HACOR score at 1 / 6 / 12 / 24 h plus vitals from eICU-CRD and
 MIMIC-IV; XGBoost with class weighting, GroupKFold by ICU stay, isotonic calibration, SHAP; Streamlit app with
@@ -223,3 +227,5 @@ retrieval, SQL verification and rewrite loop. 83% JOIN accuracy.
 <a href="https://www.linkedin.com/in/chloe-chen-chuqian"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0E3B34?style=flat-square&logo=linkedin&logoColor=white"></a>
 <a href="https://leetcode.com/u/chuqianc/"><img alt="LeetCode" src="https://img.shields.io/badge/LeetCode-0E3B34?style=flat-square&logo=leetcode&logoColor=white"></a>
 <a href="https://leetcode.cn/u/ccq33927/"><img alt="LeetCode%20CN" src="https://img.shields.io/badge/LeetCode%20CN-0E3B34?style=flat-square&logo=leetcode&logoColor=white"></a>
+<a href="https://github.com/Chloe8827"><img alt="GitHub %C2%B7 Chloe8827" src="https://img.shields.io/badge/GitHub%20%C2%B7%20Chloe8827-0E3B34?style=flat-square&logo=github&logoColor=white"></a>
+<a href="https://github.com/eye-ai-usc"><img alt="Eye--AI %C2%B7 USC" src="https://img.shields.io/badge/Eye--AI%20%C2%B7%20USC-0E3B34?style=flat-square&logo=github&logoColor=white"></a>
