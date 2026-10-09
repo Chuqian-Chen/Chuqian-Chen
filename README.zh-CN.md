@@ -9,6 +9,8 @@
 <a href="mailto:ccq33927@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-0E3B34?style=flat-square&logo=gmail&logoColor=white"></a>
 <a href="https://www.linkedin.com/in/chloe-chen-chuqian"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0E3B34?style=flat-square&logo=linkedin&logoColor=white"></a>
 <a href="https://leetcode.com/u/chuqianc/"><img alt="LeetCode" src="https://img.shields.io/badge/LeetCode-0E3B34?style=flat-square&logo=leetcode&logoColor=white"></a>
+<a href="https://github.com/Chloe8827"><img alt="GitHub %C2%B7 Chloe8827" src="https://img.shields.io/badge/GitHub%20%C2%B7%20Chloe8827-0E3B34?style=flat-square&logo=github&logoColor=white"></a>
+<a href="https://github.com/eye-ai-usc"><img alt="Eye--AI %C2%B7 USC" src="https://img.shields.io/badge/Eye--AI%20%C2%B7%20USC-0E3B34?style=flat-square&logo=github&logoColor=white"></a>
 
 我做的是"杂乱临床数据"和"人愿意据此行动的决策"之间的那一层：人群生物样本库上的本体、知识图谱证据检索、
 以及 LLM 关掉时能退回确定性规则的健康智能体。我交付的大多数系统不配任何 API key 也能跑，每个响应带免责声明，
@@ -154,9 +156,9 @@ reduced to a runnable, unit-tested graph with a deterministic mock LLM.
 
 <br>
 
-**Eye-AI multimodal ophthalmology platform** (USC ISI) — Spark / Hive warehouse over 200k+ OCT and fundus
-images, DICOM metadata and structured records; PyDICOM conversion, high-throughput PostgreSQL access,
-92% data completeness after quality rules.
+**Eye-AI 青光眼转诊平台**（USC ISI · [eye-ai-usc](https://github.com/eye-ai-usc)，2025 年 1–12 月）— 为 USC 自动青光眼检测项目的共享 Deriva
+目录做数据工程：通过 `eye-ai-ml` 领域库做 ETL 与 AI-ready 导出、Deriva-ML 实验追踪、Spark / Hive 仓库承载 200k+ OCT 与眼底图像、
+DICOM 元数据与结构化记录；PyDICOM 转换、高吞吐 PostgreSQL 访问，质控规则后数据完整率 92%。研究仓库在组织内私有，贡献在下面的第二个账号。
 
 **NIV → IMV 升级预测**（Mayo Clinic）— eICU-CRD / MIMIC-IV 上 1 / 6 / 12 / 24 h 的 HACOR 评分加生命体征；XGBoost 类权重、按 ICU 住院 GroupKFold、isotonic 校准、SHAP；Streamlit 应用含队列筛选、表型与病例浏览。目前只有内部验证，尚无独立测试集，因此不报 AUC。
 
@@ -213,3 +215,5 @@ retrieval, SQL verification and rewrite loop. 83% JOIN accuracy.
 <a href="https://www.linkedin.com/in/chloe-chen-chuqian"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0E3B34?style=flat-square&logo=linkedin&logoColor=white"></a>
 <a href="https://leetcode.com/u/chuqianc/"><img alt="LeetCode" src="https://img.shields.io/badge/LeetCode-0E3B34?style=flat-square&logo=leetcode&logoColor=white"></a>
 <a href="https://leetcode.cn/u/ccq33927/"><img alt="LeetCode%20CN" src="https://img.shields.io/badge/LeetCode%20CN-0E3B34?style=flat-square&logo=leetcode&logoColor=white"></a>
+<a href="https://github.com/Chloe8827"><img alt="GitHub %C2%B7 Chloe8827" src="https://img.shields.io/badge/GitHub%20%C2%B7%20Chloe8827-0E3B34?style=flat-square&logo=github&logoColor=white"></a>
+<a href="https://github.com/eye-ai-usc"><img alt="Eye--AI %C2%B7 USC" src="https://img.shields.io/badge/Eye--AI%20%C2%B7%20USC-0E3B34?style=flat-square&logo=github&logoColor=white"></a>
