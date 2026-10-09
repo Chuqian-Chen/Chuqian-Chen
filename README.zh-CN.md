@@ -158,7 +158,7 @@ reduced to a runnable, unit-tested graph with a deterministic mock LLM.
 
 **Eye-AI 青光眼转诊平台**（USC ISI · [eye-ai-usc](https://github.com/eye-ai-usc)，2025 年 1–12 月）— 为 USC 自动青光眼检测项目的共享 Deriva
 目录做数据工程：通过 `eye-ai-ml` 领域库做 ETL 与 AI-ready 导出、Deriva-ML 实验追踪、Spark / Hive 仓库承载 200k+ OCT 与眼底图像、
-DICOM 元数据与结构化记录；PyDICOM 转换、高吞吐 PostgreSQL 访问，质控规则后数据完整率 92%。研究仓库在组织内私有，贡献在下面的第二个账号。
+DICOM 元数据与结构化记录；PyDICOM 转换、高吞吐 PostgreSQL 访问，质控规则后数据完整率 92%。研究仓库在组织内私有。USC 期间的一些补充项目在副账号 [Chloe8827](https://github.com/Chloe8827)。
 
 **NIV → IMV 升级预测**（Mayo Clinic）— eICU-CRD / MIMIC-IV 上 1 / 6 / 12 / 24 h 的 HACOR 评分加生命体征；XGBoost 类权重、按 ICU 住院 GroupKFold、isotonic 校准、SHAP；Streamlit 应用含队列筛选、表型与病例浏览。目前只有内部验证，尚无独立测试集，因此不报 AUC。
 

@@ -168,7 +168,7 @@ reduced to a runnable, unit-tested graph with a deterministic mock LLM.
 the shared Deriva catalog behind USC's automated glaucoma-detection effort: ETL and AI-ready export through the
 `eye-ai-ml` domain library, Deriva-ML experiment tracing, a Spark / Hive warehouse over 200k+ OCT and fundus images,
 DICOM metadata and structured records; PyDICOM conversion, high-throughput PostgreSQL access, 92% data completeness
-after quality rules. Research repos are private to the org; contributions are under my second account below.
+after quality rules. Research repos are private to the org. Some USC-era side projects live on a secondary account, [Chloe8827](https://github.com/Chloe8827).
 
 **NIV → IMV escalation predictor** (Mayo Clinic) — HACOR score at 1 / 6 / 12 / 24 h plus vitals from eICU-CRD and
 MIMIC-IV; XGBoost with class weighting, GroupKFold by ICU stay, isotonic calibration, SHAP; Streamlit app with
